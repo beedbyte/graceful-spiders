@@ -1,6 +1,6 @@
 # Graceful spider trees with three equal long arms
 
-This repository accompanies the [versioned research note on Beedbyte](https://beedbyte.tech/publications/three-arm-spider-zero-rotatability/v/1). It contains exact certificates and small Python programs for two stated families of spider trees.
+This repository accompanies the [research note on Beedbyte](https://beedbyte.tech/publications/three-arm-spider-zero-rotatability). It contains exact certificates and small Python programs for two stated families of spider trees.
 
 For each `k ∈ {3, 4}` and integer `m ≥ 1`, let `S(k,k,k,1^m)` have three arms of length `k` and `m` leaves joined directly to its center. The note proves that every vertex can receive label `0` in some graceful labeling of this tree. The proof uses one base certificate for each vertex orbit and a fixed-threshold rule for adding center leaves. The computer checks verify the base data and 100 consecutive instances of that rule; the written induction gives the result for all `m`.
 
@@ -10,7 +10,7 @@ For each `k ∈ {3, 4}` and integer `m ≥ 1`, let `S(k,k,k,1^m)` have three arm
 - [Deutsch](notes/paper.de.md)
 - [中文](notes/paper.zh.md)
 
-These files are GitHub-readable copies of the public Version 1 note. Their project-page links were changed from site-relative to absolute Beedbyte URLs, and line endings may differ; the mathematical and historical review wording is unchanged. For the canonical version, any later revisions, and its downloadable proof archive, use [Beedbyte's publication page](https://beedbyte.tech/publications/three-arm-spider-zero-rotatability/v/1). The [project page](https://beedbyte.tech/research/graceful-spider-three-arms) gives a shorter overview.
+These files are GitHub-readable copies of the public Version 1 note. Their project-page links were changed from site-relative to absolute Beedbyte URLs, and line endings may differ; the mathematical and historical review wording is unchanged. Use [the unversioned publication page](https://beedbyte.tech/publications/three-arm-spider-zero-rotatability) for the current note, later revisions, and its proof archive; [Version 1](https://beedbyte.tech/publications/three-arm-spider-zero-rotatability/v/1) is the archived version represented here. The [project page](https://beedbyte.tech/research/graceful-spider-three-arms) gives a shorter overview.
 
 ## Check the certificates
 
