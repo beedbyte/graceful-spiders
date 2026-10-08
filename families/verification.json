@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "center_formula_checks": 1440,
+  "odd_formula_checks": 100,
+  "finite_path_certificates": 6,
+  "full_labelings": 652,
+  "exact_vertex_zero_checks": 2352,
+  "negative_controls": 2,
+  "scope": "k in {3,5,7,9}; n>=2; m>=0; see proof.md for unbounded argument"
+}

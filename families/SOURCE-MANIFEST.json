@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09",
+  "baseline_commit": "4aca7989c752870b353fcd40d43895ab54d073fe",
+  "source_files": [
+    {
+      "source": "graceful-next-family/proof.md",
+      "sha256": "be518dc2d8642966c3427479f8d2f4fc431bd37e7fe9c8237fd97dd62c16470b"
+    },
+    {
+      "source": "graceful-next-family/construct.py",
+      "sha256": "9cf7cd61a73e0c243426862fe7a8f67b1647593064e9f951c7ada4b77b21b7e0"
+    },
+    {
+      "source": "graceful-next-family/verify.py",
+      "sha256": "3376c5f8c68ba2e9791e66359ef57c4742cd9044d0f8077a9f2c5de087248767"
+    },
+    {
+      "source": "graceful-next-family/certificates.json",
+      "sha256": "91af5f8cba1b32e2f3e80a690713ce1ac27ac3ceae8087647f327b86259b85de"
+    },
+    {
+      "source": "graceful-next-family/literature.md",
+      "sha256": "c41579de454929d031787afd1176b07685ae878e243b788b359ddf1358bb666a"
+    },
+    {
+      "source": "graceful-family-independent/verify_independent.py",
+      "sha256": "52db9873e3e814c2f623e8f0b81c46fd8b06edecfc09f78eac075fc154d54978"
+    },
+    {
+      "source": "graceful-family-independent/audit.md",
+      "sha256": "a8d2c0371b8cc338f24c52a9f24dba26ec819a12e5e8c1e77d0222a614a7e30e"
+    },
+    {
+      "source": "graceful-family-independent/verification.json",
+      "sha256": "efca67144b68753f765341312877c5f75882787f39bae1e298931b1349e49d52"
+    },
+    {
+      "source": "graceful-family-independent/package-integrity.json",
+      "sha256": "7d7e704f02387c6c4371233d097fcd0d132eba1c0ca9ca286e51156df2480874"
+    },
+    {
+      "source": "graceful-family-literature/audit.md",
+      "sha256": "5cf1b67327b7f517038591a15076857d39fe4a5c133915600b3a19ae54a0d921"
+    }
+  ]
+}

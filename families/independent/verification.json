@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "center_checks": 5376,
+  "uniform_path_checks": 200,
+  "finite_certificates": 6,
+  "independent_exact_vertex_checks": 16368,
+  "supplied_exact_vertex_checks": 16368,
+  "stress_checks": 208,
+  "negative_controls": 3,
+  "even_obstruction_permutation_checks": {
+    "2": 6,
+    "4": 5040
+  },
+  "source_sha256": {
+    "proof.md": "ae63cb8adac7db4f17fe397dabc24a95a2099a38a8744b358dec0dd5297c084d",
+    "construct.py": "9cf7cd61a73e0c243426862fe7a8f67b1647593064e9f951c7ada4b77b21b7e0",
+    "verify.py": "3376c5f8c68ba2e9791e66359ef57c4742cd9044d0f8077a9f2c5de087248767",
+    "certificates.json": "91af5f8cba1b32e2f3e80a690713ce1ac27ac3ceae8087647f327b86259b85de",
+    "literature.md": "be60faf92c1ecd6951258c85c6004ae92869879fe8efda15a9e1ee0c27b43fc2"
+  },
+  "limits": "Finite tests check implementations; universal claims rest on the separately audited argument. No formal proof assistant or external peer review."
+}
