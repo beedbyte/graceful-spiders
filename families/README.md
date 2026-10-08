@@ -4,7 +4,7 @@ For every `k in {3,5,7,9,11}`, every integer `n>=2`, every integer `m>=0`, and e
 
 For every odd `k>=3`, the proof also covers zero at the center, arm depths `1,2,k-1,k`, and any existing short leaf. The even-k obstruction applies only to the specified alpha-path method; it is not a negative zero-rotatability theorem.
 
-- [Independently audited eleven-edge extension](k11/README.md), [four additional certificates](k11/certificates.json), and [audit](k11/AUDIT.md).
+- [Independently audited eleven-edge extension](k11/README.md), [four additional certificates](k11/certificates.json), and [audit](k11/independent/AUDIT.md).
 - [Base proof for 3/5/7/9](proof.md), [six certificates](certificates.json), [constructor](construct.py), and [supplied checker](verify.py).
 - [Separate agent audit](independent/AUDIT.md), [independent checker](independent/verify_independent.py), and [fresh results](independent/verification.json).
 - [Literature](literature.md), [literature audit](LITERATURE-AUDIT.md), [source provenance](SOURCE-README.md), and [extraction instructions](REPRODUCIBILITY.md).
@@ -15,7 +15,7 @@ From this directory, using Python 3.10 or later and no third-party packages:
 python -B verify.py
 python -B independent/verify_independent.py
 python -B k11/check.py
-python -B k11/verify_independent.py
+python -B k11/independent/verify_independent.py
 python -B construct.py 9 3 1 5
 ```
 

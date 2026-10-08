@@ -55,7 +55,7 @@ Read the [proof](families/proof.md), [separate agent audit](families/independent
 python -B families/verify.py
 python -B families/independent/verify_independent.py
 python -B families/k11/check.py
-python -B families/k11/verify_independent.py
+python -B families/k11/independent/verify_independent.py
 ```
 
 Known overlaps include all path cases, two long arms with one center leaf, `k=3,n=2` with arbitrary center leaves, and uniform three-edge arms. Ordinary gracefulness of the entire family is already known. Publication priority is unresolved; no novelty or first-proof claim is made. The audit used a separately implemented checker in another agent review, and is not external peer review.

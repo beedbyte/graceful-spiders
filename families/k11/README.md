@@ -9,7 +9,7 @@ short leaves from `../proof.md`, this covers every prescribed vertex.
 
 ```
 python -B check.py
-python -B verify_independent.py
+python -B independent/verify_independent.py
 ```
 
 The first checker checks the exact paths and 1,680 composed prescribed-zero
@@ -17,8 +17,8 @@ examples. The separately implemented second checker covers all vertices
 for n=2,...,12,m=0,...,7 (7,172 checks), 84 center examples, 48 stress
 compositions and three negative controls. It imports none of the original
 search or construction implementations and remains active under `python -O`.
-It writes `verification.json` beside its source, using package-relative hash keys.
-`AUDIT.md` is a disclosed public adaptation of the separately conducted audit.
+It writes `independent/verification.json` beside its source, using package-relative hash keys.
+`independent/AUDIT.md` is a disclosed public adaptation of the separately conducted audit.
 Original raw-report and original-checker hashes are recorded in `../SOURCE-MANIFEST.json`;
 raw reports containing private workspace paths are excluded.
 

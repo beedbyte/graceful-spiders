@@ -132,7 +132,7 @@
     "k11/check.py": "9442f46719d2728581bb9b782b56ee553d568f725ef73310eb9ad36de5bd44b0",
     "k11/search.js": "0255869a8bae9bcffa008fb2258dcf647c965bde2220aee9a149650d4e9dc0b1",
     "proof.md": "ae63cb8adac7db4f17fe397dabc24a95a2099a38a8744b358dec0dd5297c084d",
-    "k11/AUDIT.md": "4108d05169e0cca5dd9120bb2eadb32c782d10500c21893166426f81197952fa"
+    "k11/independent/AUDIT.md": "15f4e9a62c90dc931cf757b17708de15a037b5ab5fa88bff8458800dfebdd8a8"
   },
   "limits": "Finite tests support transcription; all-parameter proof is assessed in AUDIT.md. Search counts not reproduced. No novelty or external-peer-review claim."
 }

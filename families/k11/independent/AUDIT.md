@@ -1,6 +1,6 @@
 # Independent k=11 mathematical audit: public adaptation
 
-9 October 2026. Adapted from the separately conducted agent audit. Historical workspace/publication-status lines were omitted and the reproduction command made relative. Substantive mathematical findings and review limits are retained. Original-source hashes appear in `../SOURCE-MANIFEST.json`.
+9 October 2026. Adapted from the separately conducted agent audit. Historical workspace/publication-status lines were omitted and the reproduction command made relative. Substantive mathematical findings and review limits are retained. Original-source hashes appear in `../../SOURCE-MANIFEST.json`.
 
 ## Decision
 

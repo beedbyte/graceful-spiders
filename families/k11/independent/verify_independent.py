@@ -5,7 +5,7 @@ from collections import Counter
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-SOURCE = HERE
+SOURCE = HERE.parent
 C = ('center',)
 K = 11
 
@@ -149,11 +149,11 @@ def main():
         else:
             raise ValueError('Bad certificate accepted')
     paths=[SOURCE/name for name in ('proof.md','certificates.json','check.py','search.js')]
-    paths += [HERE.parent/'proof.md', HERE/'AUDIT.md']
+    paths += [HERE.parent.parent/'proof.md', HERE/'AUDIT.md']
     result={'status':'PASS','counts':dict(counts),'certificates':summaries,
             'all_vertex_grid':{'n':'2..12','m':'0..7','k':11},
             'boundary_n2_m0':'all 23 vertices checked',
-            'sha256':{p.relative_to(HERE.parent).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in paths},
+            'sha256':{p.relative_to(HERE.parent.parent).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in paths},
             'limits':'Finite tests support transcription; all-parameter proof is assessed in AUDIT.md. Search counts not reproduced. No novelty or external-peer-review claim.'}
     (HERE/'verification.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))

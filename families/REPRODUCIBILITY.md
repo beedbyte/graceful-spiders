@@ -38,7 +38,7 @@ The new `graceful-family-k11-public-proof.zip` contains `families/` with the ind
 python -B verify.py
 python -B independent/verify_independent.py
 python -B k11/check.py
-python -B k11/verify_independent.py
+python -B k11/independent/verify_independent.py
 ```
 
 Both assertion-based checkers must run without `-O`; the independent checkers use explicit errors. K11's first checker validates four certificates, 1,680 exact-arm compositions, and two corrupt inputs. Its separate checker validates 84 center cases, 7,172 prescribed vertices, 48 stress compositions and three corrupt certificates/metadata cases. All four checkers passed again in the repository and after fresh archive extraction. Both generated result files matched between the repository and extracted archive byte-for-byte. The finite checks support transcription and implementation; the universal statement follows from the independently assessed argument, with priority unresolved and external mathematical review pending.

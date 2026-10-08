@@ -89,12 +89,18 @@
       "proof.md status introduction updated; mathematical text unchanged",
       "AUDIT.md openly adapts raw audit workspace/status lines and relative reproduction command",
       "verify_independent.py changes only report hash keys to package-relative paths and audit filename references; mathematical code unchanged",
-      "README reproduction guidance adapted; raw verification reports with private paths omitted, verification.json regenerated"
+      "README reproduction guidance adapted; raw verification reports with private paths omitted, verification.json regenerated",
+      "Layout correction: public independent checker, audit and fresh report are under k11/independent/. Only path resolution and report-path keys changed; underlying mathematical code is unchanged. Original source hashes above still identify the original flat source package."
     ],
     "archive": {
       "filename": "graceful-family-k11-public-proof.zip",
       "layout": "families/; excludes families/notes/; contains its own archive-scope SHA256SUMS.txt",
       "older_archive": "The prior graceful-family-public-proof.zip snapshot is retained unchanged; earlier notes/MANIFEST.json continues to describe it."
-    }
+    },
+    "public_independent_paths": [
+      "k11/independent/verify_independent.py",
+      "k11/independent/AUDIT.md",
+      "k11/independent/verification.json"
+    ]
   }
 }
