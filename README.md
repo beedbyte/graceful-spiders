@@ -1,6 +1,6 @@
 # Graceful spider trees: prescribed-zero constructions
 
-This repository contains certificate proofs of prescribed-zero gracefulness: the original three-arm notes for `k ∈ {3,4}` and `k=7`, and a family construction for `S(k^n,1^m)` with `k ∈ {3,5,7,9}`, arbitrary integers `n ≥ 2` and `m ≥ 0`. For each chosen vertex, a graceful labeling with zero there is constructed. The written arguments establish the unbounded parameter ranges; finite checks verify certificates and implementations.
+This repository contains certificate proofs of prescribed-zero gracefulness: the original three-arm notes for `k ∈ {3,4}` and `k=7`, and a family construction for `S(k^n,1^m)` with `k ∈ {3,5,7,9,11}`, arbitrary integers `n ≥ 2` and `m ≥ 0`. For each chosen vertex, a graceful labeling with zero there is constructed. The written arguments establish the unbounded parameter ranges; finite checks verify certificates and implementations.
 
 ## Published note: arm lengths three and four
 
@@ -45,22 +45,24 @@ Only the Python standard library is required. After extracting the archive into 
 
 ## Equal-arm families: arbitrary arm and leaf counts
 
-The [family package](families/README.md) proves zero-rotatability of `S(k^n,1^m)` for `k ∈ {3,5,7,9}`, `n ≥ 2`, and `m ≥ 0`, including the path boundary `n=2,m=0`. The proof uses six alpha-path certificates with established center-zero, alpha-amalgamation, and leaf-extension constructions. It also gives selected zero positions for every odd `k ≥ 3`; it does not prove full zero-rotatability for all odd lengths.
+The [family package](families/README.md) proves zero-rotatability of `S(k^n,1^m)` for `k ∈ {3,5,7,9,11}`, `n ≥ 2`, and `m ≥ 0`, including the path boundary `n=2,m=0`. The unchanged 3/5/7/9 proof uses six alpha-path certificates; the [independently audited k11 extension](families/k11/README.md) adds four more. Both use established center-zero, alpha-amalgamation, and leaf-extension constructions. It also gives selected zero positions for every odd `k ≥ 3`; it does not prove full zero-rotatability for all odd lengths.
 
-Full manuscript copies: [English](families/notes/article.en.md), [Deutsch](families/notes/article.de.md), and [中文](families/notes/article.zh.md). Their [source manifest](families/notes/MANIFEST.json) records approved hashes and relative-link adaptations.
+The following manuscript copies still state the reviewed 3/5/7/9 theorem pending editorial QA of the five-length update. Full manuscript copies: [English](families/notes/article.en.md), [Deutsch](families/notes/article.de.md), and [中文](families/notes/article.zh.md). Their [source manifest](families/notes/MANIFEST.json) records approved hashes and relative-link adaptations.
 
 Read the [proof](families/proof.md), [separate agent audit](families/independent/AUDIT.md), [literature comparison](families/literature.md), and [source provenance](families/SOURCE-README.md). Python 3.10 or later and the standard library are sufficient:
 
 ```sh
 python -B families/verify.py
 python -B families/independent/verify_independent.py
+python -B families/k11/check.py
+python -B families/k11/verify_independent.py
 ```
 
 Known overlaps include all path cases, two long arms with one center leaf, `k=3,n=2` with arbitrary center leaves, and uniform three-edge arms. Ordinary gracefulness of the entire family is already known. Publication priority is unresolved; no novelty or first-proof claim is made. The audit used a separately implemented checker in another agent review, and is not external peer review.
 
 ## Scope and provenance
 
-The earlier three-arm notes establish their stated families for `m ≥ 1`. The family package adds exactly `k ∈ {3,5,7,9}`, `n ≥ 2`, `m ≥ 0`, plus its stated partial odd-length result. These arguments do not establish arbitrary spiders or full zero-rotatability at other arm lengths. No theorem or method priority is claimed. The K7 note has no assigned DOI or canonical citation.
+The earlier three-arm notes establish their stated families for `m ≥ 1`. The family package adds exactly `k ∈ {3,5,7,9,11}`, `n ≥ 2`, `m ≥ 0`, plus its stated partial odd-length result. These arguments do not establish arbitrary spiders or full zero-rotatability at other arm lengths. No theorem or method priority is claimed. The K7 note has no assigned DOI or canonical citation.
 
 The research and checks were AI-assisted under School Scotty / Beedbyte, maintained by Jordi Gartner. The mathematical reviews are internal; there has been no external peer review or formal proof-assistant verification. The German and Chinese versions are AI-assisted translations awaiting human language review.
 

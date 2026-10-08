@@ -18,3 +18,9 @@ Both checkers were rerun after packaging and after extracting a temporary ZIP in
 `notes/article.en.md`, `notes/article.de.md`, and `notes/article.zh.md` are repository-readable copies of the frozen public manuscripts. Only link destinations were adapted to adjacent files. Original prose, mathematical content, code blocks, link labels, and line endings are retained. `notes/MANIFEST.json` records the exact approved source hashes, output hashes, and URL substitutions. CMS templates remain separate and obtain their commit/download destinations during publication.
 
 The standalone proof ZIP remains the proof-only snapshot prepared at commit `04c131d0b621b32f3c471c9e6b82b25ddbaac19f`, SHA-256 `bb46e42b048de2d3bc4156ab68bf05eca17f18491c3b84e87c5fc92a5d1c98e6`. It excludes these three manuscript copies and subsequent repository documentation changes. Its own included hash list describes that snapshot. The repository's updated `SHA256SUMS.txt` describes the current `families/` tree. These are distinct, explicitly identified integrity scopes.
+
+## Independently audited eleven-edge extension
+
+`k11/` adds four exact alpha-path certificates covering depth pairs (2,3), (4,5), (6,7), (8,9). Together with the unchanged base proof this proves the union `k in {3,5,7,9,11}`, `n>=2`, `m>=0`. K11 underwent a separate agent mathematical audit and independent implementation; publication priority is unresolved. `SOURCE-MANIFEST.json` records original source hashes and every packaging adaptation. Existing 3/5/7/9 proof/certificate/checker bytes and the earlier three manuscript copies are unchanged.
+
+The new `graceful-family-k11-public-proof.zip` contains the current proof-only files under `families/`, excluding `families/notes/`. Its hash list covers only its actual archive members. The repository's hash list additionally covers manuscript copies. The earlier ZIP/hash recorded above remains a historical snapshot and is retained unchanged.

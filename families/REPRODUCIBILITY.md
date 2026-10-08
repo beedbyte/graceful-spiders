@@ -29,3 +29,16 @@ To check hashes, compare each listed relative file against `SHA256SUMS.txt` usin
 ## Proof ZIP snapshot and manuscript copies
 
 The standalone proof ZIP is unchanged at SHA-256 `bb46e42b048de2d3bc4156ab68bf05eca17f18491c3b84e87c5fc92a5d1c98e6`; it contains the proof/checker package at commit `04c131d0b621b32f3c471c9e6b82b25ddbaac19f`. It excludes later `notes/` manuscript copies and documentation additions. Verify its included `SHA256SUMS.txt`, then run the same two commands above at the extracted root. This snapshot was freshly extracted and both checkers passed again when the three manuscript copies were added; the resulting JSON reports matched the current repository reports byte-for-byte. `notes/MANIFEST.json` supplies separate source/output hashes for the manuscript adaptations.
+
+## Current five-length proof archive
+
+The new `graceful-family-k11-public-proof.zip` contains `families/` with the independently audited `k11/` extension, excluding `families/notes/`. Extract it, enter its `families/` directory, and run all four commands below. Its included hash list covers the extracted proof-only files; the repository hash list additionally covers manuscript files. The earlier ZIP and manuscript provenance remain historical 3/5/7/9 snapshots.
+
+```sh
+python -B verify.py
+python -B independent/verify_independent.py
+python -B k11/check.py
+python -B k11/verify_independent.py
+```
+
+Both assertion-based checkers must run without `-O`; the independent checkers use explicit errors. K11's first checker validates four certificates, 1,680 exact-arm compositions, and two corrupt inputs. Its separate checker validates 84 center cases, 7,172 prescribed vertices, 48 stress compositions and three corrupt certificates/metadata cases. All four checkers passed again in the repository and after fresh archive extraction. Both generated result files matched between the repository and extracted archive byte-for-byte. The finite checks support transcription and implementation; the universal statement follows from the independently assessed argument, with priority unresolved and external mathematical review pending.

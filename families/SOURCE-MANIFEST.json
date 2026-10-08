@@ -42,5 +42,59 @@
       "source": "graceful-family-literature/audit.md",
       "sha256": "5cf1b67327b7f517038591a15076857d39fe4a5c133915600b3a19ae54a0d921"
     }
-  ]
+  ],
+  "k11_integration": {
+    "base_commit": "688b13382f608dafbeadfe02199a9416a73a0341",
+    "scope": "k in {3,5,7,9,11}; n>=2; m>=0. K11 independently reviewed by a separate agent; publication priority unresolved.",
+    "source_files": [
+      {
+        "source": "graceful-family-11-package/families/k11/audit-original.md",
+        "sha256": "efe0a56e41a1bb5b1b89d0695c39378b2f04de05cbbcbc71c26af1d00a48b613"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/certificates.json",
+        "sha256": "f150ca94352fa7b52fa2c8fe458405e87b2d94dae777687ea36c2c26a4040563"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/check.py",
+        "sha256": "9442f46719d2728581bb9b782b56ee553d568f725ef73310eb9ad36de5bd44b0"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/proof.md",
+        "sha256": "fd15c4ecbf57718b9e09b51ba59e5a5a88c62b1d464c6784d2ddded09dd311dc"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/README.md",
+        "sha256": "a269dbc49924addea8330ea4bd8592bf173558289dd707234bdb6c33e8c8f9c9"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/search.js",
+        "sha256": "0255869a8bae9bcffa008fb2258dcf647c965bde2220aee9a149650d4e9dc0b1"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/verification-original.json",
+        "sha256": "8eeeb4f395630ed5cf8b83c1b7630bc100020cf17ac44933f643b7d958a3b641"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/verification.json",
+        "sha256": "7f06614a9a9a06b93fb583c04c33bcd023c5926a325379fc4f578bb7f93c1802"
+      },
+      {
+        "source": "graceful-family-11-package/families/k11/verify_independent.py",
+        "sha256": "281135bc22acd1a3ab8f4c29a5386d7e18470c666ebfe662686787718c6af8dd"
+      }
+    ],
+    "adaptations": [
+      "certificates.json, check.py, search.js copied byte-identically",
+      "proof.md status introduction updated; mathematical text unchanged",
+      "AUDIT.md openly adapts raw audit workspace/status lines and relative reproduction command",
+      "verify_independent.py changes only report hash keys to package-relative paths and audit filename references; mathematical code unchanged",
+      "README reproduction guidance adapted; raw verification reports with private paths omitted, verification.json regenerated"
+    ],
+    "archive": {
+      "filename": "graceful-family-k11-public-proof.zip",
+      "layout": "families/; excludes families/notes/; contains its own archive-scope SHA256SUMS.txt",
+      "older_archive": "The prior graceful-family-public-proof.zip snapshot is retained unchanged; earlier notes/MANIFEST.json continues to describe it."
+    }
+  }
 }

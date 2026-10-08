@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "counts": {
+    "centered": 84,
+    "all_vertices": 7172,
+    "stress_compositions": 48,
+    "negative_cases": 3
+  },
+  "certificates": [
+    {
+      "zero_depth": 2,
+      "max_depth": 3,
+      "differences": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        13,
+        3,
+        1,
+        2,
+        5,
+        7,
+        9,
+        8,
+        4,
+        6,
+        11,
+        12,
+        10
+      ]
+    },
+    {
+      "zero_depth": 4,
+      "max_depth": 5,
+      "differences": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        15,
+        9,
+        10,
+        6,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        12,
+        13,
+        14,
+        11,
+        7
+      ]
+    },
+    {
+      "zero_depth": 6,
+      "max_depth": 7,
+      "differences": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        17,
+        14,
+        16,
+        15,
+        10,
+        4,
+        1,
+        2,
+        3,
+        6,
+        12,
+        13,
+        11,
+        9,
+        8,
+        7,
+        5
+      ]
+    },
+    {
+      "zero_depth": 8,
+      "max_depth": 9,
+      "differences": [
+        20,
+        21,
+        22,
+        19,
+        17,
+        18,
+        16,
+        12,
+        9,
+        6,
+        3,
+        1,
+        2,
+        5,
+        8,
+        11,
+        14,
+        15,
+        13,
+        10,
+        7,
+        4
+      ]
+    }
+  ],
+  "all_vertex_grid": {
+    "n": "2..12",
+    "m": "0..7",
+    "k": 11
+  },
+  "boundary_n2_m0": "all 23 vertices checked",
+  "sha256": {
+    "k11/proof.md": "65b9ee4580ef1ff369cfb53aa36da44cf62b7dbfa82b627df41a069c0d3ec737",
+    "k11/certificates.json": "f150ca94352fa7b52fa2c8fe458405e87b2d94dae777687ea36c2c26a4040563",
+    "k11/check.py": "9442f46719d2728581bb9b782b56ee553d568f725ef73310eb9ad36de5bd44b0",
+    "k11/search.js": "0255869a8bae9bcffa008fb2258dcf647c965bde2220aee9a149650d4e9dc0b1",
+    "proof.md": "ae63cb8adac7db4f17fe397dabc24a95a2099a38a8744b358dec0dd5297c084d",
+    "k11/AUDIT.md": "4108d05169e0cca5dd9120bb2eadb32c782d10500c21893166426f81197952fa"
+  },
+  "limits": "Finite tests support transcription; all-parameter proof is assessed in AUDIT.md. Search counts not reproduced. No novelty or external-peer-review claim."
+}

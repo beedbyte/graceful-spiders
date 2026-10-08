@@ -1,0 +1,17 @@
+{
+  "k": 11,
+  "alpha": 10,
+  "search_budget_per_run": 500000000,
+  "certificates": [
+    {"status":"FOUND","zero_depth":2,"max_depth":3,"nodes":41618132,"path":[18,4,19,3,20,2,21,1,22,0,13,10,11,9,14,7,16,8,12,6,17,5,15]},
+    {"status":"FOUND","zero_depth":4,"max_depth":5,"nodes":46260068,"path":[19,3,20,2,21,1,22,0,15,6,16,10,11,9,12,8,13,5,17,4,18,7,14]},
+    {"status":"FOUND","zero_depth":6,"max_depth":7,"nodes":81409148,"path":[20,2,21,1,22,0,17,3,19,4,14,10,11,9,12,6,18,5,16,7,15,8,13]},
+    {"status":"FOUND","zero_depth":8,"max_depth":9,"nodes":122602452,"path":[21,1,22,0,19,2,20,4,16,7,13,10,11,9,14,6,17,3,18,5,15,8,12]}
+  ],
+  "earlier_runs": [
+    {"zero_depth":2,"budget":20000000,"nodes":20000001,"status":"UNKNOWN"},
+    {"zero_depth":4,"budget":20000000,"nodes":20000001,"status":"UNKNOWN"},
+    {"zero_depth":6,"budget":20000000,"nodes":20000001,"status":"UNKNOWN"},
+    {"zero_depth":8,"budget":20000000,"nodes":20000001,"status":"UNKNOWN"}
+  ]
+}
