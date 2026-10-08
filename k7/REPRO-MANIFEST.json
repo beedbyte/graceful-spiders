@@ -1,0 +1,137 @@
+{
+  "prepared_on": "2026-10-09",
+  "theorem": "S(7,7,7,1^m) is 0-rotatable for every integer m>=1",
+  "novelty_claimed": false,
+  "python_tested": "3.12.1",
+  "python_minimum": "3.10",
+  "dependencies": "Python standard library only",
+  "repro_working_directory": "repro",
+  "commands": [
+    "python research-audits/graceful-k7-feasibility/verify-continuation.py",
+    "python research-audits/graceful-k7-independent/independent_check.py"
+  ],
+  "mathematical_input_files": [
+    "bases.json",
+    "continuation-bases.json"
+  ],
+  "reproduction_files": [
+    {
+      "path": "repro/research-audits/graceful-k7-feasibility/bases.json",
+      "source": "research-audits/graceful-k7-feasibility/bases.json",
+      "bytes": 285,
+      "sha256": "a88a5cea9561077d47fadbd6f00de82133725591cc8677c8c2d3643e4dc88693",
+      "source_sha256": "a88a5cea9561077d47fadbd6f00de82133725591cc8677c8c2d3643e4dc88693",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-feasibility/continuation-bases.json",
+      "source": "research-audits/graceful-k7-feasibility/continuation-bases.json",
+      "bytes": 736,
+      "sha256": "d56447a0038053e7600ea55da53f5c8e222b0bb78a5f610f92e275266046773a",
+      "source_sha256": "d56447a0038053e7600ea55da53f5c8e222b0bb78a5f610f92e275266046773a",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-feasibility/continuation.md",
+      "source": "research-audits/graceful-k7-feasibility/continuation.md",
+      "bytes": 8294,
+      "sha256": "316c0a88b6510f4466f958d0461e3211a7095c3ba3d9948e66cd814b2e2ff3cc",
+      "source_sha256": "316c0a88b6510f4466f958d0461e3211a7095c3ba3d9948e66cd814b2e2ff3cc",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-feasibility/README.md",
+      "source": "research-audits/graceful-k7-feasibility/README.md",
+      "bytes": 4935,
+      "sha256": "0ad24595fe6daf90c614b2d2997ea2e40c01e3b2f49cbd573b5c36648d100344",
+      "source_sha256": "0ad24595fe6daf90c614b2d2997ea2e40c01e3b2f49cbd573b5c36648d100344",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-feasibility/verify-continuation.py",
+      "source": "research-audits/graceful-k7-feasibility/verify-continuation.py",
+      "bytes": 4992,
+      "sha256": "b2b049e91735a0b8fffc87911a43f93f4b6545537d79615d3f0313a9ddac640b",
+      "source_sha256": "b2b049e91735a0b8fffc87911a43f93f4b6545537d79615d3f0313a9ddac640b",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-feasibility/verify.py",
+      "source": "research-audits/graceful-k7-feasibility/verify.py",
+      "bytes": 2684,
+      "sha256": "b5d048b2ddcdf0e8a5144035f7de46a37a2b5c640e669b1dee4f7fcb0bdbb854",
+      "source_sha256": "b5d048b2ddcdf0e8a5144035f7de46a37a2b5c640e669b1dee4f7fcb0bdbb854",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-independent/README.md",
+      "source": "research-audits/graceful-k7-independent/README.md",
+      "bytes": 9784,
+      "sha256": "4a33bd9b23ca23e08a23a29c0dac9bc38ad85247beaca2b9f4ed17e7e1e95415",
+      "source_sha256": "4a33bd9b23ca23e08a23a29c0dac9bc38ad85247beaca2b9f4ed17e7e1e95415",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-independent/independent_check.py",
+      "source": "research-audits/graceful-k7-independent/independent_check.py",
+      "bytes": 18108,
+      "sha256": "e5a0cafaa81f1670a32d6bdfda83e8197852755870b06f2d49931ae1fa99a158",
+      "source_sha256": "e5a0cafaa81f1670a32d6bdfda83e8197852755870b06f2d49931ae1fa99a158",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "repro/research-audits/graceful-k7-independent/audit-results.json",
+      "source": "research-audits/graceful-k7-independent/audit-results.json",
+      "bytes": 39124,
+      "sha256": "bfe6dc17dec817788eef2f2dcac983607f66061ba0f7e68afb08517218e49a5e",
+      "source_sha256": "bfe6dc17dec817788eef2f2dcac983607f66061ba0f7e68afb08517218e49a5e",
+      "byte_identical_to_source": true
+    }
+  ],
+  "third_party_source_provenance": {
+    "source": "research-audits/source-papers/patterson-2017-thesis.pdf",
+    "bytes": 553137,
+    "sha256": "b8cc18647021b76666186bb5b93eb92d145c882865aa2d06aff8d5d097a0c9ec",
+    "included_in_archive": false
+  },
+  "schema": "beedbyte-k7-reproduction-manifest-1",
+  "source_prep_manifest_sha256": "b443e971d5b16a558963516d8a5c7802a6955395e65f8b9e52a0b89631eb7c38",
+  "source_prep_path": "research-audits/graceful-k7-public-prep/REPRO-MANIFEST.json",
+  "archive": {
+    "path": "graceful-k7-zero-rotatability-proof.zip",
+    "bytes": 23708,
+    "sha256": "f5bc44be564bdf7e2c3ad648e023c03ebd203c52873c35cb76c6e156cad0048e",
+    "entry_count": 9
+  },
+  "companion_files": [
+    {
+      "path": "notes/manuscript.en.md",
+      "bytes": 11841,
+      "sha256": "4e55f4bd330150db09e1dbb0c67521015a19c415ce82af2b5bd289ea614f9497"
+    },
+    {
+      "path": "notes/paper.de.md",
+      "bytes": 12837,
+      "sha256": "55df304bbcc55adeb6629c7487c764e94a6f9aa8bc09603f518d2b7a23d7e1ae"
+    },
+    {
+      "path": "notes/paper.zh.md",
+      "bytes": 11088,
+      "sha256": "6258f6daafad27101c4a5d31e24fc3ad35c48f67b9782c33c91ec366a24a8650"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 6152,
+      "sha256": "2458c010bb76ffe85065773c40ab553d65df596dcd4164cbff96fbab661b3e42"
+    },
+    {
+      "path": "REPRO-REPORT.md",
+      "bytes": 2582,
+      "sha256": "dd036c3d9b931995320dccacea6aeef0f04e47999d64c2b0015da24664e8741b"
+    }
+  ],
+  "manifest_self_hash": "excluded to avoid recursive self-hash",
+  "priority": "unresolved; no priority claim",
+  "translation_review": "DE/ZH awaiting human language review",
+  "license": "not selected"
+}

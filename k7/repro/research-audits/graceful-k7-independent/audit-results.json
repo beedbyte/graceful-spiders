@@ -1,0 +1,2156 @@
+{
+  "verdict": "GO",
+  "theorem": "S(7,7,7,1^m) is 0-rotatable for every integer m>=1",
+  "source_sha256": {
+    "bases.json": "a88a5cea9561077d47fadbd6f00de82133725591cc8677c8c2d3643e4dc88693",
+    "continuation-bases.json": "d56447a0038053e7600ea55da53f5c8e222b0bb78a5f610f92e275266046773a",
+    "continuation.md": "316c0a88b6510f4466f958d0461e3211a7095c3ba3d9948e66cd814b2e2ff3cc",
+    "README.md": "0ad24595fe6daf90c614b2d2997ea2e40c01e3b2f49cbd573b5c36648d100344",
+    "verify-continuation.py": "b2b049e91735a0b8fffc87911a43f93f4b6545537d79615d3f0313a9ddac640b",
+    "verify.py": "b5d048b2ddcdf0e8a5144035f7de46a37a2b5c640e669b1dee4f7fcb0bdbb854"
+  },
+  "vertex_numbering": "center 0; long arms 1..7,8..14,15..21; short leaves 22,...",
+  "base_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      0,
+      22
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      15,
+      16
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      17,
+      18
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "orbits": {
+    "center": {
+      "center": 0,
+      "threshold": 21,
+      "d": 22,
+      "zero_vertex": 0,
+      "labels_by_vertex": [
+        0,
+        21,
+        1,
+        20,
+        2,
+        19,
+        3,
+        18,
+        14,
+        17,
+        10,
+        11,
+        6,
+        12,
+        8,
+        13,
+        5,
+        15,
+        4,
+        16,
+        7,
+        9,
+        22
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 21,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 20,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 19,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 18,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 17,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        21,
+        0,
+        1
+      ],
+      "cut": null,
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "arm1": {
+      "center": 20,
+      "threshold": 2,
+      "d": 18,
+      "zero_vertex": 1,
+      "labels_by_vertex": [
+        20,
+        0,
+        22,
+        1,
+        19,
+        3,
+        17,
+        9,
+        8,
+        14,
+        13,
+        6,
+        4,
+        21,
+        2,
+        5,
+        18,
+        7,
+        16,
+        11,
+        15,
+        12,
+        10
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 20,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 21,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 18,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 17,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 19,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        18,
+        1,
+        -1
+      ],
+      "cut": {
+        "low_vertices": 3,
+        "low_leaves": 1,
+        "low_low_edges": 0,
+        "cut_size": 5
+      },
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "arm2": {
+      "center": 2,
+      "threshold": 19,
+      "d": 18,
+      "zero_vertex": 2,
+      "labels_by_vertex": [
+        2,
+        22,
+        0,
+        21,
+        3,
+        19,
+        5,
+        13,
+        14,
+        8,
+        9,
+        16,
+        18,
+        1,
+        20,
+        17,
+        4,
+        15,
+        6,
+        11,
+        7,
+        10,
+        12
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 20,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 21,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 18,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 17,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 19,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        17,
+        0,
+        1
+      ],
+      "cut": null,
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "arm3": {
+      "center": 20,
+      "threshold": 1,
+      "d": 19,
+      "zero_vertex": 3,
+      "labels_by_vertex": [
+        20,
+        2,
+        19,
+        0,
+        22,
+        1,
+        21,
+        5,
+        6,
+        3,
+        18,
+        7,
+        9,
+        14,
+        13,
+        10,
+        16,
+        4,
+        17,
+        8,
+        15,
+        11,
+        12
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 18,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 17,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 19,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 21,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 20,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        19,
+        1,
+        -1
+      ],
+      "cut": {
+        "low_vertices": 2,
+        "low_leaves": 0,
+        "low_low_edges": 0,
+        "cut_size": 4
+      },
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "arm4": {
+      "center": 2,
+      "threshold": 20,
+      "d": 19,
+      "zero_vertex": 4,
+      "labels_by_vertex": [
+        2,
+        20,
+        3,
+        22,
+        0,
+        21,
+        1,
+        17,
+        16,
+        19,
+        4,
+        15,
+        13,
+        8,
+        9,
+        12,
+        6,
+        18,
+        5,
+        14,
+        7,
+        11,
+        10
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 18,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 17,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 19,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 21,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 20,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        18,
+        0,
+        1
+      ],
+      "cut": null,
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "arm5": {
+      "center": 19,
+      "threshold": 2,
+      "d": 17,
+      "zero_vertex": 5,
+      "labels_by_vertex": [
+        19,
+        2,
+        20,
+        1,
+        21,
+        0,
+        22,
+        6,
+        4,
+        3,
+        15,
+        9,
+        14,
+        11,
+        13,
+        5,
+        18,
+        10,
+        17,
+        7,
+        16,
+        12,
+        8
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 17,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 18,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 19,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 20,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 21,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        17,
+        1,
+        -1
+      ],
+      "cut": {
+        "low_vertices": 3,
+        "low_leaves": 0,
+        "low_low_edges": 0,
+        "cut_size": 6
+      },
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "arm6": {
+      "center": 3,
+      "threshold": 19,
+      "d": 17,
+      "zero_vertex": 6,
+      "labels_by_vertex": [
+        3,
+        20,
+        2,
+        21,
+        1,
+        22,
+        0,
+        16,
+        18,
+        19,
+        7,
+        13,
+        8,
+        11,
+        9,
+        17,
+        4,
+        12,
+        5,
+        15,
+        6,
+        10,
+        14
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 17,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 18,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 19,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 20,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 21,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        16,
+        0,
+        1
+      ],
+      "cut": null,
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "arm7": {
+      "center": 19,
+      "threshold": 3,
+      "d": 16,
+      "zero_vertex": 7,
+      "labels_by_vertex": [
+        19,
+        3,
+        20,
+        2,
+        21,
+        1,
+        22,
+        0,
+        4,
+        7,
+        16,
+        8,
+        14,
+        12,
+        13,
+        5,
+        18,
+        6,
+        17,
+        10,
+        15,
+        11,
+        9
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 16,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 17,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 18,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 19,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 20,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 21,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        16,
+        1,
+        -1
+      ],
+      "cut": {
+        "low_vertices": 4,
+        "low_leaves": 1,
+        "low_low_edges": 0,
+        "cut_size": 7
+      },
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    },
+    "leaf": {
+      "center": 22,
+      "threshold": 0,
+      "d": 22,
+      "zero_vertex": 22,
+      "labels_by_vertex": [
+        22,
+        1,
+        21,
+        2,
+        20,
+        3,
+        19,
+        4,
+        8,
+        5,
+        12,
+        11,
+        16,
+        10,
+        14,
+        9,
+        17,
+        7,
+        18,
+        6,
+        15,
+        13,
+        0
+      ],
+      "edges": [
+        {
+          "vertices": [
+            0,
+            1
+          ],
+          "difference": 21,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            8
+          ],
+          "difference": 14,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            15
+          ],
+          "difference": 13,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            0,
+            22
+          ],
+          "difference": 22,
+          "n_coefficient": 1
+        },
+        {
+          "vertices": [
+            1,
+            2
+          ],
+          "difference": 20,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            2,
+            3
+          ],
+          "difference": 19,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            3,
+            4
+          ],
+          "difference": 18,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            4,
+            5
+          ],
+          "difference": 17,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            5,
+            6
+          ],
+          "difference": 16,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            6,
+            7
+          ],
+          "difference": 15,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            8,
+            9
+          ],
+          "difference": 3,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            9,
+            10
+          ],
+          "difference": 7,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            10,
+            11
+          ],
+          "difference": 1,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            11,
+            12
+          ],
+          "difference": 5,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            12,
+            13
+          ],
+          "difference": 6,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            13,
+            14
+          ],
+          "difference": 4,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            15,
+            16
+          ],
+          "difference": 8,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            16,
+            17
+          ],
+          "difference": 10,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            17,
+            18
+          ],
+          "difference": 11,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            18,
+            19
+          ],
+          "difference": 12,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            19,
+            20
+          ],
+          "difference": 9,
+          "n_coefficient": 0
+        },
+        {
+          "vertices": [
+            20,
+            21
+          ],
+          "difference": 2,
+          "n_coefficient": 0
+        }
+      ],
+      "new_leaf_difference_coefficients_1_n_s": [
+        22,
+        1,
+        -1
+      ],
+      "cut": {
+        "low_vertices": 1,
+        "low_leaves": 1,
+        "low_low_edges": 0,
+        "cut_size": 1
+      },
+      "sample_m": [
+        1,
+        2,
+        3,
+        8,
+        64,
+        257
+      ]
+    }
+  },
+  "explicit_extended_labelings": 54,
+  "all_vertex_transport_checks": 74,
+  "odd_arm_reduction": {
+    "k7_lift": "PASS",
+    "k1_separate": "PASS",
+    "arm_formula_r_0_to_100": "PASS"
+  },
+  "exhaustive_small_tree_diagnostics": {
+    "candidate_edge_sets": 5913,
+    "graceful_trees": 975,
+    "valid_invariants": 6189,
+    "low_attachment": 3582,
+    "complements": 5214,
+    "insertions": 18567,
+    "high_attachment": 2607,
+    "t_equals_q": 975
+  },
+  "complement_boundary": "zero-preserving threshold domain requires 0<=t<=q-1; all supplied bases satisfy this",
+  "novelty_assessed": false
+}
