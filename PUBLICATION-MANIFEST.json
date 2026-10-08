@@ -1,0 +1,74 @@
+{
+  "name": "graceful-spider-three-arms",
+  "prepared_on": "2026-10-08",
+  "publication": "https://beedbyte.tech/publications/three-arm-spider-zero-rotatability/v/1",
+  "scope": "S(3,3,3,1^m) and S(4,4,4,1^m), m >= 1",
+  "status": "public-staging-only",
+  "priority": "unresolved",
+  "excluded": "arm length five, internal audit reports, credentials, unpublished work",
+  "files": [
+    {
+      "path": "proof/bases.json",
+      "source": "projects/graceful-spider/bases.json",
+      "bytes": 771,
+      "sha256": "5b291e648d93ec3334672aef2d5d453f80a12e86460c39973ec8456b8dcb46fd"
+    },
+    {
+      "path": "proof/verify_proof.py",
+      "source": "projects/graceful-spider/verify_proof.py",
+      "bytes": 1849,
+      "sha256": "cacca67f1f187549372f8198ea670197cc4e419f522b790d1aa131c4fcff3659"
+    },
+    {
+      "path": "proof/k4_bases.json",
+      "source": "projects/graceful-spider/k4_bases.json",
+      "bytes": 1122,
+      "sha256": "6753c1b460031ec5f9a4692ec4549402b95cb4461a1fe602b7569fc302766a5d"
+    },
+    {
+      "path": "proof/k4_verify.py",
+      "source": "projects/graceful-spider/k4_verify.py",
+      "bytes": 1796,
+      "sha256": "0df979abe147469d8db26bb06dc28eeef5176b17e791e3ee5593076a6686f435"
+    },
+    {
+      "path": "notes/paper.en.md",
+      "source": "editorial-audit/live-copy/three-arm-spider-zero-rotatability.en.md",
+      "bytes": 8299,
+      "sha256": "0d45cf0e0faba7b9582fbcddec785e891a1fb2dd689aa179e08c77a5cc239c48",
+      "transform": "Only the project-page link is absolute for GitHub; line endings may differ; all other text matches the public V1 export."
+    },
+    {
+      "path": "notes/paper.de.md",
+      "source": "editorial-audit/live-copy/three-arm-spider-zero-rotatability.de.md",
+      "bytes": 9197,
+      "sha256": "95d9505535118657c1cc3b386b11a25e95e178c46b270573f8b6e2ab19dd6b41",
+      "transform": "Only the project-page link is absolute for GitHub; line endings may differ; all other text matches the public V1 export."
+    },
+    {
+      "path": "notes/paper.zh.md",
+      "source": "editorial-audit/live-copy/three-arm-spider-zero-rotatability.zh.md",
+      "bytes": 7914,
+      "sha256": "70fff0136df1ac96ee7ba07cefc9a1b047377a2f58cf5fbd4f6e5e2de8dbbeff",
+      "transform": "Only the project-page link is absolute for GitHub; line endings may differ; all other text matches the public V1 export."
+    },
+    {
+      "path": "README.md",
+      "source": "created-for-staging",
+      "bytes": 2922,
+      "sha256": "4c2b540ba6ad0ae720139b9d6733d13be91e16cb8c15b20a4dc8840512f74217"
+    },
+    {
+      "path": "TEST-REPORT.md",
+      "source": "created-for-staging",
+      "bytes": 1516,
+      "sha256": "1e8198edeb2be19ce4b153864dab4ec67e0e2579d4cfcbd9164a2629b5098075"
+    },
+    {
+      "path": ".gitignore",
+      "source": "created-for-staging",
+      "bytes": 42,
+      "sha256": "62883da8ae1a99cd0922e318bfd6a85811896c702b1d96e40cc53b736fe6ba33"
+    }
+  ]
+}
