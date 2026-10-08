@@ -12,3 +12,9 @@ Packaging changes:
 - Search utilities, search histories, caches, and private work records are excluded. The proof requires the six included certificates, not a search run.
 
 Both checkers were rerun after packaging and after extracting a temporary ZIP into a fresh directory. `REPRODUCIBILITY.md` records the counts and extraction instructions; `SHA256SUMS.txt` records package-file hashes. Earlier `notes/`, `proof/`, and `k7/` were verified byte-for-byte unchanged against the pre-packaging baseline.
+
+## Editorially reviewed manuscript copies
+
+`notes/article.en.md`, `notes/article.de.md`, and `notes/article.zh.md` are repository-readable copies of the frozen public manuscripts. Only link destinations were adapted to adjacent files. Original prose, mathematical content, code blocks, link labels, and line endings are retained. `notes/MANIFEST.json` records the exact approved source hashes, output hashes, and URL substitutions. CMS templates remain separate and obtain their commit/download destinations during publication.
+
+The standalone proof ZIP remains the proof-only snapshot prepared at commit `04c131d0b621b32f3c471c9e6b82b25ddbaac19f`, SHA-256 `bb46e42b048de2d3bc4156ab68bf05eca17f18491c3b84e87c5fc92a5d1c98e6`. It excludes these three manuscript copies and subsequent repository documentation changes. Its own included hash list describes that snapshot. The repository's updated `SHA256SUMS.txt` describes the current `families/` tree. These are distinct, explicitly identified integrity scopes.

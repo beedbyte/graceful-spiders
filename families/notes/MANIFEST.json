@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-09",
+  "editorial_qa": "separate source review at the three frozen public-manuscript hashes",
+  "adaptation": "Only URL destinations changed; prose, math, code, labels, and original line endings remain unchanged. GITHUB_COMMIT links resolve to adjacent repository files; FAMILY_ASSET_ID resolves to the reproduction guide for the proof-only ZIP. CMS copies remain separate.",
+  "manuscripts": [
+    {
+      "language": "en",
+      "frozen_source": "article.en.public.md",
+      "source_sha256": "7bc70b7845b0da45f76c9c096782066e463a033e91848f013a89bef08a4ecc07",
+      "repository_file": "article.en.md",
+      "repository_sha256": "371481a45f5e6ac2fdb194373c7fa1fe1823eb57a2859cd11fa663a0550279eb",
+      "changes": [
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
+          "repository_link": "../proof.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/REPRODUCIBILITY.md",
+          "repository_link": "../REPRODUCIBILITY.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/tree/[GITHUB_COMMIT]/families",
+          "repository_link": "../README.md"
+        },
+        {
+          "source_url": "/downloads/[FAMILY_ASSET_ID]",
+          "repository_link": "../REPRODUCIBILITY.md"
+        }
+      ]
+    },
+    {
+      "language": "de",
+      "frozen_source": "article.de.public.md",
+      "source_sha256": "cf8e65270d40a648d52ada75b7d4b4faa04de9530d3e3c3de96ef7298c15de33",
+      "repository_file": "article.de.md",
+      "repository_sha256": "70bea6d904b3ee3db123aa0c408794d94179db689f094c63da44e098b1c648ed",
+      "changes": [
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/certificates.json",
+          "repository_link": "../certificates.json"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/SOURCE-README.md",
+          "repository_link": "../SOURCE-README.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/REPRODUCIBILITY.md",
+          "repository_link": "../REPRODUCIBILITY.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/SOURCE-MANIFEST.json",
+          "repository_link": "../SOURCE-MANIFEST.json"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/SHA256SUMS.txt",
+          "repository_link": "../SHA256SUMS.txt"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/independent/AUDIT.md",
+          "repository_link": "../independent/AUDIT.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/tree/[GITHUB_COMMIT]/families",
+          "repository_link": "../README.md"
+        }
+      ]
+    },
+    {
+      "language": "zh",
+      "frozen_source": "article.zh.public.md",
+      "source_sha256": "b16a22894e933a4b006c12dcded5e248d041ec4161beacbf17e6f9f4ddd6b2c6",
+      "repository_file": "article.zh.md",
+      "repository_sha256": "b20d65f0ab72becece863acef65d9e271fcbd6faf710cf091d479be28d25b539",
+      "changes": [
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
+          "repository_link": "../proof.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/construct.py",
+          "repository_link": "../construct.py"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/verify.py",
+          "repository_link": "../verify.py"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/certificates.json",
+          "repository_link": "../certificates.json"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/literature.md",
+          "repository_link": "../literature.md"
+        }
+      ]
+    }
+  ],
+  "proof_archive": {
+    "file": "graceful-family-public-proof.zip",
+    "sha256": "bb46e42b048de2d3bc4156ab68bf05eca17f18491c3b84e87c5fc92a5d1c98e6",
+    "snapshot_commit": "04c131d0b621b32f3c471c9e6b82b25ddbaac19f",
+    "scope": "The earlier proof-only package; excludes these three manuscript copies and their new manifest. Its original SHA256SUMS.txt applies only to that archive snapshot."
+  }
+}

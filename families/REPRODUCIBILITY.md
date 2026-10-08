@@ -25,3 +25,7 @@ These commands write `verification.json` and `independent/verification.json`; th
 The independent checker also checks 6 and 5,040 restricted even-path permutations at k=2 and k=4. All checks passed. The two unbounded parameters are justified by the mathematical proof, not the test limits. This is a separate agent audit, not external expert review or formal proof verification.
 
 To check hashes, compare each listed relative file against `SHA256SUMS.txt` using a SHA-256 tool before running scripts. The hash list covers every package file except itself. After a ZIP extraction, use these same commands from its extracted root; no external source directory, search code, network access, or installed solver is needed. Source hashes and disclosed editorial adaptations appear in `SOURCE-MANIFEST.json` and `SOURCE-README.md`.
+
+## Proof ZIP snapshot and manuscript copies
+
+The standalone proof ZIP is unchanged at SHA-256 `bb46e42b048de2d3bc4156ab68bf05eca17f18491c3b84e87c5fc92a5d1c98e6`; it contains the proof/checker package at commit `04c131d0b621b32f3c471c9e6b82b25ddbaac19f`. It excludes later `notes/` manuscript copies and documentation additions. Verify its included `SHA256SUMS.txt`, then run the same two commands above at the extracted root. This snapshot was freshly extracted and both checkers passed again when the three manuscript copies were added; the resulting JSON reports matched the current repository reports byte-for-byte. `notes/MANIFEST.json` supplies separate source/output hashes for the manuscript adaptations.

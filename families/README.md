@@ -17,3 +17,12 @@ python -B construct.py 9 3 1 5
 ```
 
 The proof uses established center-zero, alpha-amalgamation, and leaf-extension constructions. Ordinary gracefulness of the entire family is known. Earlier results already cover the path cases, two arms with one center leaf, `k=3,n=2` with arbitrary leaves, and uniform three-edge arms. Publication priority is unresolved. The audit is a separate agent review with its own implementation, not external peer review or formal proof-assistant verification.
+
+## Full manuscript copies
+
+- [English](notes/article.en.md)
+- [Deutsch](notes/article.de.md)
+- [中文](notes/article.zh.md)
+- [Editorial source hashes and link adaptations](notes/MANIFEST.json)
+
+The standalone proof ZIP remains the earlier proof-only snapshot and excludes these manuscript copies. Its archive hash and scope are recorded in the manuscript manifest and reproduction guide; the repository hash list covers the current family tree.

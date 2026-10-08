@@ -47,6 +47,8 @@ Only the Python standard library is required. After extracting the archive into 
 
 The [family package](families/README.md) proves zero-rotatability of `S(k^n,1^m)` for `k ∈ {3,5,7,9}`, `n ≥ 2`, and `m ≥ 0`, including the path boundary `n=2,m=0`. The proof uses six alpha-path certificates with established center-zero, alpha-amalgamation, and leaf-extension constructions. It also gives selected zero positions for every odd `k ≥ 3`; it does not prove full zero-rotatability for all odd lengths.
 
+Full manuscript copies: [English](families/notes/article.en.md), [Deutsch](families/notes/article.de.md), and [中文](families/notes/article.zh.md). Their [source manifest](families/notes/MANIFEST.json) records approved hashes and relative-link adaptations.
+
 Read the [proof](families/proof.md), [separate agent audit](families/independent/AUDIT.md), [literature comparison](families/literature.md), and [source provenance](families/SOURCE-README.md). Python 3.10 or later and the standard library are sufficient:
 
 ```sh
