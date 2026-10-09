@@ -54,9 +54,9 @@
     {
       "language": "de",
       "frozen_source": "article.de.k11.public.md",
-      "source_sha256": "8451f429266cb2aff4164feeecec7f57e8af2c7e8e89d8d4d466cc1b6623ed21",
+      "source_sha256": "49635a97d335c4f262de215a9905ed23101e764516d03fceb304ea85914216e6",
       "repository_file": "article.de.md",
-      "repository_sha256": "c51f83400f23beb40175f7058efd9c51fbc90f65b43c033a3c45a9a31b2cc7bc",
+      "repository_sha256": "8aec7d9616e660c75ed1afaedcf9e352fc4d0b44102a2a8009f39321a930691a",
       "url_substitutions": [
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
@@ -96,9 +96,9 @@
     {
       "language": "zh",
       "frozen_source": "article.zh.k11.public.md",
-      "source_sha256": "0e63db89b10c65b6aecd52f045868632860adb60f06349f9cb67d1b50df1f3d0",
+      "source_sha256": "2f26098292191d944c580715797680df1e504d3bfb7b4c595e2d3c40a1fd64f2",
       "repository_file": "article.zh.md",
-      "repository_sha256": "141c50e8236dd496b3ac3ef6c6a257c0b193acbcc7c480da1375109311b1fc5f",
+      "repository_sha256": "3b87956708eaad8f04d8225dc43e791b8c3492c793d9248599364625b13277af",
       "url_substitutions": [
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
@@ -159,5 +159,6 @@
     "sha256": "83e82afab5988ebb3cd3d19d9cc08d7945cf6bde5257b415f4ae662fd220be32",
     "verified_source_commit": "a005347d2f0b0d56fc6950647fb13fa4ce96e30d",
     "layout": "families/; proof-only snapshot, excludes families/notes/; archive hash list describes only actual members. Repository notes and later documentation have a separate repository hash scope."
-  }
+  },
+  "bibliographic_precision": "Final narrow independent QA approved one DE and one ZH sentence clarifying that Cattell full text and earlier simultaneous prescribed-label results remain unchecked; no attributed classification claim. English is unchanged. All source-link transformations remain the same."
 }
