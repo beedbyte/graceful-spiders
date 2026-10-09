@@ -62,6 +62,8 @@ Known overlaps include all path cases, two long arms with one center leaf, `k=3,
 
 ## Growing prescribed-zero depths
 
+The [Beedbyte research note](https://beedbyte.tech/publications/growing-prescribed-zero-depths-equal-arm-spiders) gives the current English, German, and Chinese presentation and links its earlier versions. The proof package below remains the fixed research source for that note; later website copy revisions do not change its theorem or files.
+
 The [versioned construction](growing-depth/v1/README.md) supplies a growing partial set of zero depths in equal-arm spiders. For integers `s>=1`, `r>=3s`, `r!=3s+1`, `k=2r+1`, all `n>=2,m>=0`, and every specified long-arm vertex at depth `4s` or `4s+1`, a separate graceful labeling gives that vertex zero. For every odd `k>=11`, at least `2 floor((k-5)/6)` depths are guaranteed. The earlier all-vertex theorem for `k in {3,5,7,9,11}` retains its own scope.
 
 Read the [proof](growing-depth/v1/source/proof.md), [independent internal AI-agent audit](growing-depth/v1/reviews/independent/audit-report.md), [source comparison](growing-depth/v1/reviews/prior-art-report.md), and notes in [English](growing-depth/v1/notes/article.en.md), [Deutsch](growing-depth/v1/notes/article.de.md), and [中文](growing-depth/v1/notes/article.zh.md). The [proof archive](growing-depth/v1/graceful-growing-depth-v1.1-proof.zip) contains this version's source and review files. The unbounded statement follows from the proof; finite checks support implementation. This is partial coverage, with unresolved historical priority and no external peer review or proof-assistant verification.
