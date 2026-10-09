@@ -1,6 +1,6 @@
 # Graceful spider trees: prescribed-zero constructions
 
-This repository contains certificate proofs of prescribed-zero gracefulness: the original three-arm notes for `k ∈ {3,4}` and `k=7`, and a family construction for `S(k^n,1^m)` with `k ∈ {3,5,7,9,11}`, arbitrary integers `n ≥ 2` and `m ≥ 0`. For each chosen vertex, a graceful labeling with zero there is constructed. The written arguments establish the unbounded parameter ranges; finite checks verify certificates and implementations.
+This repository contains certificate proofs of prescribed-zero gracefulness: the original three-arm notes for `k ∈ {3,4}` and `k=7`, a full prescribed-zero family for `S(k^n,1^m)` with `k ∈ {3,5,7,9,11}`, and a growing partial set of zero depths for odd `k ≥ 11`. The family statements allow arbitrary integers `n ≥ 2` and `m ≥ 0`. The written arguments establish their stated unbounded parameter ranges; finite checks verify certificates and implementations.
 
 ## Published note: arm lengths three and four
 
@@ -60,9 +60,15 @@ python -B families/k11/independent/verify_independent.py
 
 Known overlaps include all path cases, two long arms with one center leaf, `k=3,n=2` with arbitrary center leaves, and uniform three-edge arms. Ordinary gracefulness of the entire family is already known. Publication priority is unresolved; no novelty or first-proof claim is made. The audit used a separately implemented checker in another agent review, and is not external peer review.
 
+## Growing prescribed-zero depths
+
+The [versioned construction](growing-depth/v1/README.md) supplies a growing partial set of zero depths in equal-arm spiders. For integers `s>=1`, `r>=3s`, `r!=3s+1`, `k=2r+1`, all `n>=2,m>=0`, and every specified long-arm vertex at depth `4s` or `4s+1`, a separate graceful labeling gives that vertex zero. For every odd `k>=11`, at least `2 floor((k-5)/6)` depths are guaranteed. The earlier all-vertex theorem for `k in {3,5,7,9,11}` retains its own scope.
+
+Read the [proof](growing-depth/v1/source/proof.md), [independent internal AI-agent audit](growing-depth/v1/reviews/independent/audit-report.md), [source comparison](growing-depth/v1/reviews/prior-art-report.md), and notes in [English](growing-depth/v1/notes/article.en.md), [Deutsch](growing-depth/v1/notes/article.de.md), and [中文](growing-depth/v1/notes/article.zh.md). The [proof archive](growing-depth/v1/graceful-growing-depth-v1.1-proof.zip) contains this version's source and review files. The unbounded statement follows from the proof; finite checks support implementation. This is partial coverage, with unresolved historical priority and no external peer review or proof-assistant verification.
+
 ## Scope and provenance
 
-The earlier three-arm notes establish their stated families for `m ≥ 1`. The family package adds exactly `k ∈ {3,5,7,9,11}`, `n ≥ 2`, `m ≥ 0`, plus its stated partial odd-length result. These arguments do not establish arbitrary spiders or full zero-rotatability at other arm lengths. No theorem or method priority is claimed. The K7 note has no assigned DOI or canonical citation.
+The earlier three-arm notes establish their stated families for `m ≥ 1`. The family package proves full prescribed-zero coverage for exactly `k ∈ {3,5,7,9,11}`, `n ≥ 2`, `m ≥ 0`, plus its stated partial odd-length result. The growing-depth package proves additional partial coverage at the depths and parameters it names. These arguments do not establish arbitrary spiders or full zero-rotatability at other arm lengths. No theorem or method priority is claimed. The K7 note has no assigned DOI or canonical citation.
 
 The research and checks were AI-assisted under School Scotty / Beedbyte, maintained by Jordi Gartner. The mathematical reviews are internal; there has been no external peer review or formal proof-assistant verification. The German and Chinese versions are AI-assisted translations awaiting human language review.
 

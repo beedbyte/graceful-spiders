@@ -1,0 +1,118 @@
+{
+  "version": "gd-2026-10-09-v1.1",
+  "date": "2026-10-09",
+  "mathematical_review": "internally reconstructed by a separate AI agent; GO for exact theorem",
+  "source_review": "focused primary-source comparison with documented access gaps",
+  "historical_priority": "unresolved",
+  "public_research_signature": "School Scotty",
+  "editorial_responsibility": "Jordi Gartner",
+  "human_mathematical_proof_review": false,
+  "files": [
+    {
+      "path": "notes/article.de.md",
+      "bytes": 5415,
+      "sha256": "c87e86704e71edddf8508f7cf7ed34d5c99fdefa3d081de1b72d7f31cd8adf12"
+    },
+    {
+      "path": "notes/article.en.md",
+      "bytes": 4485,
+      "sha256": "6255e68b87015e23db20253dfe54d09a9f35a092c64b58b335939f9e0a845960"
+    },
+    {
+      "path": "notes/article.zh.md",
+      "bytes": 4219,
+      "sha256": "b42baf7c366d28e61e90a0eff0b3d3758456d28f29afb680b48b950a4906785a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6301,
+      "sha256": "8551e767c361e27f759315605a833b6b19b27b7cc531a9b8a001d13af538d4ab"
+    },
+    {
+      "path": "reviews/independent/audit-report.md",
+      "bytes": 19197,
+      "sha256": "aaf44d8ffa697cc50f26b841ab8a22038bb1852471b8c8d1cafc5dc67ae755db"
+    },
+    {
+      "path": "reviews/independent/certificate-hash-comparison.json",
+      "bytes": 325771,
+      "sha256": "0171e51a8d43655e6182cd68c50a0970676e1e70ebf1b14d300082845ffdec95"
+    },
+    {
+      "path": "reviews/independent/independent_check.py",
+      "bytes": 13577,
+      "sha256": "00a211b8416df65d076ef527febaf02dc65aa86ad9b6e6593ff8e3db2f0f20e4"
+    },
+    {
+      "path": "reviews/independent/results.json",
+      "bytes": 4943,
+      "sha256": "79fc99fb7942f7d9befb4f8574eef8dcf2473b1c886d53574218c74eb37195f6"
+    },
+    {
+      "path": "reviews/independent/SHA256SUMS.txt",
+      "bytes": 351,
+      "sha256": "864ab07b9f7202bd833bce50a1b4a58f3fae7ef0932b04fc4aa90c5d585bbba0"
+    },
+    {
+      "path": "reviews/prior-art-report.md",
+      "bytes": 10553,
+      "sha256": "22838fdf14d30206c07777e4f698413cd0913252a69985f7279fe6c5b9098b6f"
+    },
+    {
+      "path": "reviews/rc1-language-scope-audit.md",
+      "bytes": 6369,
+      "sha256": "004ce2baa05f540c1e4a11c3d3ddf89db292950c3e37ebc18297bf063cf7b6b4"
+    },
+    {
+      "path": "source/certificates.json",
+      "bytes": 3183549,
+      "sha256": "2f1ca7584b6ee5ccff37ce79f5f0fcea1aec5fc65e73c425700a77f65f68a05c"
+    },
+    {
+      "path": "source/construct.py",
+      "bytes": 2569,
+      "sha256": "11eace089965486b3208eac04c24f622ee77f4b82c422b19590340d4a432c921"
+    },
+    {
+      "path": "source/probe-results.json",
+      "bytes": 4749,
+      "sha256": "e6de7cbb26bb5218dffb4d5fd723ade1d2d44f4796ed919a81c18db87706d961"
+    },
+    {
+      "path": "source/probe.py",
+      "bytes": 1594,
+      "sha256": "d89d3974b03fc09ba7cb566c541502a59bcc7ce66cff1c582fc8d735d43a32c9"
+    },
+    {
+      "path": "source/proof.md",
+      "bytes": 14233,
+      "sha256": "1e475c51db4e401b9dc6b5d10720209b45b44c3a3e8c7c1d065c9e4347d66513"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 1634,
+      "sha256": "6e63fc670f0c1f0b5c7bf798138f81b2771d1a641bf9001745baad045827c075"
+    },
+    {
+      "path": "source/SHA256SUMS.txt",
+      "bytes": 650,
+      "sha256": "3bdbaf6a25095381c61deef0d4ec48cafe86eb0e2848dbe1d8632e8527a1796a"
+    },
+    {
+      "path": "source/verification-results.json",
+      "bytes": 130,
+      "sha256": "a9d23eba68419fe3ede78da24ec5b621b99c54427bb56ef4c97422dc4a7503be"
+    },
+    {
+      "path": "source/verify.py",
+      "bytes": 3810,
+      "sha256": "79a763fb61a9a732bbd2500325f5ef7f0db1847c598280bc9f57af3abd8a3867"
+    }
+  ],
+  "exclusions": [
+    "manifest.json",
+    "SHA256SUMS.txt",
+    "ZIP"
+  ],
+  "hash_convention": "byte SHA-256; enclosing release record pins this manifest and archive"
+}

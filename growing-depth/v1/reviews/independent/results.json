@@ -1,0 +1,244 @@
+{
+  "verdict": "PASS",
+  "independent_agent_audit": true,
+  "method": "proof.md formulas only; no reading/import/execution of submitted construct.py or verify.py",
+  "manifest_files_verified": {
+    "certificates.json": "2f1ca7584b6ee5ccff37ce79f5f0fcea1aec5fc65e73c425700a77f65f68a05c",
+    "construct.py": "11eace089965486b3208eac04c24f622ee77f4b82c422b19590340d4a432c921",
+    "probe-results.json": "e6de7cbb26bb5218dffb4d5fd723ade1d2d44f4796ed919a81c18db87706d961",
+    "probe.py": "d89d3974b03fc09ba7cb566c541502a59bcc7ce66cff1c582fc8d735d43a32c9",
+    "proof.md": "1e475c51db4e401b9dc6b5d10720209b45b44c3a3e8c7c1d065c9e4347d66513",
+    "README.md": "6e63fc670f0c1f0b5c7bf798138f81b2771d1a641bf9001745baad045827c075",
+    "verification-results.json": "a9d23eba68419fe3ede78da24ec5b621b99c54427bb56ef4c97422dc4a7503be",
+    "verify.py": "79a763fb61a9a732bbd2500325f5ef7f0db1847c598280bc9f57af3abd8a3867"
+  },
+  "manifest_sha256": "3bdbaf6a25095381c61deef0d4ec48cafe86eb0e2848dbe1d8632e8527a1796a",
+  "saved_paths": 156,
+  "saved_spiders": 960,
+  "saved_certificate_file_sha256": "2f1ca7584b6ee5ccff37ce79f5f0fcea1aec5fc65e73c425700a77f65f68a05c",
+  "saved_canonical_certificate_sha256": "da4d1180822e5d353f22fb231b96cab87951e2271bd4fe6f5beab5a1f546820f",
+  "independently_reconstructed_canonical_certificate_sha256": "da4d1180822e5d353f22fb231b96cab87951e2271bd4fe6f5beab5a1f546820f",
+  "extra_path_rectangle": {
+    "s": [
+      1,
+      60
+    ],
+    "r": [
+      3,
+      220
+    ],
+    "admissible_pairs_checked": 7710
+  },
+  "extra_path_stress_parameters": [
+    [
+      100,
+      300
+    ],
+    [
+      100,
+      302
+    ],
+    [
+      100,
+      303
+    ],
+    [
+      100,
+      304
+    ],
+    [
+      100,
+      305
+    ],
+    [
+      100,
+      320
+    ],
+    [
+      100,
+      321
+    ],
+    [
+      1000,
+      3000
+    ],
+    [
+      1000,
+      3002
+    ],
+    [
+      1000,
+      3003
+    ],
+    [
+      1000,
+      3004
+    ],
+    [
+      1000,
+      3005
+    ],
+    [
+      1000,
+      3020
+    ],
+    [
+      1000,
+      3021
+    ],
+    [
+      10000,
+      30000
+    ],
+    [
+      10000,
+      30002
+    ],
+    [
+      10000,
+      30003
+    ],
+    [
+      10000,
+      30004
+    ],
+    [
+      10000,
+      30005
+    ],
+    [
+      10000,
+      30020
+    ],
+    [
+      10000,
+      30021
+    ]
+  ],
+  "extra_spider_grid": {
+    "s": [
+      1,
+      4
+    ],
+    "r_minus_3s": [
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n": [
+      2,
+      9
+    ],
+    "m": [
+      0,
+      1,
+      2,
+      7
+    ],
+    "arms": "every arm",
+    "depths": "both",
+    "cases": 7040
+  },
+  "extra_spider_stress_parameters": [
+    [
+      1,
+      3,
+      100,
+      100,
+      99,
+      4
+    ],
+    [
+      2,
+      8,
+      101,
+      0,
+      50,
+      9
+    ],
+    [
+      10,
+      33,
+      31,
+      61,
+      17,
+      40
+    ],
+    [
+      100,
+      303,
+      12,
+      1000,
+      11,
+      401
+    ]
+  ],
+  "exact_index_and_lower_bound_r_range": [
+    1,
+    3000
+  ],
+  "negative_controls_rejected": [
+    {
+      "name": "duplicate path label",
+      "rejection": "path vertex bijection"
+    },
+    {
+      "name": "permutation-preserving edge corruption",
+      "rejection": "path edge bijection"
+    },
+    {
+      "name": "graceful reversed path has wrong prescribed side",
+      "rejection": "prescribed extreme depths"
+    },
+    {
+      "name": "graceful complemented path has wrong midpoint",
+      "rejection": "midpoint label"
+    },
+    {
+      "name": "spider permutation-preserving corruption",
+      "rejection": "spider edge bijection"
+    },
+    {
+      "name": "missing spider vertex",
+      "rejection": "spider vertex identities"
+    },
+    {
+      "name": "valid spider wrong requested zero depth",
+      "rejection": "specified spider zero"
+    },
+    {
+      "name": "excluded domain s=0,r=3",
+      "rejection": "s outside theorem domain"
+    },
+    {
+      "name": "excluded domain s=1,r=2",
+      "rejection": "r outside theorem domain"
+    },
+    {
+      "name": "excluded domain s=1,r=4",
+      "rejection": "r outside theorem domain"
+    },
+    {
+      "name": "excluded domain s=2,r=7",
+      "rejection": "r outside theorem domain"
+    },
+    {
+      "name": "excluded domain s=100,r=301",
+      "rejection": "r outside theorem domain"
+    },
+    {
+      "name": "excluded r=p+1 naive continuation",
+      "rejection": "path vertex bijection"
+    }
+  ],
+  "counterexample_found": null,
+  "smallest_excluded_parameters": {
+    "s": 1,
+    "r": 4,
+    "k": 9,
+    "note": "formula exclusion, not a graph nonexistence result"
+  },
+  "all_parameter_proof": "See audit-report.md; finite checks are transcription evidence only."
+}

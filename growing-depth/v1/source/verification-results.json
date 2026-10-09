@@ -1,0 +1,7 @@
+{
+  "verdict": "PASS",
+  "paths": 156,
+  "spiders": 960,
+  "corruptions_rejected": 2,
+  "independent_agent_audit": false
+}

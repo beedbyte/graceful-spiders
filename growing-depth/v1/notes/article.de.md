@@ -1,0 +1,26 @@
+# Wachsende Tiefenabdeckung für vorgegebene Nullknoten in Spinnen mit gleich langen Armen
+
+Version gd-2026-10-09-v1.1 · 9 October 2026.
+
+## Zusammenfassung
+
+Wir geben eine explizite Konstruktion für eine wachsende Menge vorgegebener Nullpositionen in Spinnengraphen mit gleich langen Armen an. Seien `s>=1` und `r>=3s` ganze Zahlen mit `r!=3s+1`, und sei `k=2r+1`. Die Konstruktion liefert eine α-Beschriftung des Pfades `P_(2k+1)` mit der Mittelpunktbeschriftung `k-1` und der Schwelle `k-1`, der Null in Tiefe `4s` und dem Maximum `2k` in der benachbarten Tiefe `4s+1` desselben Arms. Die Endpunktbeschriftungen sind `(3k-1)/2` und `(3k+1)/2`. Die bekannte α-Amalgamation und eine Komplementierung liefern anschließend für alle ganzen Zahlen `n>=2` und `m>=0` eine grazile Beschriftung von `S(k^n,1^m)`, die einem beliebig vorgegebenen Knoten eines langen Arms in Tiefe `4s` oder `4s+1` die Null zuweist. Dabei werden getrennte Beschriftungen verwendet. Für jedes ungerade `k>=11` sind mindestens `2 floor((k-5)/6)` verschiedene Tiefen abgedeckt. Das ist eine teilweise Abdeckung vorgegebener Nullpositionen; die mathematische Priorität ist ungeklärt.
+
+## Geltungsbereich
+
+`S(k^n,1^m)` besitzt `n` Arme der Länge `k` und `m` Arme der Länge eins; Längen werden in Kanten gemessen. Die Tiefe ist der Abstand vom festgelegten Zentrum, auch im Pfadfall `n=2,m=0`. Für jedes zulässige Parametertupel und jeden vorgegebenen Knoten in einer der beiden Tiefen existiert eine Beschriftung, die diesem Knoten die Null zuweist. Die Beschriftung darf vom Knoten abhängen; zwei Knoten erhalten nicht innerhalb derselben Beschriftung die Null.
+
+Für festes `r` lautet die genaue Indexmenge `I_r={s>=1:3s<=r and r!=3s+1}`. Die einheitliche Untergrenze erfasst sämtliche Tiefen `{4s,4s+1:1<=s<=floor((k-5)/6)}`. Für `k=6t+1` erlaubt die genaue Konstruktion zusätzlich `s=t`. Der Ausschluss `r=3s+1` beschränkt diese Formel und beweist keine Nichtexistenz. Es wird keine Abdeckung sämtlicher Tiefen, keine vollständige Nullrotierbarkeit, kein Ergebnis für alle Spinnengraphen und keine α-Beschriftung mit Null an jeder vorgegebenen Position behauptet. Frühere Konstruktionen für das Zentrum und andere Randtiefen sind gesonderte bekannte Bestandteile.
+
+## Versionshinweis
+
+Ergänzt eine Konstruktion für vorgegebene Nullpositionen in den Tiefen 4s und 4s + 1 an langen Armen von S(k^n,1^m), wobei k = 2r + 1, s ≥ 1, r ≥ 3s, r ≠ 3s + 1, n ≥ 2 und m ≥ 0 gilt. Die Zahl der garantierten Tiefen wächst mit k; vollständige Nullrotierbarkeit wird damit nicht gezeigt. Für die beiden Tiefen werden jeweils eigene grazile Beschriftungen des Spinnengraphen verwendet.
+
+## Nachweise und Prüfstatus
+
+Der Beweis für alle Parameter hat eine interne Prüfung durch einen gesonderten KI-Agenten bestanden. Dieser rekonstruierte unabhängig die Permutation, beide Erweiterungen, den vollständigen Pfad und die vollständige Spinnenkomposition. Er rekonstruierte exakt die 156 gespeicherten Pfade und 960 gespeicherten Spinnenbeschriftungen, prüfte weitere 7.710 zulässige Pfadparameterpaare und 7.040 Spinnenbeschriftungen und wies 13 Negativkontrollen zurück. Die endlichen Prüfungen stützen Umsetzung und Dateiintegrität; die unbeschränkte Aussage folgt aus dem rekonstruierten Beweis. Dies war eine interne KI-Prüfung, keine menschliche Fachbegutachtung und keine Verifikation mit einem Beweisassistenten. Der gesonderte gezielte Quellenvergleich fand keine geprüfte Aussage mit sämtlichen gleichzeitigen Bedingungen. Cattells vollständige Konstruktion und ältere Originaltexte bleiben jedoch Zugangslücken; historische Priorität und die Frage, ob ältere Verfahren die Konstruktion bereits enthalten, sind ungeklärt.
+## Beitrag und Herkunft
+
+Das hier dargestellte Ergebnis ist die explizite Konstruktion mit ihrer wachsenden Menge garantierter Nulltiefen; der vorgelegte Beweis hat die interne Gegenprüfung bestanden. Die klassische Walecki-Anordnung, ältere Pfad- und α-Konstruktionen, Zentrum-Null-Beschriftungen und die α-Amalgamation von Huang–Kotzig–Rosa sind bekannte Bestandteile. Patterson und Rofa dokumentieren relevante Konstruktionen; die Zuordnung zu Huang–Kotzig–Rosa ist derzeit durch spätere Quellen belegt. Frühere Arbeiten decken bereits alle Nullpositionen in den Fällen `n=2,m=0` und `n=2,m=1` ab; diese Fälle begründen keine neue Abdeckung. Ein vollständiger Vergleich mit Cattells Konstruktion und verwandten älteren Verfahren steht aus. Sie könnten Teile des Arguments bereits enthalten. Es wird weder ein erster Beweis noch weltweite Originalität behauptet.
+
+Ein KI-Agent leitete die Formel und den Beweis her. Ein gesonderter KI-Agent rekonstruierte die Mathematik unabhängig und prüfte die Zertifikate; ein weiterer KI-Agent prüfte die Fachliteratur. KI-Unterstützung wurde außerdem für den englischen Veröffentlichungstext sowie dessen deutsche und chinesische Übersetzungen verwendet. Die öffentliche Forschungssignatur lautet School Scotty. Jordi Gartner verantwortet die redaktionelle Veröffentlichung. Eine menschliche mathematische Beweisprüfung hat nicht stattgefunden. Diese Angaben beschreiben den beobachteten Arbeitsablauf für dieses Ergebnis; sie schreiben nicht die gesamte Website einer KI zu und behaupten weder externe Fachbegutachtung noch Verifikation mit einem Beweisassistenten.
