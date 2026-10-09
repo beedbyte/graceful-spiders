@@ -26,3 +26,9 @@ The standalone proof ZIP remains the proof-only snapshot prepared at commit `04c
 The new `graceful-family-k11-public-proof.zip` contains the current proof-only files under `families/`, excluding `families/notes/`. Its hash list covers only its actual archive members. The repository's hash list additionally covers manuscript copies. The earlier ZIP/hash recorded above remains a historical snapshot and is retained unchanged.
 
 The public K11 independent checker, audit and generated report are under `k11/independent/`, matching the manuscript references. The checker resolves certificates/source files in its parent `k11/` directory and the unchanged base proof in `families/`. Only filesystem resolution and hash-report paths changed; mathematical checking code is unchanged.
+
+## Combined five-length manuscript update
+
+The three `notes/` copies now use the exact separately approved five-length PUBLIC templates. `notes/MANIFEST.json` records all source/output hashes and URL substitutions. The Chinese deployment-only placeholder annotation was removed during repository link resolution; its exact original line hash and text with token names are recorded. Mathematical prose, all ten certificate rows, commands, and remaining article bytes are unchanged. Earlier manuscript-copy entries above describe their historical snapshot.
+
+Repository articles use relative source links and the reproduction guide. The CMS release must insert the actual final repository commit and actual uploaded asset ID into separate CMS copies after those identifiers exist. No tracked article embeds its own commit hash. The combined proof ZIP remains the verified source snapshot at `a005347d2f0b0d56fc6950647fb13fa4ce96e30d`, SHA-256 `83e82afab5988ebb3cd3d19d9cc08d7945cf6bde5257b415f4ae662fd220be32`, with `families/` and without `notes/`.

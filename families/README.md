@@ -28,4 +28,4 @@ The proof uses established center-zero, alpha-amalgamation, and leaf-extension c
 - [中文](notes/article.zh.md)
 - [Editorial source hashes and link adaptations](notes/MANIFEST.json)
 
-These manuscript copies document the previously reviewed 3/5/7/9 statement and remain unchanged while revised five-length manuscripts undergo separate editorial QA. The new proof-only ZIP adds k11 under `families/` and excludes `notes/`. The earlier proof-only ZIP remains unchanged and is the snapshot described in the manuscript manifest. The reproduction guide distinguishes both archive scopes.
+These manuscript copies state the independently checked five-length theorem and passed separate final internal manuscript QA. Their source/output hashes and necessary link transformations appear in the manuscript manifest. The new proof-only ZIP adds k11 under `families/` and excludes `notes/`. The earlier proof-only ZIP remains unchanged and is the snapshot described in the manuscript manifest. The reproduction guide distinguishes both archive scopes.

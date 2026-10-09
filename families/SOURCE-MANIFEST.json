@@ -102,5 +102,31 @@
       "k11/independent/AUDIT.md",
       "k11/independent/verification.json"
     ]
+  },
+  "combined_manuscripts": {
+    "scope": "k in {3,5,7,9,11}; n>=2; m>=0",
+    "source_files": [
+      {
+        "source": "graceful-family-manuscript/article.en.k11.public.md",
+        "sha256": "fa61e3c51a8bc546695e247ebab2aa7019a54db71903204cb0b1c7bc39ed2ec1"
+      },
+      {
+        "source": "graceful-family-manuscript/article.de.k11.public.md",
+        "sha256": "8451f429266cb2aff4164feeecec7f57e8af2c7e8e89d8d4d466cc1b6623ed21"
+      },
+      {
+        "source": "graceful-family-manuscript/article.zh.k11.public.md",
+        "sha256": "0e63db89b10c65b6aecd52f045868632860adb60f06349f9cb67d1b50df1f3d0"
+      }
+    ],
+    "adaptation_manifest": "notes/MANIFEST.json",
+    "adaptation_manifest_sha256": "28b176bcc7e5ce414bea9fa977332b4f7961c17f98747e1fbfc3d1e864996d63",
+    "verified_proof_archive": {
+      "file": "graceful-family-k11-public-proof.zip",
+      "sha256": "83e82afab5988ebb3cd3d19d9cc08d7945cf6bde5257b415f4ae662fd220be32",
+      "verified_source_commit": "a005347d2f0b0d56fc6950647fb13fa4ce96e30d",
+      "layout": "families/; proof-only snapshot, excludes families/notes/; archive hash list describes only actual members. Repository notes and later documentation have a separate repository hash scope."
+    },
+    "release_strategy": "Repository articles link to adjacent source files and the reproduction guide. CMS copies are separate and receive the exact final commit and actual asset ID only after final commit/upload. No final self-commit hash is embedded in tracked articles."
   }
 }

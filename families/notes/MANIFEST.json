@@ -1,18 +1,40 @@
 {
   "date": "2026-10-09",
-  "editorial_qa": "separate source review at the three frozen public-manuscript hashes",
-  "adaptation": "Only URL destinations changed; prose, math, code, labels, and original line endings remain unchanged. GITHUB_COMMIT links resolve to adjacent repository files; FAMILY_ASSET_ID resolves to the reproduction guide for the proof-only ZIP. CMS copies remain separate.",
+  "scope": "k in {3,5,7,9,11}; n>=2; m>=0",
+  "editorial_qa": "Separate final internal manuscript QA at these three exact source hashes.",
+  "strategy": "Repository articles link to adjacent source files and the reproduction guide. CMS copies are separate and receive the exact final commit and actual asset ID only after final commit/upload. No final self-commit hash is embedded in tracked articles.",
+  "adaptation": "Only necessary source/download URL destinations changed; the Chinese deployment-template token annotation is removed and separately recorded. Mathematical prose, certificate tables, commands and all other source bytes including line endings are retained.",
   "manuscripts": [
     {
       "language": "en",
-      "frozen_source": "article.en.public.md",
-      "source_sha256": "7bc70b7845b0da45f76c9c096782066e463a033e91848f013a89bef08a4ecc07",
+      "frozen_source": "article.en.k11.public.md",
+      "source_sha256": "fa61e3c51a8bc546695e247ebab2aa7019a54db71903204cb0b1c7bc39ed2ec1",
       "repository_file": "article.en.md",
-      "repository_sha256": "371481a45f5e6ac2fdb194373c7fa1fe1823eb57a2859cd11fa663a0550279eb",
-      "changes": [
+      "repository_sha256": "c3579cf9ab90bed3e9d8dd3a8da522a555dfce64188a41a85361a01ff0ee6649",
+      "url_substitutions": [
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
           "repository_link": "../proof.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
+          "repository_link": "../proof.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/certificates.json",
+          "repository_link": "../certificates.json"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/proof.md",
+          "repository_link": "../k11/proof.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/certificates.json",
+          "repository_link": "../k11/certificates.json"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/independent/AUDIT.md",
+          "repository_link": "../k11/independent/AUDIT.md"
         },
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/REPRODUCIBILITY.md",
@@ -26,52 +48,58 @@
           "source_url": "/downloads/[FAMILY_ASSET_ID]",
           "repository_link": "../REPRODUCIBILITY.md"
         }
-      ]
+      ],
+      "removed_template_annotation": []
     },
     {
       "language": "de",
-      "frozen_source": "article.de.public.md",
-      "source_sha256": "cf8e65270d40a648d52ada75b7d4b4faa04de9530d3e3c3de96ef7298c15de33",
+      "frozen_source": "article.de.k11.public.md",
+      "source_sha256": "8451f429266cb2aff4164feeecec7f57e8af2c7e8e89d8d4d466cc1b6623ed21",
       "repository_file": "article.de.md",
-      "repository_sha256": "70bea6d904b3ee3db123aa0c408794d94179db689f094c63da44e098b1c648ed",
-      "changes": [
+      "repository_sha256": "c51f83400f23beb40175f7058efd9c51fbc90f65b43c033a3c45a9a31b2cc7bc",
+      "url_substitutions": [
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
+          "repository_link": "../proof.md"
+        },
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/certificates.json",
           "repository_link": "../certificates.json"
         },
         {
-          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/SOURCE-README.md",
-          "repository_link": "../SOURCE-README.md"
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/proof.md",
+          "repository_link": "../k11/proof.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/certificates.json",
+          "repository_link": "../k11/certificates.json"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/independent/AUDIT.md",
+          "repository_link": "../k11/independent/AUDIT.md"
         },
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/REPRODUCIBILITY.md",
           "repository_link": "../REPRODUCIBILITY.md"
         },
         {
-          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/SOURCE-MANIFEST.json",
-          "repository_link": "../SOURCE-MANIFEST.json"
-        },
-        {
-          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/SHA256SUMS.txt",
-          "repository_link": "../SHA256SUMS.txt"
-        },
-        {
-          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/independent/AUDIT.md",
-          "repository_link": "../independent/AUDIT.md"
-        },
-        {
           "source_url": "https://github.com/beedbyte/graceful-spiders/tree/[GITHUB_COMMIT]/families",
           "repository_link": "../README.md"
+        },
+        {
+          "source_url": "/downloads/[FAMILY_ASSET_ID]",
+          "repository_link": "../REPRODUCIBILITY.md"
         }
-      ]
+      ],
+      "removed_template_annotation": []
     },
     {
       "language": "zh",
-      "frozen_source": "article.zh.public.md",
-      "source_sha256": "b16a22894e933a4b006c12dcded5e248d041ec4161beacbf17e6f9f4ddd6b2c6",
+      "frozen_source": "article.zh.k11.public.md",
+      "source_sha256": "0e63db89b10c65b6aecd52f045868632860adb60f06349f9cb67d1b50df1f3d0",
       "repository_file": "article.zh.md",
-      "repository_sha256": "b20d65f0ab72becece863acef65d9e271fcbd6faf710cf091d479be28d25b539",
-      "changes": [
+      "repository_sha256": "141c50e8236dd496b3ac3ef6c6a257c0b193acbcc7c480da1375109311b1fc5f",
+      "url_substitutions": [
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/proof.md",
           "repository_link": "../proof.md"
@@ -91,14 +119,45 @@
         {
           "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/literature.md",
           "repository_link": "../literature.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/proof.md",
+          "repository_link": "../k11/proof.md"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/certificates.json",
+          "repository_link": "../k11/certificates.json"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/check.py",
+          "repository_link": "../k11/check.py"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/independent/verify_independent.py",
+          "repository_link": "../k11/independent/verify_independent.py"
+        },
+        {
+          "source_url": "https://github.com/beedbyte/graceful-spiders/blob/[GITHUB_COMMIT]/families/k11/independent/AUDIT.md",
+          "repository_link": "../k11/independent/AUDIT.md"
+        },
+        {
+          "source_url": "/downloads/[FAMILY_ASSET_ID]",
+          "repository_link": "../REPRODUCIBILITY.md"
+        }
+      ],
+      "removed_template_annotation": [
+        {
+          "text_with_token_names": "以上是待冻结发布的稿件链接：[GITHUB_COMMIT] 表示经核验的固定提交，[FAMILY_ASSET_ID] 表示组合证明 ZIP 的实际下载资源编号。占位符尚未替换时，不应视为已经发布的复现入口。\r\n",
+          "exact_line_sha256": "3f08454ef90441341faa65533f71c8fe83b1c83cd83c04ad04834e158c1289e4",
+          "reason": "Remove deployment-only placeholder annotation after repository-relative link resolution."
         }
       ]
     }
   ],
   "proof_archive": {
-    "file": "graceful-family-public-proof.zip",
-    "sha256": "bb46e42b048de2d3bc4156ab68bf05eca17f18491c3b84e87c5fc92a5d1c98e6",
-    "snapshot_commit": "04c131d0b621b32f3c471c9e6b82b25ddbaac19f",
-    "scope": "The earlier proof-only package; excludes these three manuscript copies and their new manifest. Its original SHA256SUMS.txt applies only to that archive snapshot."
+    "file": "graceful-family-k11-public-proof.zip",
+    "sha256": "83e82afab5988ebb3cd3d19d9cc08d7945cf6bde5257b415f4ae662fd220be32",
+    "verified_source_commit": "a005347d2f0b0d56fc6950647fb13fa4ce96e30d",
+    "layout": "families/; proof-only snapshot, excludes families/notes/; archive hash list describes only actual members. Repository notes and later documentation have a separate repository hash scope."
   }
 }

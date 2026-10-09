@@ -1,8 +1,8 @@
-# Prescribed zero in equal arm spider families of lengths 3 5 7 and 9
+# Prescribed zero in equal arm spider families of lengths 3, 5, 7, 9 and 11
 
 **Research note · 2026-10-09.** The construction has passed a separate internal mathematical audit. Publication priority and external expert review remain unresolved. German and Chinese companion texts are translation drafts awaiting human language review.
 
-For each `k∈{3,5,7,9}`, every integer `n≥2` and every integer `m≥0`, the tree `S(k^n,1^m)` is **0-rotatable**: any prescribed vertex can receive zero in a graceful labeling. An explicit center construction, a composition with an α-labeled path, a formula for odd arm lengths, and 6 finite path certificates give a proof for unbounded numbers of long arms and center leaves. The finite certificates supply the remaining interior positions; the parameter bounds follow from the written constructions.
+For each `k∈{3,5,7,9,11}`, every integer `n≥2` and every integer `m≥0`, the tree `S(k^n,1^m)` is **0-rotatable**: any prescribed vertex can receive zero in a graceful labeling. An explicit center construction, a composition with an α-labeled path, a formula for odd arm lengths, and 10 finite path certificates give a proof for unbounded numbers of long arms and center leaves. The finite certificates supply the remaining interior positions; the parameter bounds follow from the written constructions.
 
 This note belongs to the [Graceful spider project](https://beedbyte.tech/research/graceful-spider-three-arms). It strengthens the earlier [seven-edge three-arm note](https://beedbyte.tech/publications/seven-edge-three-arm-spider-zero-rotatability), whose scope was `k=7,n=3,m≥1`, by allowing arbitrary `n≥2` and including `m=0`. The earlier length-4 theorem, `S(4,4,4,1^m)` for every `m≥1`, remains a separate result. Nothing here extends that length-4 assertion to arbitrary arm counts.
 
@@ -12,11 +12,11 @@ Write `S(k^n,1^m)` for the tree with a distinguished center `c`, `n` arms contai
 
 A graceful labeling is a bijection `f:V→{0,…,q}` such that the absolute endpoint differences on the edges use `1,…,q` exactly once.
 
-**Theorem.** For every `k∈{3,5,7,9}`, every integer `n≥2`, every integer `m≥0`, and every vertex `v` of `S(k^n,1^m)`, there exists a graceful labeling `f` with `f(v)=0`.
+**Theorem.** For every `k∈{3,5,7,9,11}`, every integer `n≥2`, every integer `m≥0`, and every vertex `v` of `S(k^n,1^m)`, there exists a graceful labeling `f` with `f(v)=0`.
 
 The labeling may depend on `v`; the quantifiers are “for every vertex, there exists a labeling.” The theorem makes no claim for arbitrary odd lengths, even lengths, unequal long arms, or all spiders. It does not require the final labeling to be an α-labeling. An α-labeling is a graceful labeling with a threshold crossed by every edge.
 
-**General partial result.** For every odd `k≥3`, every `n≥2` and every `m≥0`, zero can be prescribed at the center, at depths `1,2,k−1,k` on any long arm, or at any short leaf that exists. Coincident depths are counted once. We first prove this statement and then use the 6 certificates to complete the 4 lengths in the theorem.
+**General partial result.** For every odd `k≥3`, every `n≥2` and every `m≥0`, zero can be prescribed at the center, at depths `1,2,k−1,k` on any long arm, or at any short leaf that exists. Coincident depths are counted once. We first prove this statement and then use the 10 certificates to complete the 5 lengths in the theorem.
 
 ## A formula placing zero at the center
 
@@ -84,7 +84,7 @@ To place zero at the tip of a selected long arm, start with center-zero `S(k^(n�
 
 For a selected short leaf, when `m≥1`, start with center-zero `S(k^n,1^(m−1))` and apply the operation once. Permuting the short leaves puts zero at whichever one was prescribed. At `m=0`, there is no short-leaf case to check. Together with the center construction and the odd path formula, this proves the general partial result.
 
-## The 6 path certificates and complete depth coverage
+## The 10 path certificates and complete depth coverage
 
 Each tuple below lists a path from one endpoint to the other. Its entry at index `k`, counting from zero, is the midpoint and has label `A=k−1`. The final columns are distances from the midpoint to zero and to `2k`.
 
@@ -96,6 +96,10 @@ Each tuple below lists a path from one endpoint to the other. Its entry at index
 | 9 | `(15,3,16,2,17,1,18,0,11,8,9,7,13,4,14,6,10,5,12)` | 2 | 3 |
 | 9 | `(16,2,17,1,18,0,13,4,10,8,9,6,14,3,15,5,12,7,11)` | 4 | 5 |
 | 9 | `(17,1,18,0,15,4,12,7,9,8,11,5,14,2,16,3,13,6,10)` | 6 | 7 |
+| 11 | `(18,4,19,3,20,2,21,1,22,0,13,10,11,9,14,7,16,8,12,6,17,5,15)` | 2 | 3 |
+| 11 | `(19,3,20,2,21,1,22,0,15,6,16,10,11,9,12,8,13,5,17,4,18,7,14)` | 4 | 5 |
+| 11 | `(20,2,21,1,22,0,17,3,19,4,14,10,11,9,12,6,18,5,16,7,15,8,13)` | 6 | 7 |
+| 11 | `(21,1,22,0,19,2,20,4,16,7,13,10,11,9,14,6,17,3,18,5,15,8,12)` | 8 | 9 |
 
 Every tuple uses `0,…,2k` once and alternates across `A=k−1`. The consecutive edge differences are:
 
@@ -107,6 +111,10 @@ Every tuple uses `0,…,2k` once and alternates across `A=k−1`. The consecutiv
 | 9 | 2 | `(12,13,14,15,16,17,18,11,3,1,2,6,9,10,8,4,5,7)` |
 | 9 | 4 | `(14,15,16,17,18,13,9,6,2,1,3,8,11,12,10,7,5,4)` |
 | 9 | 6 | `(16,17,18,15,11,8,5,2,1,3,6,9,12,14,13,10,7,4)` |
+| 11 | 2 | `(14,15,16,17,18,19,20,21,22,13,3,1,2,5,7,9,8,4,6,11,12,10)` |
+| 11 | 4 | `(16,17,18,19,20,21,22,15,9,10,6,1,2,3,4,5,8,12,13,14,11,7)` |
+| 11 | 6 | `(18,19,20,21,22,17,14,16,15,10,4,1,2,3,6,12,13,11,9,8,7,5)` |
+| 11 | 8 | `(20,21,22,19,17,18,16,12,9,6,3,1,2,5,8,11,14,15,13,10,7,4)` |
 
 Each difference tuple is a permutation of `1,…,2k`, so these are directly checkable α-path certificates. Composition supplies their zero depths, and complementation supplies their maximum depths.
 
@@ -116,6 +124,9 @@ Each difference tuple is a permutation of `1,…,2k`, so these are directly chec
 | 5 | 1,2,4,5 | 3 | 1,…,5 |
 | 7 | 1,2,6,7 | 3,4,5 | 1,…,7 |
 | 9 | 1,2,8,9 | 3,4,5,6,7 | 1,…,9 |
+| 11 | 1,2,10,11 | 3,4,5,6,7,8,9 | 1,…,11 |
+
+For `k=11`, the four additional paths have midpoint label `A=10` and certify zero/maximum depth pairs `(2,3)`, `(4,5)`, `(6,7)` and `(8,9)`. Put `Q=11(n−2)+m`. The composition uses intervals `[0,10]`, `[10,10+Q]` and `[11+Q,22+Q]`, with only the shared center repeated before identification. Its difference intervals are `1,…,Q` and `Q+1,…,Q+22`. Thus the four paths supply depths `2,…,9` for every `n≥2,m≥0`. The odd formula with `r=5` supplies depth 1, while leaf extension supplies depths 10 and 11. The four certificates therefore complete the eleven-edge family, including the path case `n=2,m=0`; this is a proved finite-length extension, not an extrapolation to larger odd lengths.
 
 The center and every existing short leaf are already covered. Whole-arm permutations put each depth construction on any prescribed long arm. This covers every vertex and completes the theorem. It does not rely on claiming that this list gives exactly the automorphism orbits in every degenerate case.
 
@@ -144,40 +155,57 @@ For the diameter-6 row, the 2 long arms form a path and extra center leaves pres
 
 Panpa–Imnang–Wasuanankul (2025), Theorems 3.2–3.4, give center zero for 3 legs, prescribed-leaf zero for 4 legs, and gracefulness for 5 legs. “5 legs” means total legs. These statements do not supply all interior zero positions for arbitrary arm counts. See their [original paper](https://onlinelibrary.wiley.com/doi/full/10.1155/jama/5826777). Shan–Zhong (2026), Theorem 5, gives gracefulness when all but 3 arms have length at most 2; Lemma 1 restates the α-amalgamation used here. See [version 2](https://arxiv.org/html/2605.14295v2).
 
-No checked primary source in the focused literature audit states the full two-parameter theorem for `k=5,7,9`. This supports a comparison with those sources, not a claim of first proof. Original texts from 1977 and 1982, the full Cattell paper, simultaneous prescribed-label path results, and complete citation chains remain incompletely checked. Earlier tables or stronger composition results could subsume these applications. Publication priority for the theorem, the finite certificates, and the method is unresolved.
+The focused literature audit for the first four lengths and the separate `k=11` primary-source cross-check did not locate a full two-parameter prescribed-zero theorem for `k=5,7,9,11` in the sources they checked. For `k=11`, the path cases `n=2,m=0` and the central-leaf cases `n=2,m=1` are already covered by the same earlier path and caterpillar results. The diameter-6 theorem concerns the `k=3` row; two eleven-edge arms instead have diameter 22. This supports a comparison with those sources, not a claim of first proof. Original texts from 1977 and 1982, the full Cattell paper, simultaneous prescribed-label path results, and complete citation chains remain incompletely checked. Earlier tables or stronger composition results could subsume these applications. Publication priority for the theorem, the finite certificates, and the method is unresolved.
 
 ## Reproduction and independent internal checks
 
-The [source package](../README.md) contains the proof, certificates, constructor, both checkers, and audit reports. A [proof ZIP](../REPRODUCIBILITY.md) provides the same reproducibility files. From `families/` in a checkout, or from the root of an extracted ZIP, run:
+The [source package](../README.md) separates the two audited scopes. The [first proof](../proof.md), [six certificates](../certificates.json), `construct.py`, `verify.py` and the first independent checker concern `k∈{3,5,7,9}`. The [eleven-edge proof](../k11/proof.md), [four additional certificates](../k11/certificates.json), `k11/check.py` and the [k11 independent audit](../k11/independent/AUDIT.md) concern `k=11`. The combined theorem follows from these two proofs and the ten exact paths printed above.
+
+A [proof ZIP](../REPRODUCIBILITY.md) contains the same `families/` tree. From the repository root, or from the extracted directory containing `families/`, run:
 
 ```sh
-python -B verify.py
-python -B independent/verify_independent.py
-python -B construct.py 9 3 1 5
+python -B families/verify.py
+python -B families/independent/verify_independent.py
+python -B families/k11/check.py
+python -B families/k11/independent/verify_independent.py
+python -B families/construct.py 9 3 1 5
 ```
 
-The last command prints a labeling for `S(9^3,1^1)` with zero at depth 5 on a representative arm. For an exact prescribed vertex, the constructor exposes `prescribed_zero(k,n,m,target)`, with center `'c'`, long-arm vertex `('a',i,j)` and short leaf `('p',s)`, where `0≤i<n`, `1≤j≤k`, `0≤s<m`. It moves whole arms when transferring an interior zero.
+The last command prints a labeling for `S(9^3,1^1)` with zero at depth 5 on a representative arm. That supplied constructor's supported lengths remain `3,5,7,9`; it is not a constructor API for `k=11`. For its supported lengths it exposes `prescribed_zero(k,n,m,target)`, with center `'c'`, long-arm vertex `('a',i,j)` and short leaf `('p',s)`, where `0≤i<n`, `1≤j≤k`, `0≤s<m`. The independent k11 verifier builds actual labelings at every requested vertex in its test matrix, including centers, short leaves, tips and interior arm vertices.
 
-The original checker records 1,440 center-formula checks, 100 odd-path checks, all 6 certificates, 652 representative labelings, 2,352 exact-zero checks, and 2 rejected corruptions. The separate checker uses its own vertex representation and independently written construction. It imports neither the original checker nor the search program; a second test track uses the supplied constructor only to produce witnesses.
+For the first four lengths, the original checker records 1,440 center-formula checks, 100 odd-path checks, six certificates, 652 representative labelings, 2,352 exact-zero checks, and two rejected corruptions. Its separate audit uses its own vertex representation and independently written construction. It imports neither the original checker nor the search program; a second track uses the supplied constructor only to produce witnesses.
 
-| Separate internal check | Recorded scope |
+| Separate internal check for `k∈{3,5,7,9}` | Recorded scope |
 | --- | --- |
 | Center formula | 5,376 checks; `k=1,…,64`, `h=0,…,20`, `m∈{0,1,7,50}` |
 | Odd path formula | 200 checks; odd `k=3,…,401` |
-| Finite certificates | all 6 |
+| Finite certificates | six |
 | Exact zero vertex, own implementation | 16,368 checks |
 | Exact zero vertex, supplied implementation | 16,368 checks |
 | Full vertex test matrix | `k∈{3,5,7,9}`, `n=2,…,12`, `m=0,…,7` |
 | Large parameters | 208 checks across both implementations; `(n,m)=(2,10000),(1000,0),(100,100)` |
-| Negative controls | 3 rejected cases: duplicate labels, wrong zero vertex, wrong α-threshold |
-| Even-route finite diagnostic | 6 permutations for `k=2`; 5,040 for `k=4` |
+| Negative controls | three rejected cases: duplicate labels, wrong zero vertex, wrong α-threshold |
+| Even-route finite diagnostic | six permutations for `k=2`; 5,040 for `k=4` |
 
-All reported checks pass. Both checkers write their JSON reports beside themselves, so run them in a writable extracted copy. The package requires Python 3.10 or later and the standard library. Run the supplied checker without Python optimization (`-O`), because it uses assertions; the independent checker uses explicit errors. The [reproduction guide](../REPRODUCIBILITY.md) explains the file hashes, extracted checks and recorded results. The proof of the infinite quantifiers is the interval argument and complete depth coverage, rather than the finite test bounds.
+For `k=11`, the supplied `check.py` separately records four exact certificates, 1,680 composed labelings with the zero checked at an exact arm vertex, and two rejected corruptions. Its grid uses `n∈{2,3,4,5,8,20}`, `m∈{0,1,2,5,30}`, both extremes of each certificate, and every arm. A further internal agent audit independently checked the proof and implemented center, tip, short-leaf and interior constructions without importing the code under review.
+
+| Separate internal check for `k=11` | Recorded scope |
+| --- | --- |
+| Center-zero examples | 84, including the one-vertex residual graph |
+| Finite certificates | all four; label, difference, threshold, midpoint and extreme-depth checks |
+| Exact prescribed vertices | 7,172; every vertex for `n=2,…,12`, `m=0,…,7` |
+| Path boundary | all 23 vertices at `n=2,m=0` |
+| Large-parameter compositions | 48; `(n,m)=(2,10000),(1000,0),(100,100)`, all four paths, both extremes, selected arms 0 and `n−1` |
+| Negative controls | three rejected corruptions of certificates or extreme-depth claims |
+
+All recorded checks pass. These are separate reports with stated scopes, not counts from a single combined test run. The checkers use Python 3.10 or later and the standard library. Run them in a writable copy because some write result files. The supplied `verify.py` and `k11/check.py` use assertions and must be run without optimization (`-O`); the independent verifiers use explicit errors. The [reproduction guide](../REPRODUCIBILITY.md) documents the release files and checks.
+
+Search code is not needed to verify the printed witnesses. The k11 search fixes midpoint label 10, the zero and maximum positions, and the alpha sides. Its reported successful large-run counts were not independently reproduced by the mathematical auditor. A budget cutoff means `UNKNOWN`, not nonexistence, and any completed restricted exhaustion would apply only to those chosen constraints. No exhaustive search claim is used in the proof. The infinite quantifiers follow from the interval argument and complete depth coverage.
 
 ## AI work and review status
 
-AI agents developed the α-path reduction and odd-length formula, searched for the 6 finite certificates, wrote the constructor and original multiset checker, and prepared the source proof. The original construction and checker were produced in the same research session. A separate AI agent reviewed the mathematical argument, implemented a second construction and checker without importing the search or original checker, and tested exact prescribed vertices in both implementations. Another separate AI review checked primary-source hypotheses and the older boundary-family overlap. AI also drafted this English exposition and the German and Chinese translations.
+AI agents developed the α-path reduction and odd-length formula, searched for the first six finite certificates, wrote the constructor and original multiset checker, and prepared the source proof. The original construction and checker were produced in the same research session. A separate AI agent reviewed the mathematical argument, implemented a second construction and checker without importing the search or original checker, and tested exact prescribed vertices in both implementations. Another separate AI review checked primary-source hypotheses and the older boundary-family overlap. A later AI-assisted search produced the four eleven-edge certificates, and a separate agent reviewed that extension and implemented its own verifier without importing the search or supplied checker. AI drafted the present combined English and German texts from those proofs and reports.
 
-These are specific internal research and audit activities. The separate mathematical audit found no missing zero positions or gap in the unbounded argument and accepted the stated theorem, partial result and narrowly scoped even-route obstruction. Its independence concerns separate implementation and review within the AI workflow. No external mathematician's review, peer review or proof-assistant formalization has been completed. German and Chinese remain translation drafts pending human language review. The project owner retains the release decision; this note makes no novelty or priority claim.
+These are specific internal research and audit activities. The original separate mathematical audit accepted the four-length theorem, general partial result and narrowly scoped even-route obstruction. The later audit accepted the `k=11` extension and its union with those four lengths, finding no omitted vertex or parameter restriction. Its independence concerns separate implementation and review within the AI workflow. No external mathematician's review, peer review or proof-assistant formalization has been completed. The German companion text remains a translation draft awaiting human language review. The project owner retains the release decision; this note makes no novelty or priority claim.
 
-The remaining mathematical question is whether, for every odd `k≥3` and every even depth `d` with `2≤d≤k−3`, an α-labeled `P_(2k+1)` can have midpoint label `k−1`, zero at depth `d`, and maximum `2k` at depth `d+1`. A uniform construction meeting that condition would extend the proof to all odd arm lengths. No such construction is proved here.
+The four extra witnesses settle the eleven-edge case within this construction. The remaining mathematical question is whether, for every odd `k≥3` and every even depth `d` with `2≤d≤k−3`, an α-labeled `P_(2k+1)` can have midpoint label `k−1`, zero at depth `d`, and maximum `2k` at depth `d+1`. A uniform construction meeting that condition would extend the proof to all odd arm lengths. No such construction is proved here.
