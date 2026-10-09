@@ -1,0 +1,55 @@
+{
+  "status": "PRIVATE AUTHOR CANDIDATE; AUDIT PENDING",
+  "files": [
+    {
+      "path": "certificates.json",
+      "bytes": 10540987,
+      "sha256": "2d717e2243f9d390fc18df7ef1ae5fdea00e0a2076859232f3ccb5507ee4d270"
+    },
+    {
+      "path": "check.py",
+      "bytes": 6099,
+      "sha256": "ef25847cf49fe083c1684e0a4e5477988bf7347fd72871bbfc90880a38626d37"
+    },
+    {
+      "path": "checks-normal.json",
+      "bytes": 173,
+      "sha256": "73a344d3e768b25bfbd9c6f8b53a2cdf986a466d17c79c5278c9e3f7ce2491f7"
+    },
+    {
+      "path": "checks-optimized.json",
+      "bytes": 173,
+      "sha256": "73a344d3e768b25bfbd9c6f8b53a2cdf986a466d17c79c5278c9e3f7ce2491f7"
+    },
+    {
+      "path": "construct.py",
+      "bytes": 2945,
+      "sha256": "7718922a3f2e8055ff6568163b5bb5b6f76aa9d31153abbd7e67a5ff57bd556e"
+    },
+    {
+      "path": "data.json",
+      "bytes": 3963,
+      "sha256": "3eec37728f84b9462617615163880a0ba8a04e451cf9edf4831ec55000a75685"
+    },
+    {
+      "path": "freeze.py",
+      "bytes": 1206,
+      "sha256": "0d906e958444e458f65f68592f99dbfb6198ed75b283d58ef1e2f1c375e7e5fb"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 2045,
+      "sha256": "c19755b160266c36339919b085b148571bae75a863e8fae724203bd7c874f15f"
+    },
+    {
+      "path": "report.md",
+      "bytes": 13908,
+      "sha256": "680c39948d7562214de814052eda2bf0bf1b59fa642a757e33c7a4cd82a4014e"
+    },
+    {
+      "path": "source-inputs.json",
+      "bytes": 3692,
+      "sha256": "36459176a973879b8f9f3027358afa28df68372f14f426ba91d82a19bd66eb78"
+    }
+  ]
+}

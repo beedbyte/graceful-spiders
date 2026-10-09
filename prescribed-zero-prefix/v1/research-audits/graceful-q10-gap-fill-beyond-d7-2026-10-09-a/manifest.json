@@ -1,0 +1,34 @@
+{
+  "report.md": {
+    "sha256": "3150df1b1f6296c580eebf5c2bc4b7bba9b6ae97436b0ebfbb821f70c41658a6",
+    "bytes": 12123
+  },
+  "check.py": {
+    "sha256": "34935d2f44e14eaaaecf992fc5b94e2cfdcee2df8133390d555037cd91bff54e",
+    "bytes": 10771
+  },
+  "recipes.json": {
+    "sha256": "c75580b48588b48cbf41d9631b0f3a0028c2c0d7cbeb4729fb79022b3f8dddf7",
+    "bytes": 936
+  },
+  "seeds.json": {
+    "sha256": "ae988ac1c5df4d2b284fdaf3ba6beb3d6083cca2efa494c9b7097799d57aceba",
+    "bytes": 811
+  },
+  "inputs.json": {
+    "sha256": "4f3919bacef8832bfd8f21633e7b6c31d450b22373f68338f4fc78ede435b18a",
+    "bytes": 1236
+  },
+  "context.json": {
+    "sha256": "1d405b33c57dac78104f47951d04c9322b6bc7ac6b8f8f73dbe01c5f59aadc88",
+    "bytes": 90
+  },
+  "verification-normal.json": {
+    "sha256": "4ad9b776c0160c56ae06d0286ca28ffeb9906ee27c7b81fa58195593277022f5",
+    "bytes": 2118
+  },
+  "verification-optimized.json": {
+    "sha256": "4ad9b776c0160c56ae06d0286ca28ffeb9906ee27c7b81fa58195593277022f5",
+    "bytes": 2118
+  }
+}

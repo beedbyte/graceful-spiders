@@ -1,0 +1,60 @@
+[
+  {
+    "source": "research-audits/graceful-uniform-manuscript-draft-2026-10-09-v10/article.en.md",
+    "source_sha256": "04b6c4509ba3c9cd061a509e871aea4fde29b288da384d08c1c622cc3987a85f",
+    "public_path": "manuscript.md",
+    "public_sha256": "0c1b07c80674fe45c4e79f9334c50910e1b433522d98569252a14a9d68c16d7c",
+    "scope": "new header/link overlay; source originals untouched"
+  },
+  {
+    "source": "research-audits/graceful-uniform-manuscript-draft-2026-10-09-v10/article.de.md",
+    "source_sha256": "86e5b6b54fb56441216f225a0df8388cec7585496803e0ca5de5756096cfee7d",
+    "public_path": "manuscript.de.md",
+    "public_sha256": "66f31c3e74d7151c16c2dab8f6860fc6666cf3061de5ab0f4973a399f40eeee5",
+    "scope": "new header/link overlay; source originals untouched"
+  },
+  {
+    "source": "research-audits/graceful-uniform-manuscript-draft-2026-10-09-v10/article.zh.md",
+    "source_sha256": "222c8b8f1c59b2691e69d4a84e2535491a4a8390a3f3776c5608c29f98fb8b8b",
+    "public_path": "manuscript.zh.md",
+    "public_sha256": "bc16a5e13f12e528b3c513cca27dae3a35bd85ac46420a854e26616fde8c18fc",
+    "scope": "new header/link overlay; source originals untouched"
+  },
+  {
+    "source": "research-audits/graceful-ten-elevenths-global-2026-10-09-a/verify.py",
+    "source_sha256": "8d3e1321bdbbf1477d86b8fa0ad4816555dd9897735fbefec82024347b2c38d2",
+    "public_path": "run_math.py",
+    "public_sha256": "e0360b7581009b68137f909e32ff352de45f4e837c224b23b3a7b642dc5167d7",
+    "scope": "runner applies one provenance-only in-memory lookup overlay for omitted environment-bearing report; all frozen mathematical source files remain byte-identical. Recorded omitted report identity is not fresh public byte verification."
+  },
+  {
+    "public_path": "run_math.py",
+    "predecessor_public_sha256": "e0360b7581009b68137f909e32ff352de45f4e837c224b23b3a7b642dc5167d7",
+    "public_sha256": "bec4e390cfc0fe47820860007d029eada5ee30beb0dc9b1520ee68061d2cb70c",
+    "scope": "Extend documented in-memory provenance-only lookup to D8-author/D8-audit when omitted internal instructions are referenced; original mathematical source programs unchanged."
+  },
+  {
+    "public_path": "manuscript.md",
+    "predecessor_public_sha256": "0c1b07c80674fe45c4e79f9334c50910e1b433522d98569252a14a9d68c16d7c",
+    "public_sha256": "233e9424486b31935a759eed25964920204d5e432e7f1b9e85d9f343404f9f93",
+    "scope": "v5 D8-only current scope overlay; standalone near-tip/broom discussion or source record removed, frozen originals unchanged"
+  },
+  {
+    "public_path": "verification-scope.md",
+    "predecessor_public_sha256": "efa1354ed807f562a52423a3739e18123db09841d6ff7a9f77b8965842bfcb4e",
+    "public_sha256": "83a169208fd16cbaa7f2b1bd616a7cb793d13ee798d62664c19a247d25aa379b",
+    "scope": "v5 D8-only current scope overlay; standalone near-tip/broom discussion or source record removed, frozen originals unchanged"
+  },
+  {
+    "public_path": "research-audits/graceful-ten-elevenths-primary-priority-2026-10-09-a/report.md",
+    "predecessor_public_sha256": "57ff3eb6569863a74208bfc9a1f6a2cac5b1e262e89d061d6c56191ca378b58f",
+    "action": "omit_from_v5_distribution",
+    "scope": "QA whitelist: standalone D7 priority comparison is outside D8 distribution and not a proof/verifier input"
+  },
+  {
+    "public_path": "manuscript.md",
+    "predecessor_public_sha256": "233e9424486b31935a759eed25964920204d5e432e7f1b9e85d9f343404f9f93",
+    "public_sha256": "d2032d60a86901f33e7a37f521fcc84ecd9b1445ccea2bcd1bf47cbe7dc9f33a",
+    "scope": "Remove current sentence implying omitted D7 comparison is retained in ZIP; retain D5 background original ID as plain text without a link to removed identity row. Frozen originals unchanged."
+  }
+]

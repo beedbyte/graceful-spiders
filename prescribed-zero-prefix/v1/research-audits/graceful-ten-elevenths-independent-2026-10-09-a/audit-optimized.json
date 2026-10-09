@@ -1,0 +1,24 @@
+{
+  "base_certificates_sha256": "ff11d8cc5da7dd823baa0ca3f0ac016835977b125f16c575cf4181f1b3814513",
+  "base_depth_certificates": 371,
+  "base_interval": [
+    83,
+    "F(p)"
+  ],
+  "counts": {
+    "base_spiders": 4452,
+    "compiled_recipes": 842,
+    "induction_spiders": 940,
+    "length_arithmetic": 199982,
+    "negative_controls": 13,
+    "size_arithmetic": 99940
+  },
+  "graph_counts": {
+    "actual_spiders": 5392,
+    "core_checks": 24972,
+    "gadget_checks": 1,
+    "graph_insertions": 5104
+  },
+  "nonregression_minimum_residue_gap": 2,
+  "status": "PASS"
+}

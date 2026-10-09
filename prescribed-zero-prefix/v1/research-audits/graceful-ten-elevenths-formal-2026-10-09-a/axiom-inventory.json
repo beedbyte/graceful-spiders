@@ -1,0 +1,2963 @@
+{
+  "GracefulBoundary.seed2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.seed3_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.first_even_step_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.first_odd_step_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.bump_positive": [
+    "propext"
+  ],
+  "GracefulBoundary.old_positive_band": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.high_gadget": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.low_gadget": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.inserted_sums_exact": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.gadget_edges": [],
+  "GracefulBoundary.retained_sum_range": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.recurrence_sum_partition": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.recurrence_sum_disjoint": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.shifted_sum_injective": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.shifted_edge_sum": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.next_anchor_index": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.next_last_value": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.induction_from_two_seeds": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.core_difference": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.core_difference_band": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.count_band": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.shell_differences_exact": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.alphaShift_injective": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.alphaShift_crossing": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.translate_difference": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.mixed_label_collision": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.amalgam_label_coverage": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.complement_difference": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.complement_max_zero": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graftLabel_embed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_vertices": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.distance_comm": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.alphaShift_edge": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_weight_left": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_weight_right": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graceful_graft": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.decode_core_sums": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.shell_plus_core_differences": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.seed2_full_path": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.seed3_full_path": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graceful_complement": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_zero_anchor": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_max_anchor": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.uniform_cores_if_recurrence": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.extend_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.core_boundary_contract": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_center_zero": [],
+  "GracefulBoundary.spider_size_accounting": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.sides_cons": [],
+  "GracefulBoundary.highs_cons": [],
+  "GracefulBoundary.lows_cons": [],
+  "GracefulBoundary.sides_append": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.sides_map": [
+    "propext"
+  ],
+  "GracefulBoundary.count_sides": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.core_zero_count": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.split_two": [
+    "propext"
+  ],
+  "GracefulBoundary.core_parts_positive": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.map_bump_of_positive": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.highs_append": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.lows_append": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.highs_map": [
+    "propext"
+  ],
+  "GracefulBoundary.lows_map": [
+    "propext"
+  ],
+  "GracefulBoundary.surgery_highs": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.surgery_lows": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.bump_range": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.side_interval_extension": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.extend_side_partitions": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.edgeSums_overlap": [
+    "propext"
+  ],
+  "GracefulBoundary.edgeSums_join": [
+    "propext"
+  ],
+  "GracefulBoundary.edgeSums_shift": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.surgery_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.old_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.remove_three_sum_values": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.shifted_rest_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.enlarged_sum_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.core_part_boundaries": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.extend_edge_partition": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.surgery_patch_index": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.extend_endpoints_anchors": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.recurrence_preserves_invariant": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.uniform_anchored_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.decode_zipIdx": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.coreLabels_decode": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.decode_side_permutations": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.boundary_entries_small": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.decode_core_edge_values": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.reflected_range": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.decoded_core_labels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.pairs_perm": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.opposite_pairs_labels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.shell_labels_partition": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.complete_path_labels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.coreLabels_lookup": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.coreLabels_length": [
+    "propext"
+  ],
+  "GracefulBoundary.decoded_core_boundaries": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.edgeDiffs_join": [
+    "propext"
+  ],
+  "GracefulBoundary.edgeDiffs_overlap": [
+    "propext"
+  ],
+  "GracefulBoundary.edgeDiffs_reverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.selected_arm_differences": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.pair_block_differences": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.opposite_arm_differences": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.full_path_edge_decomposition": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.complete_path_differences": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.cross_symm": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.crosses_prepend": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.crosses_join": [
+    "propext"
+  ],
+  "GracefulBoundary.crosses_reverse": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.crosses_overlap": [],
+  "GracefulBoundary.decoded_core_crosses": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.selected_arm_crosses": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.pair_block_crosses": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.opposite_arm_crosses": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.complete_path_crosses": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.selected_arm_length": [
+    "propext"
+  ],
+  "GracefulBoundary.complete_path_midpoint": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.boundary_shell_bridge": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.complete_path_core_lookup": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.core_to_path_bridge": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.uniform_midpoint_alpha_paths": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.list_band_bijection": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.edgeDiffs_lookup": [
+    "propext"
+  ],
+  "GracefulBoundary.crosses_lookup": [
+    "propext"
+  ],
+  "GracefulBoundary.list_path_graceful": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.list_path_alpha": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.certificate_graph": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.certificate_graph_anchors": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.rectangle_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.band_precompose": [],
+  "GracefulBoundary.mirror_mirror": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.vertexDecode_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.vertexCode_decode": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_arm_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_arm_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_vertex_band": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.unfolded_folded": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.folded_unfolded": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.edgeDecode_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.edgeCode_decode": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_arm_weight_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_arm_edge_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_leaf_weight": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_edge_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.residual_gracefulness": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.certificate_graft": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.certificate_graft_anchors": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.uniform_boundary_grafts": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graceful_transport": [
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graftToSpider_left": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graftToSpider_right": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_spider_left_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_spider_right_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.edge_graft_spider_left_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.edge_graft_spider_right_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.embed_left": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.embed_right": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_spider_weights": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graft_graceful_on_spider": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.zero_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.maximum_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.uniform_first_arm_spiders": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.swapIndex_first": [
+    "propext"
+  ],
+  "GracefulBoundary.swapIndex_second": [
+    "propext"
+  ],
+  "GracefulBoundary.swapIndex_involution": [
+    "propext"
+  ],
+  "GracefulBoundary.swapVertex_involution": [
+    "propext"
+  ],
+  "GracefulBoundary.swapEdge_involution": [
+    "propext"
+  ],
+  "GracefulBoundary.swap_weights": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.graceful_swap": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.uniform_selected_arm_anchors": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.first_pair_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.first_pair_at_depth": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.seed2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.seed3_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.seed4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.seed5_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.extend_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.core_zero_count": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.core_parts_positive": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.extend_side_partitions": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.core_part_boundaries": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.extend_edge_partition": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.extend_endpoints_anchors": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.recurrence_preserves_invariant": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.strong_core_is_anchored": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.uniform_strong_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.uniform_anchored_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.exceptional_neighbours": [
+    "propext"
+  ],
+  "GracefulBoundary.SecondPair.rejects_recurrence_from_seed2": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.rejects_recurrence_from_seed3": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.core_to_path_bridge": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.uniform_midpoint_alpha_paths": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.certificate_graph": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.certificate_graph_anchors": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.certificate_graft": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.certificate_graft_anchors": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.uniform_boundary_grafts": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.zero_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.maximum_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.uniform_first_arm_spiders": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.uniform_selected_arm_anchors": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.second_pair_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.SecondPair.second_pair_at_depth": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.four_depths_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.seed3_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.seed4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.seed5_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.seed6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.extend_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.core_zero_count": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.core_parts_positive": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.extend_side_partitions": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.core_part_boundaries": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.extend_edge_partition": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.extend_endpoints_anchors": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.recurrence_preserves_invariant": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.strong_core_is_anchored": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.uniform_strong_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.uniform_anchored_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.weak_seed4_surgery_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.direct2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.complete_path_endpoints": [
+    "propext"
+  ],
+  "GracefulBoundary.ThirdPair.core_to_path_bridge": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.uniform_midpoint_alpha_paths": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.certificate_graph": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.certificate_graph_anchors": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.certificate_graph_endpoints": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.certificate_graft": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.certificate_graft_anchors": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.uniform_boundary_grafts": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.zero_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.maximum_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.uniform_first_arm_spiders": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.uniform_selected_arm_anchors": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.third_pair_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ThirdPair.third_pair_at_depth": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.six_depths_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.gadget_inserted": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.gadget_lengths": [],
+  "GracefulBoundary.Variable.gadget_boundaries": [],
+  "GracefulBoundary.Variable.surgery_highs": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.surgery_lows": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.bump9_positive": [
+    "propext"
+  ],
+  "GracefulBoundary.Variable.map_bump9_positive": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.edgeSums_shift9": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.edgeSums_right_head": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.edgeSums_left_last": [
+    "propext"
+  ],
+  "GracefulBoundary.Variable.middle_edges": [],
+  "GracefulBoundary.Variable.surgery_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.bump_range": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.side_interval_extension": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.decomposition": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.part_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.parts_positive": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.part_boundaries": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.extend_sides": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.shifted_rest_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.enlarged_sum_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.extend_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.extend_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.surgery_patch_index": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.gadget_patch": [
+    "propext"
+  ],
+  "GracefulBoundary.Variable.extend_endpoints": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.extend_patch": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.q9_preserves_invariant": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.gadget_for_increment": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.interval_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.interval_depth_pair": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedA2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedA3_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedA4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB9_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB11_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB12_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB13_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB14_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB15_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedB16_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedsA": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.seedsB": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.theoremA_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.theoremB_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.graftToSpider_left": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.graftToSpider_right": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.graft_spider_left_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.graft_spider_right_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.edge_graft_spider_left_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.edge_graft_spider_right_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.embed_left": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.embed_right": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.graft_spider_weights": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.graft_graceful_on_spider": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.core_to_path": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.certificate_graph": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.certificate_graph_anchors": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.certificate_graft": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.certificate_graft_anchors": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.zero_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.maximum_anchor_identification": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.core_first_arm_spiders": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.core_selected_arm": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.core_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.theoremA_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.theoremB_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.complete_path_endpoint_labels": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.theoremA_interval_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.theoremB_interval_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.theoremB_odd_arm_length": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FiniteAlpha.first_arm": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FiniteAlpha.prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.side_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.sum_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.edgeSums_add": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.edgeSums_append_known": [
+    "propext"
+  ],
+  "GracefulBoundary.FixedDepth.append_boundary_core": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.append_pair": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.core_pair_to_certificate": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.core_pair_spider_transfer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_3_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_5_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_7_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B6_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_3_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_5_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_7_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.B9_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.repeatedBlock_boundary": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.FixedDepth.seed_pair_for_depth": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.gadget_inserted": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.gadget_lengths": [],
+  "GracefulBoundary.Variable.Q18.gadget_boundaries": [],
+  "GracefulBoundary.Variable.Q18.surgery_highs": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.surgery_lows": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.bump18_positive": [
+    "propext"
+  ],
+  "GracefulBoundary.Variable.Q18.map_bump18_positive": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.edgeSums_shift18": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.edgeSums_right_head": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.edgeSums_left_last": [
+    "propext"
+  ],
+  "GracefulBoundary.Variable.Q18.middle_edges": [],
+  "GracefulBoundary.Variable.Q18.surgery_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.bump_range": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.side_interval_extension": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.extend_sides": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.shifted_rest_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.enlarged_sum_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.extend_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.extend_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.surgery_patch_index": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.gadget_patch": [
+    "propext"
+  ],
+  "GracefulBoundary.Variable.Q18.extend_endpoints": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.extend_patch": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.q18_preserves_invariant": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.paired_step": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.paired_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.interval_cores_plus": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.interval_depth_pair_plus": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.theoremA_plus_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Variable.Q18.theoremB_plus_cores": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.anchored_to_pair": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.b_plus_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.coverage_step": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.overlap_windows": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.consecutive_closure": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.eventual_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.eventual_depth_bound": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Eventual.eventual_fixed_depth_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B8_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B8_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B8_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B8_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B8_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B9_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B9_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B9_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B9_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B9_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B10_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B10_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B10_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B10_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B10_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B11_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B11_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B11_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B11_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B11_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B12_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B12_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B12_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B12_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B12_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B13_2_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B13_4_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B13_6_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B13_8_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.B13_10_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.small_seed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.steps_spec": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.upper_monotone": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.steps_minimal": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.coverage_append": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.coverage_grow": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.residue_selection": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.coverage_from_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.coverage_small": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.coverage_large": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.cutoff_ge_nineteen": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.cutoff_depth_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.odd_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.odd_pair_certificate": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.all_odd_eventual_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.prefix_threshold": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.prefix_inside": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.all_odd_prefix_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.core_size_units": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.prefix_error_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.prefix_ratio_precision_limit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.rooted_path_accounting": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.certificate_rooted_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllOdd.all_odd_rooted_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_12_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_14_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_16_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_18_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_20_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_22_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_24_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C16_26_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_12_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_14_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_16_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_18_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_20_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_22_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_24_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C17_26_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_12_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_14_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_16_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_18_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_20_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_22_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_24_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C18_26_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_12_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_14_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_16_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_18_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_20_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_22_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_24_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C19_26_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_12_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_14_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_16_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_18_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_20_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_22_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_24_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C20_26_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_12_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_14_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_16_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_18_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_20_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_22_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_24_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.C21_26_valid": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.compatible_seed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.steps_spec": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.upper_monotone": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.steps_minimal": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.seed_interval_selection": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.residue_selection": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.coverage_from_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.coverage_large": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.cutoff_ge_nineteen": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.cutoff_depth_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.odd_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.all_odd_eventual_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.prefix_threshold": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.prefix_inside": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.all_odd_prefix_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.prefix_error_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Compatible.prefix_ratio_precision_limit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.rectangle_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.band_precompose": [],
+  "GracefulBoundary.EvenResidual.mirror_mirror": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.vertexDecode_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.vertexCode_decode": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_arm_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_arm_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_vertex_band": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.unfolded_folded": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.folded_unfolded": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.edgeDecode_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.edgeCode_decode": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_arm_weight_code": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_arm_edge_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_leaf_weight": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_edge_band": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.EvenResidual.residual_gracefulness": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.graftToSpider_left": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.graftToSpider_right": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.graft_spider_left_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.graft_spider_right_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.edge_graft_spider_left_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.edge_graft_spider_right_inverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.embed_left": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.embed_right": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.graft_spider_weights": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.graft_graceful_on_spider": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.core_difference": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.decode_core_edge_values": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.reflected_range": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.decoded_core_labels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.opposite_pairs_labels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.shell_labels_partition": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.complete_path_labels": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.decoded_core_boundaries": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.selected_arm_differences": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.pair_block_differences": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.opposite_arm_differences": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.full_path_edge_decomposition": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.reflected_sums": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.complete_path_differences": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.decoded_core_crosses": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.selected_arm_crosses": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.pair_block_crosses": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.opposite_arm_crosses": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.complete_path_crosses": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.selected_arm_length": [
+    "propext"
+  ],
+  "GracefulBoundary.Even.complete_path_midpoint": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.boundary_shell_bridge": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.complete_path_core_lookup": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.first_arm": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.core_pair_to_certificate": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Even.core_pair_spider_transfer": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.even_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.all_even_eventual_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.all_lengths_eventual_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.all_lengths_prefix_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.prefix_inside": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.cutoff_depth_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.prefix_error_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.AllLengths.prefix_ratio_precision_limit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.sides_reverse": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.edgeSums_reverse": [
+    "propext"
+  ],
+  "GracefulBoundary.ReverseComplement.reflect_range": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.complement_sums": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.transform_boundary": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.transform_involution": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.transform_lookup": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.adjacent_zeros_coverage": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.extend_prefix_lookup": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.extend_tracks_maximum": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.source_step_four": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.source_step_six": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.source_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.source_reflects_to_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.interval_depth_selection": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.source_interval_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.selected_gadget_signatures": [],
+  "GracefulBoundary.ReverseComplement.seed16_tracks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.seed17_tracks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.seed18_tracks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.seed19_tracks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.seed20_tracks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.seed21_tracks": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.residue_seed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.common_residue_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.core_prefix_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.odd_prefix_identity": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.even_prefix_identity": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.odd_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.even_prescribed_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.all_lengths_prefix_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.steps_spec": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.steps_minimal": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.cutoff_ge_nineteen": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.cutoff_covers": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.all_lengths_eventual_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.prefix_error_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.prefix_inside": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.cutoff_depth_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.prefix_dominates_D5": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.ReverseComplement.prefix_ratio_precision_limit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.gadget_inserted": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.gadget_lengths": [],
+  "GracefulBoundary.Q11.gadget_boundaries": [],
+  "GracefulBoundary.Q11.surgery_highs": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.surgery_lows": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.bump11_positive": [
+    "propext"
+  ],
+  "GracefulBoundary.Q11.map_bump11_positive": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.edgeSums_shift11": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.edgeSums_right_head": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.edgeSums_left_last": [
+    "propext"
+  ],
+  "GracefulBoundary.Q11.middle_edges": [],
+  "GracefulBoundary.Q11.surgery_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.bump_range": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.side_interval_extension": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.decomposition": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.part_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.parts_positive": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.part_boundaries": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.extend_sides": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.shifted_rest_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.enlarged_sum_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.extend_sums": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.extend_length": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.surgery_patch_index": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.gadget_patch": [
+    "propext"
+  ],
+  "GracefulBoundary.Q11.extend_endpoints": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.extend_patch": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.q11_preserves_invariant": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.extend_prefix_lookup": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.extend_tracks_maximum": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.source_step": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.source_iterate": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.exact_seed": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.recipe_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.finite_cover_recipe": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.finite_cover_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.base_finite_cover": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.bridge_finite_cover": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.F_shift": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.valid_lift": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.bridge_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.base_core_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.growing_core_interval": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.all_depth_core_coverage": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.nonregression_finite": [],
+  "GracefulBoundary.Q11.old_shift": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.F_dominates_D6": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.coverage_spider": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.all_lengths_prefix_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.prefix_error_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.prefix_inside": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.prefix_dominates_D6": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.F_monotone": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.prefix_monotone": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.cutoff_ge_nineteen": [
+    "propext",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.large_cutoff_spec": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.cutoff_covers": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.cutoff_previous_fails": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.cutoff_minimal": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.all_lengths_eventual_zero": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.cutoff_depth_bound": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "GracefulBoundary.Q11.prefix_ratio_precision_limit": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "actual_spiders": 14472,
+  "author_manifest_members": 5,
+  "constructed_table_recipes": 603,
+  "interval_table_rows": 17,
+  "inverse_thresholds": 99999,
+  "modular_candidate_tests": 792,
+  "negative_controls": 2,
+  "source_bindings": {
+    "manifest.json": "419634baa520139e83395fb2014478710317d8bf72f83c4c7c54e31083be739d",
+    "report.md": "bf7eec616fa42a5465703e4f90d296f02dcb35a0b91c5c6c82bdfcf5208f9249",
+    "verify.py": "8d3e1321bdbbf1477d86b8fa0ad4816555dd9897735fbefec82024347b2c38d2"
+  },
+  "status": "PASS"
+}

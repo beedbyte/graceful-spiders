@@ -1,0 +1,37 @@
+{
+  "verdict": "GO for two universal gadgets and exact reflected gains18/20; no all-k prefix",
+  "files": {
+    "check-normal.json": {
+      "bytes": 299,
+      "sha256": "1e3819ecb5eeb62bd33bb7e37bfe144d36ddbe932c69ce1ff5256f19104d258f"
+    },
+    "check-optimized.json": {
+      "bytes": 299,
+      "sha256": "1e3819ecb5eeb62bd33bb7e37bfe144d36ddbe932c69ce1ff5256f19104d258f"
+    },
+    "freeze.py": {
+      "bytes": 805,
+      "sha256": "ebe45799e08aa3a7e3edf123bba77f0448cf6bb9adfa25aae989d8639837f769"
+    },
+    "independent_check.py": {
+      "bytes": 6874,
+      "sha256": "040ca77e2b516eff1ce76dec9e892b6868ae35ec7ad8997f1d5421e6882996c8"
+    },
+    "inputs/author-manifest.json": {
+      "bytes": 2158,
+      "sha256": "00bde290bd400619849c1a907bf0ad9b10972c2256fe575a0cb6fb8c11fab0af"
+    },
+    "inputs/author-report.md": {
+      "bytes": 6496,
+      "sha256": "b6afd14b14d05344830fae350a0b170d6e6bfc1b2c341de57141d82d24465666"
+    },
+    "inputs/seed-data.json": {
+      "bytes": 3963,
+      "sha256": "3eec37728f84b9462617615163880a0ba8a04e451cf9edf4831ec55000a75685"
+    },
+    "report.md": {
+      "bytes": 8894,
+      "sha256": "f90b3ef57a1f9d9f762f99a2db7b68eef8d88c1862e35809794122e54be33a44"
+    }
+  }
+}

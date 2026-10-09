@@ -1,0 +1,974 @@
+{
+  "claim": "Exact actual-spider D8 sufficient prefix; integer ratio criterion",
+  "D8_formal_author_and_separate_replay": "accepted internally",
+  "public_write_enabled": false,
+  "files": [
+    {
+      "path": "bound_sha.py",
+      "bytes": 433,
+      "sha256": "d15edd0523091d5b6f2f198debe689063412d684480eda432a10c84e3c7d959b"
+    },
+    {
+      "path": "DISTRIBUTION-TRANSFORMATIONS.json",
+      "bytes": 3773,
+      "sha256": "b858c68a299a5726625d1b7305f5bef4fcec8f08f6af666ebe021958731c0230"
+    },
+    {
+      "path": "manuscript.de.md",
+      "bytes": 5786,
+      "sha256": "66f31c3e74d7151c16c2dab8f6860fc6666cf3061de5ab0f4973a399f40eeee5"
+    },
+    {
+      "path": "manuscript.md",
+      "bytes": 71595,
+      "sha256": "d2032d60a86901f33e7a37f521fcc84ecd9b1445ccea2bcd1bf47cbe7dc9f33a"
+    },
+    {
+      "path": "manuscript.zh.md",
+      "bytes": 4424,
+      "sha256": "bc16a5e13f12e528b3c513cca27dae3a35bd85ac46420a854e26616fde8c18fc"
+    },
+    {
+      "path": "OMITTED-PROVENANCE-HASHES.json",
+      "bytes": 79361,
+      "sha256": "ef04fd074f526a520c61070a083cf50e9da8aa9cf82a5ea80eda4476b37c3f61"
+    },
+    {
+      "path": "portable_lean_build.py",
+      "bytes": 2825,
+      "sha256": "0dd02146ed3176de6fd12cc40255370c603c50d4edfbc9f6285027ec488de287"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4235,
+      "sha256": "20996aab651a07dda9e685698b3695ba81bd075a4f0ccea9c62fb9ae8250233e"
+    },
+    {
+      "path": "research-audits/graceful-beyond-five-sixths-block-principle-2026-10-09-a/data.json",
+      "bytes": 3963,
+      "sha256": "3eec37728f84b9462617615163880a0ba8a04e451cf9edf4831ec55000a75685"
+    },
+    {
+      "path": "research-audits/graceful-beyond-five-sixths-block-principle-2026-10-09-a/manifest.json",
+      "bytes": 1614,
+      "sha256": "493d49feeb015cf8b776cbf2c9e9443f98431fed6018f0122d2e47831c15239d"
+    },
+    {
+      "path": "research-audits/graceful-beyond-five-sixths-block-principle-2026-10-09-a/report.md",
+      "bytes": 13908,
+      "sha256": "680c39948d7562214de814052eda2bf0bf1b59fa642a757e33c7a4cd82a4014e"
+    },
+    {
+      "path": "research-audits/graceful-compatible-prefix-independent-2026-10-09-a/manifest.json",
+      "bytes": 533,
+      "sha256": "4905f31c66a9589a27913f644f07772ff5c6cc041efc62ca3c22d38ec6b248a0"
+    },
+    {
+      "path": "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/gadget30.json",
+      "bytes": 356,
+      "sha256": "cbe6a157d5bd9514f15df9fba590cff1e1bcda9887394c94f49cec6dd2fb4027"
+    },
+    {
+      "path": "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/manifest.json",
+      "bytes": 1988,
+      "sha256": "d0aa0abaef3534845b4ac97dc1d5b039c177df574c795802a28416dd01f0b3ad"
+    },
+    {
+      "path": "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/old-data.json",
+      "bytes": 4892,
+      "sha256": "fb5389508dcd92372ba546be1dceb1f7d59c31391363a1a8984e9a7e05f846bf"
+    },
+    {
+      "path": "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/report.md",
+      "bytes": 8550,
+      "sha256": "650d283ca90509c6c1f145c38335ac64ce0b6414b330e260c14de801ef6bfe40"
+    },
+    {
+      "path": "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/seeds.json",
+      "bytes": 21461,
+      "sha256": "8ae0c7df38ef482cb9f41e3cd4b26a64f03f7643d3e352207a1d3358f403cb31"
+    },
+    {
+      "path": "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/small-seeds.json",
+      "bytes": 8401,
+      "sha256": "8038056f90c2d02226ff6cf962030a879734f4553990623a0043a04c541495dd"
+    },
+    {
+      "path": "research-audits/graceful-d8-gap-fill-primary-addendum-2026-10-09-a/report.md",
+      "bytes": 6893,
+      "sha256": "1ca4b9c2c8efb552274a0a928fa14ae1ac60bf39a0f8bd1663dcba95dcec0dba"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/check.py",
+      "bytes": 10771,
+      "sha256": "34935d2f44e14eaaaecf992fc5b94e2cfdcee2df8133390d555037cd91bff54e"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/context.json",
+      "bytes": 90,
+      "sha256": "1d405b33c57dac78104f47951d04c9322b6bc7ac6b8f8f73dbe01c5f59aadc88"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/inputs.json",
+      "bytes": 1236,
+      "sha256": "4f3919bacef8832bfd8f21633e7b6c31d450b22373f68338f4fc78ede435b18a"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/manifest.json",
+      "bytes": 1052,
+      "sha256": "ce41485e485b6dd86c92092923326fdaa47095fa8243eb4d733c4531d5d5b685"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/recipes.json",
+      "bytes": 936,
+      "sha256": "c75580b48588b48cbf41d9631b0f3a0028c2c0d7cbeb4729fb79022b3f8dddf7"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/report.md",
+      "bytes": 12123,
+      "sha256": "3150df1b1f6296c580eebf5c2bc4b7bba9b6ae97436b0ebfbb821f70c41658a6"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/seeds.json",
+      "bytes": 811,
+      "sha256": "ae988ac1c5df4d2b284fdaf3ba6beb3d6083cca2efa494c9b7097799d57aceba"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/verification-normal.json",
+      "bytes": 2118,
+      "sha256": "4ad9b776c0160c56ae06d0286ca28ffeb9906ee27c7b81fa58195593277022f5"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/verification-optimized.json",
+      "bytes": 2118,
+      "sha256": "4ad9b776c0160c56ae06d0286ca28ffeb9906ee27c7b81fa58195593277022f5"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/AllLengthsDepth.lean",
+      "bytes": 2916,
+      "sha256": "917918a87fc763eb5f6f0d67e0d37d9dc715a52230fc1e07a2996cffb9ad1a5a"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/AllOddAsymptotic.lean",
+      "bytes": 1145,
+      "sha256": "1d5c692f3049c698e7670e170409d0ed626884735e524fe5aea7a023420f7221"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/AllOddDepth.lean",
+      "bytes": 5712,
+      "sha256": "2ab7f7e015ded6ebfbd9a1cd5c428713b1c8b7f673e55e1da4795733d3c20737"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/AllOddRootedGraft.lean",
+      "bytes": 3364,
+      "sha256": "dfebe65ba373ee85cd9b45be0a770e9b0a6050e93560df908a43084e6c35fa61"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/AllOddSeeds.lean",
+      "bytes": 11658,
+      "sha256": "85c8372ceec727958b7bc7d6132ca54111e51ffb7982891440b370fbdd7b24b9"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Amalgamation.lean",
+      "bytes": 6989,
+      "sha256": "2fed1c2d0332804a17a2ce68710681850ddd0f7d0a6a2ca8cb8ea27ab5c45cb1"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/axiom-inventory.json",
+      "bytes": 73069,
+      "sha256": "93ea9e787676dd65a6b03cfc12a678f71601fbc2aa2930d263c9b82ec1a356e6"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Boundary.lean",
+      "bytes": 7438,
+      "sha256": "4f12c070655d7313b734df25fc05fc6255ae87190ace857f8bbd81d6626cbb81"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Certificates.lean",
+      "bytes": 4323,
+      "sha256": "128d1abb69fe62902536a5973949fea95a42287d44ef2ad629dd53ced046fe55"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/CompatibleAsymptotic.lean",
+      "bytes": 748,
+      "sha256": "6e35ba70b826e1360cdcd3f3fbad85dc44e67f75bc49ad29385ff5ae4dbb6d3e"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/CompatibleDepth.lean",
+      "bytes": 5404,
+      "sha256": "8233f0c1b18b8a18015961fd1b0dba7826d9f9d40507fd9e68fb2d62fa425e13"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/CompatibleSeeds.lean",
+      "bytes": 17682,
+      "sha256": "1537030e8cd2716fd903da068141b880b85ea1331eaa28ed7d69028a0d0891a6"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/CoreConcat.lean",
+      "bytes": 5598,
+      "sha256": "73daf353d3edd1e46b363bc1465bbbd0457bbef039ab51e22dd18dd992e319e6"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/EvenIdentification.lean",
+      "bytes": 10775,
+      "sha256": "50321efdda6e35ced8f165c3ff435861e6e1777740fe0deadb5a9fb4da48196b"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/EvenResidual.lean",
+      "bytes": 14373,
+      "sha256": "6f113bee4b01b29d2ad6f289f2cb50ec79e11c12bab6368bee2f840cdfba2d61"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/EvenShell.lean",
+      "bytes": 14179,
+      "sha256": "998d603c2e83742c1b09b1947d1c55fba0f9998bc7d18a01814cddbcf956be8c"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/EvenTransfer.lean",
+      "bytes": 6176,
+      "sha256": "45b938c422db474e6eae64d25d77b3709652dae16672b49d51eb7bc297a6c958"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/EventualDepth.lean",
+      "bytes": 4263,
+      "sha256": "33121c7e24cc3b0cb87e0e870918cc40dad9c6cf9af0e7e35fff2ec1f4b1f63a"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/FiniteAlphaTransfer.lean",
+      "bytes": 4368,
+      "sha256": "38f19ba1dca1fd9dcccd09b2675422e6bb5cc983dbf31b2ed407acc397b3ce56"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/FixedDepthSeeds.lean",
+      "bytes": 5249,
+      "sha256": "fc9baa48974a8dfaf89c2c497aae186788d9fd1a787f12d57990b6dad4f9dddf"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/GapAudit.lean",
+      "bytes": 42071,
+      "sha256": "dffb41f1faf3b2bae4e6ddf35022bb4ae341cb0c5146e28315eb0a24f1a43ae8"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/GapDepth.lean",
+      "bytes": 2917,
+      "sha256": "125af13a73baa7140a2d04952e42c1bb200e130c9ee6b468a6ff6f0209591707"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/GapRecipes.lean",
+      "bytes": 3886,
+      "sha256": "088dcb1e23098247dce8d9a2efc3a75d309d3bbf4ac581f4c63d6875596ba7c0"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Graft.lean",
+      "bytes": 2823,
+      "sha256": "0c4a1a20950a2af6c182766fc89d1a273b3c8393a4f0314cd12a0f33dc3b0922"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Identification.lean",
+      "bytes": 12237,
+      "sha256": "29889f2da7ec03b0ea58664cc0773ba1e124f61216a639370dd3ee6a9eeb4967"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Interfaces.lean",
+      "bytes": 3924,
+      "sha256": "8f768b3d1835119887c7494ae8d590980ca5cd7dad62c7857a4077b94d844a35"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/module-order.json",
+      "bytes": 1075,
+      "sha256": "b383349188a97715847807a4dcd977338de19e279549b70fcf3604c590413f74"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/PathGraph.lean",
+      "bytes": 3937,
+      "sha256": "d575b79a9a523c6fc01c471510fbd69de692ce7a98d7ef0eec54f976796dd7c5"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/principal-theorems.json",
+      "bytes": 679,
+      "sha256": "69a6e4ffc1a63b6cb17ff292b4dd5a9f885045e5e2a451d571227e6b306b6312"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q10Core.lean",
+      "bytes": 9910,
+      "sha256": "27350b6c76917761bc1d654b7f900d0308bcd0334cb0445191316f910da861a8"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q10Gadget.lean",
+      "bytes": 4986,
+      "sha256": "86e783976e53650d47f1d135e55354a0c50e33425a9e622d70d65235e88d8334"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q10Tracking.lean",
+      "bytes": 2091,
+      "sha256": "bd62a13b2342b99243d15b507865211a5b4fb9e14e3a7ef779e991186fdcde4d"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q11Core.lean",
+      "bytes": 9909,
+      "sha256": "0e5020b409b133e67115149342ccf0ae070c53df32a17172e09aa6bb30b20f72"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q11Depth.lean",
+      "bytes": 7306,
+      "sha256": "48b44ad89b65eeea3ae39b41d0ac6f61ad2b0042f1d83bb1351d1512aa0b6e94"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q11Gadget.lean",
+      "bytes": 4996,
+      "sha256": "9672e3035970534a8bf5766a8d9ab48505939b24685e7ca0631eb19625db7384"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q11Prefix.lean",
+      "bytes": 2176,
+      "sha256": "a1949821bec24e273f5dd60c2c46d7128a6283f8211860665e9fd84f52957b4d"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q11Recipes.lean",
+      "bytes": 3396,
+      "sha256": "8731a64a2a32dc2c154a24a701a136419ba60b65a2c49e53de52cccac92e708f"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q11Tracking.lean",
+      "bytes": 4682,
+      "sha256": "ddc968a88088a20a151d35cab0cb992331408cb1b9ee43a6826f17acbe1590b9"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q18Core.lean",
+      "bytes": 7803,
+      "sha256": "52c2a85659a2fccd3eb86e32c4b17b82584857414edb58843b6a7b0d55e76468"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q18Gadget.lean",
+      "bytes": 5124,
+      "sha256": "43ae5fb91bfa5a04bc653f9093fc7ac7cc03f836278faeda66910033e29ef20b"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Q18Interval.lean",
+      "bytes": 3863,
+      "sha256": "4ff25d7d46b943218a84135741ac5e15c3a8a0d905cc03e1cbcde1b5b964abc5"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/recipe-identities.json",
+      "bytes": 1615,
+      "sha256": "7699ba38d1a583268ee47ed7dfe75730159b49417e40e513ce25cab23b4c4768"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Recurrence.lean",
+      "bytes": 15186,
+      "sha256": "c34f84ec24fb23b74dac62411843d710d56c8b9e1df5ca20a29150d6473e1856"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/report.md",
+      "bytes": 11291,
+      "sha256": "2b64ceb508e9fa60bb8094c1f0689bea7c63f2d8d56dba9d82d0aaf03286d2da"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Residual.lean",
+      "bytes": 13957,
+      "sha256": "1759d7a7cc949a36f298a215d82a0e0947b94d125939aceb75270057b52788bf"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/ReverseCore.lean",
+      "bytes": 5179,
+      "sha256": "3592a23a9f0c5a741d17664b76e63b0b17e91a8862cd03531fd71879d299d3f1"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/ReverseDepth.lean",
+      "bytes": 6627,
+      "sha256": "d9fb976144bd8c8489b73cba31b19dbdcf4ea2b7d41c48265a9006459884717d"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/ReverseSeeds.lean",
+      "bytes": 2344,
+      "sha256": "76b5ba0bd0f54792855593be4850c6acadd26ea9e4e402c8afcd3fbf68832324"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/ReverseTracking.lean",
+      "bytes": 4508,
+      "sha256": "84c5f98409100604720d01eb9e4ffff961d18db0ca5cef50238ab80840aee07b"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/SecondRecurrence.lean",
+      "bytes": 8791,
+      "sha256": "a80e35ae8cb194a341eecd681aac8caa2a3de1337dca898f138f6fca72e1a651"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/SecondShell.lean",
+      "bytes": 2328,
+      "sha256": "1877ebf949dea5994d749c3b0ae2f64b107ad5bab3e03ac0f0ea9637a1695530"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/SecondSpider.lean",
+      "bytes": 6827,
+      "sha256": "d282970e9e17a9369d2eb0df8dbd147135bcfb84f1a543dc718d043af5ddae71"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/Shell.lean",
+      "bytes": 19766,
+      "sha256": "c1d346c6148942a0eae8eb272aee4be47bbaea5145ba35314a607c31cc7bef02"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/source-hashes.json",
+      "bytes": 7060,
+      "sha256": "b99a65c770784002245b498ab0a80bb4be7507a402f6e1ae3bf3ab332505b339"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/SpiderTheorem.lean",
+      "bytes": 4644,
+      "sha256": "107285eaea8983657f7c889888e92f6d34defb10507e52aa8abf23896da4bdac"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/theorem-inventory.json",
+      "bytes": 33853,
+      "sha256": "3aab9082963b43db7df85458470e9ef58d4c966d8e874a5f4899be49845001c9"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/ThirdRecurrence.lean",
+      "bytes": 8607,
+      "sha256": "b0f51ecc60f1ef116aa7f83375a47a803a3ab47906968f18c7bec8615449fcf3"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/ThirdShell.lean",
+      "bytes": 3561,
+      "sha256": "d0fbb2692307f680897122c86458d49f798604b8a166ef5824bf5a30e242c823"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/ThirdSpider.lean",
+      "bytes": 7069,
+      "sha256": "5f85b3c77a29fbb7c7309fcb199ea6ef61d02f5266931ecc61c743608c713dd9"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/VariableCore.lean",
+      "bytes": 10083,
+      "sha256": "7c786a4432b0381e2b1983b4d59b02f01464de2e5c2691f04036ae9e9c856182"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/VariableGadget.lean",
+      "bytes": 5268,
+      "sha256": "21a3a1fe461478083dec528b019d1b1284cbbfb63c2b016ce2b259d585c15065"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/VariableIdentification.lean",
+      "bytes": 10553,
+      "sha256": "5e714096c019840863c349a1add85915b84da6aff66a74c1558f0fc7015c2ca2"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/VariableInterval.lean",
+      "bytes": 5748,
+      "sha256": "4d4074d1a2ac654a7c6988a24d965c89b9985f7361f909dacd8475664400723e"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-formal-2026-10-09-a/VariableSpider.lean",
+      "bytes": 9149,
+      "sha256": "17f6a0dc33f6c080a2f6dce2c9718a7b78287ac1a46e04d118a149535a44daeb"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/audit.py",
+      "bytes": 6566,
+      "sha256": "1d44d43feaf33b093bbd85c518cbb30705b54ed290a98379e5881999204bc2b1"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/core_graph.py",
+      "bytes": 10119,
+      "sha256": "0268facd54ffcc51f67ba572383001ca10a8da871b0b03e81c6e843a57bdcbc2"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/freeze.py",
+      "bytes": 2787,
+      "sha256": "a11fe8e2ab1237c026a320a7db5ed21915e2a94050566926c3cb25e5b1260941"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/manifest.json",
+      "bytes": 922,
+      "sha256": "42e6eb15ccb557b6f81b5addd1db2cd69ee5c394d42b50356a66422e5272e262"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/normal-results.json",
+      "bytes": 692,
+      "sha256": "a8fa4db67dce77f5dbe40e2f909524e9042276a3f2dbfe382a205f0c7591c306"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/optimized-results.json",
+      "bytes": 692,
+      "sha256": "a8fa4db67dce77f5dbe40e2f909524e9042276a3f2dbfe382a205f0c7591c306"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/report.md",
+      "bytes": 13337,
+      "sha256": "b9886f996b045aea344b4f62d3f6344801fa481024d943283b2fe5a7456f5c15"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-independent-2026-10-09-a/source-inputs.json",
+      "bytes": 5378,
+      "sha256": "017556816b24c607bc2ad39c00d02ed87785d988fd25ca8e99bcddfcb212dfbe"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-lean-replay-2026-10-09-a/audit-report.md",
+      "bytes": 7621,
+      "sha256": "692f33bc1a14ebc237d246f5fc1bd8bc63e46d97e5e5a042c0469b3475e46dbd"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-lean-replay-2026-10-09-a/recomputed-axioms.json",
+      "bytes": 73069,
+      "sha256": "93ea9e787676dd65a6b03cfc12a678f71601fbc2aa2930d263c9b82ec1a356e6"
+    },
+    {
+      "path": "research-audits/graceful-q10-gap-fill-lean-replay-2026-10-09-a/recomputed-theorems.json",
+      "bytes": 33853,
+      "sha256": "3aab9082963b43db7df85458470e9ef58d4c966d8e874a5f4899be49845001c9"
+    },
+    {
+      "path": "research-audits/graceful-q10-q11-p2-frontier-private-2026-10-09/manifest.json",
+      "bytes": 2158,
+      "sha256": "00bde290bd400619849c1a907bf0ad9b10972c2256fe575a0cb6fb8c11fab0af"
+    },
+    {
+      "path": "research-audits/graceful-q10-q11-p2-frontier-private-2026-10-09/report.md",
+      "bytes": 6496,
+      "sha256": "b6afd14b14d05344830fae350a0b170d6e6bfc1b2c341de57141d82d24465666"
+    },
+    {
+      "path": "research-audits/graceful-q10-q11-p2-frontier-private-2026-10-09/results.json",
+      "bytes": 56335,
+      "sha256": "48d53a24b6bcec3b8d98b3f75caf51a0dbc86d2cae8dfcf43f9898beedf9105f"
+    },
+    {
+      "path": "research-audits/graceful-q10-q11-positive-independent-2026-10-09-a/manifest.json",
+      "bytes": 1261,
+      "sha256": "720ef06b23bf2a7a5cc39dd02d260f519ac0939ad58e69be73f747ebe1ef4afd"
+    },
+    {
+      "path": "research-audits/graceful-q10-q11-positive-independent-2026-10-09-a/report.md",
+      "bytes": 8894,
+      "sha256": "f90b3ef57a1f9d9f762f99a2db7b68eef8d88c1862e35809794122e54be33a44"
+    },
+    {
+      "path": "research-audits/graceful-reverse-complement-independent-2026-10-09-a/manifest.json",
+      "bytes": 1208,
+      "sha256": "9ed595d251da038abb9544ae1e0387580ed1df3d334c992d2368989e23a0ef54"
+    },
+    {
+      "path": "research-audits/graceful-reverse-complement-independent-2026-10-09-a/report.md",
+      "bytes": 14642,
+      "sha256": "d018ad8ffba50cf53a6d1f78e34df406285985a9b4c58098f485773a9ed4c7d6"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/AllLengthsDepth.lean",
+      "bytes": 2916,
+      "sha256": "917918a87fc763eb5f6f0d67e0d37d9dc715a52230fc1e07a2996cffb9ad1a5a"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/AllOddAsymptotic.lean",
+      "bytes": 1145,
+      "sha256": "1d5c692f3049c698e7670e170409d0ed626884735e524fe5aea7a023420f7221"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/AllOddDepth.lean",
+      "bytes": 5712,
+      "sha256": "2ab7f7e015ded6ebfbd9a1cd5c428713b1c8b7f673e55e1da4795733d3c20737"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/AllOddRootedGraft.lean",
+      "bytes": 3364,
+      "sha256": "dfebe65ba373ee85cd9b45be0a770e9b0a6050e93560df908a43084e6c35fa61"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/AllOddSeeds.lean",
+      "bytes": 11658,
+      "sha256": "85c8372ceec727958b7bc7d6132ca54111e51ffb7982891440b370fbdd7b24b9"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Amalgamation.lean",
+      "bytes": 6989,
+      "sha256": "2fed1c2d0332804a17a2ce68710681850ddd0f7d0a6a2ca8cb8ea27ab5c45cb1"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/axiom-inventory.json",
+      "bytes": 68466,
+      "sha256": "61a6478f21c0ab0bc6a7ab6a717c8f5e11dfe41a051caf4a085adc3a52b786bc"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Boundary.lean",
+      "bytes": 7438,
+      "sha256": "4f12c070655d7313b734df25fc05fc6255ae87190ace857f8bbd81d6626cbb81"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Certificates.lean",
+      "bytes": 4323,
+      "sha256": "128d1abb69fe62902536a5973949fea95a42287d44ef2ad629dd53ced046fe55"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/CompatibleAsymptotic.lean",
+      "bytes": 748,
+      "sha256": "6e35ba70b826e1360cdcd3f3fbad85dc44e67f75bc49ad29385ff5ae4dbb6d3e"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/CompatibleDepth.lean",
+      "bytes": 5404,
+      "sha256": "8233f0c1b18b8a18015961fd1b0dba7826d9f9d40507fd9e68fb2d62fa425e13"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/CompatibleSeeds.lean",
+      "bytes": 17682,
+      "sha256": "1537030e8cd2716fd903da068141b880b85ea1331eaa28ed7d69028a0d0891a6"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/CoreConcat.lean",
+      "bytes": 5598,
+      "sha256": "73daf353d3edd1e46b363bc1465bbbd0457bbef039ab51e22dd18dd992e319e6"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/EvenIdentification.lean",
+      "bytes": 10775,
+      "sha256": "50321efdda6e35ced8f165c3ff435861e6e1777740fe0deadb5a9fb4da48196b"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/EvenResidual.lean",
+      "bytes": 14373,
+      "sha256": "6f113bee4b01b29d2ad6f289f2cb50ec79e11c12bab6368bee2f840cdfba2d61"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/EvenShell.lean",
+      "bytes": 14179,
+      "sha256": "998d603c2e83742c1b09b1947d1c55fba0f9998bc7d18a01814cddbcf956be8c"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/EvenTransfer.lean",
+      "bytes": 6176,
+      "sha256": "45b938c422db474e6eae64d25d77b3709652dae16672b49d51eb7bc297a6c958"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/EventualDepth.lean",
+      "bytes": 4263,
+      "sha256": "33121c7e24cc3b0cb87e0e870918cc40dad9c6cf9af0e7e35fff2ec1f4b1f63a"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/FiniteAlphaTransfer.lean",
+      "bytes": 4368,
+      "sha256": "38f19ba1dca1fd9dcccd09b2675422e6bb5cc983dbf31b2ed407acc397b3ce56"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/FixedDepthSeeds.lean",
+      "bytes": 5249,
+      "sha256": "fc9baa48974a8dfaf89c2c497aae186788d9fd1a787f12d57990b6dad4f9dddf"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Graft.lean",
+      "bytes": 2823,
+      "sha256": "0c4a1a20950a2af6c182766fc89d1a273b3c8393a4f0314cd12a0f33dc3b0922"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Identification.lean",
+      "bytes": 12237,
+      "sha256": "29889f2da7ec03b0ea58664cc0773ba1e124f61216a639370dd3ee6a9eeb4967"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Interfaces.lean",
+      "bytes": 3924,
+      "sha256": "8f768b3d1835119887c7494ae8d590980ca5cd7dad62c7857a4077b94d844a35"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/module-order.json",
+      "bytes": 995,
+      "sha256": "3d0e94622f2e0c7292b8117898c20fa3d999718b0ef1b6b77aadf9a7fee60f13"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/PathGraph.lean",
+      "bytes": 3937,
+      "sha256": "d575b79a9a523c6fc01c471510fbd69de692ce7a98d7ef0eec54f976796dd7c5"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/principal-theorems.json",
+      "bytes": 712,
+      "sha256": "2a229197c31f8ca8a3d2e7fee63b818348350fad163c29ab18dea2f9fb8e45af"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q11Audit.lean",
+      "bytes": 39426,
+      "sha256": "ab800475577031463b34e62bc75cbdd9f83fddabc82492426d0ace344bf553db"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q11Core.lean",
+      "bytes": 9909,
+      "sha256": "0e5020b409b133e67115149342ccf0ae070c53df32a17172e09aa6bb30b20f72"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q11Depth.lean",
+      "bytes": 7306,
+      "sha256": "48b44ad89b65eeea3ae39b41d0ac6f61ad2b0042f1d83bb1351d1512aa0b6e94"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q11Gadget.lean",
+      "bytes": 4996,
+      "sha256": "9672e3035970534a8bf5766a8d9ab48505939b24685e7ca0631eb19625db7384"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q11Prefix.lean",
+      "bytes": 2176,
+      "sha256": "a1949821bec24e273f5dd60c2c46d7128a6283f8211860665e9fd84f52957b4d"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q11Recipes.lean",
+      "bytes": 3396,
+      "sha256": "8731a64a2a32dc2c154a24a701a136419ba60b65a2c49e53de52cccac92e708f"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q11Tracking.lean",
+      "bytes": 4682,
+      "sha256": "ddc968a88088a20a151d35cab0cb992331408cb1b9ee43a6826f17acbe1590b9"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q18Core.lean",
+      "bytes": 7803,
+      "sha256": "52c2a85659a2fccd3eb86e32c4b17b82584857414edb58843b6a7b0d55e76468"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q18Gadget.lean",
+      "bytes": 5124,
+      "sha256": "43ae5fb91bfa5a04bc653f9093fc7ac7cc03f836278faeda66910033e29ef20b"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Q18Interval.lean",
+      "bytes": 3863,
+      "sha256": "4ff25d7d46b943218a84135741ac5e15c3a8a0d905cc03e1cbcde1b5b964abc5"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/recipe-identities.json",
+      "bytes": 5474,
+      "sha256": "2b6c7a6e4aa3b91fbb7d2e7259cff9943407de60afdc913c4250be277b712269"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Recurrence.lean",
+      "bytes": 15186,
+      "sha256": "c34f84ec24fb23b74dac62411843d710d56c8b9e1df5ca20a29150d6473e1856"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/report.md",
+      "bytes": 12520,
+      "sha256": "8217316adc5e4174eebb6a145cbfe98795c84433957a1d9ee5a824cdba33b283"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Residual.lean",
+      "bytes": 13957,
+      "sha256": "1759d7a7cc949a36f298a215d82a0e0947b94d125939aceb75270057b52788bf"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/ReverseCore.lean",
+      "bytes": 5179,
+      "sha256": "3592a23a9f0c5a741d17664b76e63b0b17e91a8862cd03531fd71879d299d3f1"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/ReverseDepth.lean",
+      "bytes": 6627,
+      "sha256": "d9fb976144bd8c8489b73cba31b19dbdcf4ea2b7d41c48265a9006459884717d"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/ReverseSeeds.lean",
+      "bytes": 2344,
+      "sha256": "76b5ba0bd0f54792855593be4850c6acadd26ea9e4e402c8afcd3fbf68832324"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/ReverseTracking.lean",
+      "bytes": 4508,
+      "sha256": "84c5f98409100604720d01eb9e4ffff961d18db0ca5cef50238ab80840aee07b"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/SecondRecurrence.lean",
+      "bytes": 8791,
+      "sha256": "a80e35ae8cb194a341eecd681aac8caa2a3de1337dca898f138f6fca72e1a651"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/SecondShell.lean",
+      "bytes": 2328,
+      "sha256": "1877ebf949dea5994d749c3b0ae2f64b107ad5bab3e03ac0f0ea9637a1695530"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/SecondSpider.lean",
+      "bytes": 6827,
+      "sha256": "d282970e9e17a9369d2eb0df8dbd147135bcfb84f1a543dc718d043af5ddae71"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/Shell.lean",
+      "bytes": 19766,
+      "sha256": "c1d346c6148942a0eae8eb272aee4be47bbaea5145ba35314a607c31cc7bef02"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/source-hashes.json",
+      "bytes": 6455,
+      "sha256": "a55e052844b363f3daeb5e12c7cb79b5d5cd9cfc8aa3f5ac62b4b6716b19a1fd"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/SpiderTheorem.lean",
+      "bytes": 4644,
+      "sha256": "107285eaea8983657f7c889888e92f6d34defb10507e52aa8abf23896da4bdac"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/theorem-inventory.json",
+      "bytes": 31695,
+      "sha256": "05d088e5dbc9be46c8a5f944a8e12229f08d3de8beef7fc2bae085c0c241f67a"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/ThirdRecurrence.lean",
+      "bytes": 8607,
+      "sha256": "b0f51ecc60f1ef116aa7f83375a47a803a3ab47906968f18c7bec8615449fcf3"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/ThirdShell.lean",
+      "bytes": 3561,
+      "sha256": "d0fbb2692307f680897122c86458d49f798604b8a166ef5824bf5a30e242c823"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/ThirdSpider.lean",
+      "bytes": 7069,
+      "sha256": "5f85b3c77a29fbb7c7309fcb199ea6ef61d02f5266931ecc61c743608c713dd9"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/VariableCore.lean",
+      "bytes": 10083,
+      "sha256": "7c786a4432b0381e2b1983b4d59b02f01464de2e5c2691f04036ae9e9c856182"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/VariableGadget.lean",
+      "bytes": 5268,
+      "sha256": "21a3a1fe461478083dec528b019d1b1284cbbfb63c2b016ce2b259d585c15065"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/VariableIdentification.lean",
+      "bytes": 10553,
+      "sha256": "5e714096c019840863c349a1add85915b84da6aff66a74c1558f0fc7015c2ca2"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/VariableInterval.lean",
+      "bytes": 5748,
+      "sha256": "4d4074d1a2ac654a7c6988a24d965c89b9985f7361f909dacd8475664400723e"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-formal-2026-10-09-a/VariableSpider.lean",
+      "bytes": 9149,
+      "sha256": "17f6a0dc33f6c080a2f6dce2c9718a7b78287ac1a46e04d118a149535a44daeb"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-global-2026-10-09-a/inputs.json",
+      "bytes": 2033,
+      "sha256": "93fefa9ee09ec9542735e369339918c277bf2fcd7ca78662b14a3f74aa6e7ae7"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-global-2026-10-09-a/manifest.json",
+      "bytes": 1126,
+      "sha256": "419634baa520139e83395fb2014478710317d8bf72f83c4c7c54e31083be739d"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-global-2026-10-09-a/report.md",
+      "bytes": 13082,
+      "sha256": "bf7eec616fa42a5465703e4f90d296f02dcb35a0b91c5c6c82bdfcf5208f9249"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-global-2026-10-09-a/verification-normal.json",
+      "bytes": 6699,
+      "sha256": "6db0bde1239507283c1ac4eeb4b21a6ca0b6331cd5f956daadabb1276853317b"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-global-2026-10-09-a/verification-optimized.json",
+      "bytes": 6699,
+      "sha256": "6db0bde1239507283c1ac4eeb4b21a6ca0b6331cd5f956daadabb1276853317b"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-global-2026-10-09-a/verify.py",
+      "bytes": 8444,
+      "sha256": "8d3e1321bdbbf1477d86b8fa0ad4816555dd9897735fbefec82024347b2c38d2"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/audit-normal.json",
+      "bytes": 593,
+      "sha256": "f690c42a037ac804cc4a6c9d1bb482de2d9c89a996b693688d250f53050ad501"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/audit-optimized.json",
+      "bytes": 593,
+      "sha256": "f690c42a037ac804cc4a6c9d1bb482de2d9c89a996b693688d250f53050ad501"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/audit.py",
+      "bytes": 5313,
+      "sha256": "7a87c5e1483cd72ee3178d4f46652381defe58d19417339c3d4c245c28ca7e84"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/author-normal.json",
+      "bytes": 539,
+      "sha256": "827047a485afa92f3f6dbb4e5a90df64ca17ec67a165f30d4f513005857609f0"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/author-optimized.json",
+      "bytes": 539,
+      "sha256": "827047a485afa92f3f6dbb4e5a90df64ca17ec67a165f30d4f513005857609f0"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/base-certificates.json",
+      "bytes": 159541,
+      "sha256": "33a862a745b2bec87313e8522db3794ed50955315ec4f774b78b381be754007a"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/check_author.py",
+      "bytes": 4441,
+      "sha256": "c7386e1b08cef4abc98573c37c0499cd5442b4689eea2618936eaa6b963b119f"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/core_graph.py",
+      "bytes": 10119,
+      "sha256": "0268facd54ffcc51f67ba572383001ca10a8da871b0b03e81c6e843a57bdcbc2"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/freeze.py",
+      "bytes": 3123,
+      "sha256": "237ce43e3125e28fd12dcb28c74cf36fbbc83de97618faffc8f8108cba7b6fd8"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/manifest.json",
+      "bytes": 1462,
+      "sha256": "4fd38e5e2b60ed6873105ffa751b5922a87a6a12f137956abf19e289f343c24a"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/report.md",
+      "bytes": 15637,
+      "sha256": "60a958449111a6f875be84a05d419c94c474db0cb770b3c07af799f57633c1cf"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/source-inputs.json",
+      "bytes": 6965,
+      "sha256": "644c4b192a9adc45a4c2b5299fb4f065eb4d201a706193fbebb1fa41482bbbe5"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-lean-replay-2026-10-09-a/audit-report.md",
+      "bytes": 7872,
+      "sha256": "8d5bfa6d79328bd2c253fbdf5f1f49c053438d56d12936ae07b7b1f810e55e25"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-lean-replay-2026-10-09-a/recomputed-axioms.json",
+      "bytes": 68466,
+      "sha256": "61a6478f21c0ab0bc6a7ab6a717c8f5e11dfe41a051caf4a085adc3a52b786bc"
+    },
+    {
+      "path": "research-audits/graceful-ten-elevenths-lean-replay-2026-10-09-a/recomputed-theorems.json",
+      "bytes": 31695,
+      "sha256": "05d088e5dbc9be46c8a5f944a8e12229f08d3de8beef7fc2bae085c0c241f67a"
+    },
+    {
+      "path": "run_math.py",
+      "bytes": 1189,
+      "sha256": "bec4e390cfc0fe47820860007d029eada5ee30beb0dc9b1520ee68061d2cb70c"
+    },
+    {
+      "path": "verification-scope.md",
+      "bytes": 3816,
+      "sha256": "83a169208fd16cbaa7f2b1bd616a7cb793d13ee798d62664c19a247d25aa379b"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 788,
+      "sha256": "19fa3671cc311e9da23c1e6b32a043eb753672df0c4161e5abf8d7bd182a122c"
+    }
+  ],
+  "predecessor_public_manifest_sha256": "37f365267eaf55daf1f67cd99da8e9f5ba558bcd8e339a26a519f5540f73ff5b",
+  "distribution_revision": "v5 final D8-only current scope and provenance overlay"
+}

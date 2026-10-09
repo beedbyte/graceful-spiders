@@ -1,0 +1,133 @@
+{
+  "counts": {
+    "actual_spiders": 1122,
+    "core_checks": 827,
+    "graph_insertions": 393
+  },
+  "diagnostic_p": [
+    61,
+    100000
+  ],
+  "negative_controls": [
+    "q9 corrupt prefix",
+    "q10 corrupt prefix",
+    "q11 corrupt prefix",
+    "wrong recipe size",
+    "wrong reflected gain",
+    "premature reflection",
+    "r10 single pair misses first gap",
+    "parity0 duplicated zero target",
+    "parity0 wrong depth",
+    "parity0 partial complement",
+    "parity1 duplicated zero target",
+    "parity1 wrong depth",
+    "parity1 partial complement"
+  ],
+  "proof_scope": "D8 extension at all p>=61, both k parities and all n>=2,m>=0; slope unchanged at 10/11",
+  "status": "PASS; author candidate awaiting separate audit",
+  "table": [
+    {
+      "F7": 107,
+      "F8": 107,
+      "k": [
+        125,
+        126
+      ],
+      "p": 61
+    },
+    {
+      "F7": 107,
+      "F8": 109,
+      "k": [
+        127,
+        128
+      ],
+      "p": 62
+    },
+    {
+      "F7": 111,
+      "F8": 111,
+      "k": [
+        129,
+        130
+      ],
+      "p": 63
+    },
+    {
+      "F7": 111,
+      "F8": 113,
+      "k": [
+        131,
+        132
+      ],
+      "p": 64
+    },
+    {
+      "F7": 115,
+      "F8": 115,
+      "k": [
+        133,
+        134
+      ],
+      "p": 65
+    },
+    {
+      "F7": 115,
+      "F8": 117,
+      "k": [
+        135,
+        136
+      ],
+      "p": 66
+    },
+    {
+      "F7": 119,
+      "F8": 119,
+      "k": [
+        137,
+        138
+      ],
+      "p": 67
+    },
+    {
+      "F7": 119,
+      "F8": 121,
+      "k": [
+        139,
+        140
+      ],
+      "p": 68
+    },
+    {
+      "F7": 123,
+      "F8": 123,
+      "k": [
+        141,
+        142
+      ],
+      "p": 69
+    },
+    {
+      "F7": 123,
+      "F8": 125,
+      "k": [
+        143,
+        144
+      ],
+      "p": 70
+    },
+    {
+      "F7": 123,
+      "F8": 127,
+      "k": [
+        145,
+        146
+      ],
+      "p": 71
+    }
+  ],
+  "tail_deficit": [
+    53,
+    83
+  ]
+}

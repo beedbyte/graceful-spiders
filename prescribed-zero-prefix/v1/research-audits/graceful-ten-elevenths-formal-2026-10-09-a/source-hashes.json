@@ -1,0 +1,210 @@
+[
+  {
+    "module": "Boundary",
+    "sha256": "4f12c070655d7313b734df25fc05fc6255ae87190ace857f8bbd81d6626cbb81"
+  },
+  {
+    "module": "Amalgamation",
+    "sha256": "2fed1c2d0332804a17a2ce68710681850ddd0f7d0a6a2ca8cb8ea27ab5c45cb1"
+  },
+  {
+    "module": "Certificates",
+    "sha256": "128d1abb69fe62902536a5973949fea95a42287d44ef2ad629dd53ced046fe55"
+  },
+  {
+    "module": "Interfaces",
+    "sha256": "8f768b3d1835119887c7494ae8d590980ca5cd7dad62c7857a4077b94d844a35"
+  },
+  {
+    "module": "Recurrence",
+    "sha256": "c34f84ec24fb23b74dac62411843d710d56c8b9e1df5ca20a29150d6473e1856"
+  },
+  {
+    "module": "Shell",
+    "sha256": "c1d346c6148942a0eae8eb272aee4be47bbaea5145ba35314a607c31cc7bef02"
+  },
+  {
+    "module": "PathGraph",
+    "sha256": "d575b79a9a523c6fc01c471510fbd69de692ce7a98d7ef0eec54f976796dd7c5"
+  },
+  {
+    "module": "Residual",
+    "sha256": "1759d7a7cc949a36f298a215d82a0e0947b94d125939aceb75270057b52788bf"
+  },
+  {
+    "module": "Graft",
+    "sha256": "0c4a1a20950a2af6c182766fc89d1a273b3c8393a4f0314cd12a0f33dc3b0922"
+  },
+  {
+    "module": "Identification",
+    "sha256": "29889f2da7ec03b0ea58664cc0773ba1e124f61216a639370dd3ee6a9eeb4967"
+  },
+  {
+    "module": "SpiderTheorem",
+    "sha256": "107285eaea8983657f7c889888e92f6d34defb10507e52aa8abf23896da4bdac"
+  },
+  {
+    "module": "SecondRecurrence",
+    "sha256": "a80e35ae8cb194a341eecd681aac8caa2a3de1337dca898f138f6fca72e1a651"
+  },
+  {
+    "module": "SecondShell",
+    "sha256": "1877ebf949dea5994d749c3b0ae2f64b107ad5bab3e03ac0f0ea9637a1695530"
+  },
+  {
+    "module": "SecondSpider",
+    "sha256": "d282970e9e17a9369d2eb0df8dbd147135bcfb84f1a543dc718d043af5ddae71"
+  },
+  {
+    "module": "ThirdRecurrence",
+    "sha256": "b0f51ecc60f1ef116aa7f83375a47a803a3ab47906968f18c7bec8615449fcf3"
+  },
+  {
+    "module": "ThirdShell",
+    "sha256": "d0fbb2692307f680897122c86458d49f798604b8a166ef5824bf5a30e242c823"
+  },
+  {
+    "module": "ThirdSpider",
+    "sha256": "5f85b3c77a29fbb7c7309fcb199ea6ef61d02f5266931ecc61c743608c713dd9"
+  },
+  {
+    "module": "VariableGadget",
+    "sha256": "21a3a1fe461478083dec528b019d1b1284cbbfb63c2b016ce2b259d585c15065"
+  },
+  {
+    "module": "VariableCore",
+    "sha256": "7c786a4432b0381e2b1983b4d59b02f01464de2e5c2691f04036ae9e9c856182"
+  },
+  {
+    "module": "VariableInterval",
+    "sha256": "4d4074d1a2ac654a7c6988a24d965c89b9985f7361f909dacd8475664400723e"
+  },
+  {
+    "module": "VariableIdentification",
+    "sha256": "5e714096c019840863c349a1add85915b84da6aff66a74c1558f0fc7015c2ca2"
+  },
+  {
+    "module": "VariableSpider",
+    "sha256": "17f6a0dc33f6c080a2f6dce2c9718a7b78287ac1a46e04d118a149535a44daeb"
+  },
+  {
+    "module": "FiniteAlphaTransfer",
+    "sha256": "38f19ba1dca1fd9dcccd09b2675422e6bb5cc983dbf31b2ed407acc397b3ce56"
+  },
+  {
+    "module": "CoreConcat",
+    "sha256": "73daf353d3edd1e46b363bc1465bbbd0457bbef039ab51e22dd18dd992e319e6"
+  },
+  {
+    "module": "FixedDepthSeeds",
+    "sha256": "fc9baa48974a8dfaf89c2c497aae186788d9fd1a787f12d57990b6dad4f9dddf"
+  },
+  {
+    "module": "Q18Gadget",
+    "sha256": "43ae5fb91bfa5a04bc653f9093fc7ac7cc03f836278faeda66910033e29ef20b"
+  },
+  {
+    "module": "Q18Core",
+    "sha256": "52c2a85659a2fccd3eb86e32c4b17b82584857414edb58843b6a7b0d55e76468"
+  },
+  {
+    "module": "Q18Interval",
+    "sha256": "4ff25d7d46b943218a84135741ac5e15c3a8a0d905cc03e1cbcde1b5b964abc5"
+  },
+  {
+    "module": "EventualDepth",
+    "sha256": "33121c7e24cc3b0cb87e0e870918cc40dad9c6cf9af0e7e35fff2ec1f4b1f63a"
+  },
+  {
+    "module": "AllOddSeeds",
+    "sha256": "85c8372ceec727958b7bc7d6132ca54111e51ffb7982891440b370fbdd7b24b9"
+  },
+  {
+    "module": "AllOddDepth",
+    "sha256": "2ab7f7e015ded6ebfbd9a1cd5c428713b1c8b7f673e55e1da4795733d3c20737"
+  },
+  {
+    "module": "AllOddAsymptotic",
+    "sha256": "1d5c692f3049c698e7670e170409d0ed626884735e524fe5aea7a023420f7221"
+  },
+  {
+    "module": "AllOddRootedGraft",
+    "sha256": "dfebe65ba373ee85cd9b45be0a770e9b0a6050e93560df908a43084e6c35fa61"
+  },
+  {
+    "module": "CompatibleSeeds",
+    "sha256": "1537030e8cd2716fd903da068141b880b85ea1331eaa28ed7d69028a0d0891a6"
+  },
+  {
+    "module": "CompatibleDepth",
+    "sha256": "8233f0c1b18b8a18015961fd1b0dba7826d9f9d40507fd9e68fb2d62fa425e13"
+  },
+  {
+    "module": "CompatibleAsymptotic",
+    "sha256": "6e35ba70b826e1360cdcd3f3fbad85dc44e67f75bc49ad29385ff5ae4dbb6d3e"
+  },
+  {
+    "module": "EvenResidual",
+    "sha256": "6f113bee4b01b29d2ad6f289f2cb50ec79e11c12bab6368bee2f840cdfba2d61"
+  },
+  {
+    "module": "EvenIdentification",
+    "sha256": "50321efdda6e35ced8f165c3ff435861e6e1777740fe0deadb5a9fb4da48196b"
+  },
+  {
+    "module": "EvenShell",
+    "sha256": "998d603c2e83742c1b09b1947d1c55fba0f9998bc7d18a01814cddbcf956be8c"
+  },
+  {
+    "module": "EvenTransfer",
+    "sha256": "45b938c422db474e6eae64d25d77b3709652dae16672b49d51eb7bc297a6c958"
+  },
+  {
+    "module": "AllLengthsDepth",
+    "sha256": "917918a87fc763eb5f6f0d67e0d37d9dc715a52230fc1e07a2996cffb9ad1a5a"
+  },
+  {
+    "module": "ReverseCore",
+    "sha256": "3592a23a9f0c5a741d17664b76e63b0b17e91a8862cd03531fd71879d299d3f1"
+  },
+  {
+    "module": "ReverseTracking",
+    "sha256": "84c5f98409100604720d01eb9e4ffff961d18db0ca5cef50238ab80840aee07b"
+  },
+  {
+    "module": "ReverseSeeds",
+    "sha256": "76b5ba0bd0f54792855593be4850c6acadd26ea9e4e402c8afcd3fbf68832324"
+  },
+  {
+    "module": "ReverseDepth",
+    "sha256": "d9fb976144bd8c8489b73cba31b19dbdcf4ea2b7d41c48265a9006459884717d"
+  },
+  {
+    "module": "Q11Gadget",
+    "sha256": "9672e3035970534a8bf5766a8d9ab48505939b24685e7ca0631eb19625db7384"
+  },
+  {
+    "module": "Q11Core",
+    "sha256": "0e5020b409b133e67115149342ccf0ae070c53df32a17172e09aa6bb30b20f72"
+  },
+  {
+    "module": "Q11Tracking",
+    "sha256": "ddc968a88088a20a151d35cab0cb992331408cb1b9ee43a6826f17acbe1590b9"
+  },
+  {
+    "module": "Q11Recipes",
+    "sha256": "8731a64a2a32dc2c154a24a701a136419ba60b65a2c49e53de52cccac92e708f"
+  },
+  {
+    "module": "Q11Prefix",
+    "sha256": "a1949821bec24e273f5dd60c2c46d7128a6283f8211860665e9fd84f52957b4d"
+  },
+  {
+    "module": "Q11Depth",
+    "sha256": "48b44ad89b65eeea3ae39b41d0ac6f61ad2b0042f1d83bb1351d1512aa0b6e94"
+  },
+  {
+    "module": "Q11Audit",
+    "sha256": "ab800475577031463b34e62bc75cbdd9f83fddabc82492426d0ace344bf553db"
+  }
+]

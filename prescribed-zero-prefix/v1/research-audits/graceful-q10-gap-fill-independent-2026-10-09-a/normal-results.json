@@ -1,0 +1,23 @@
+{
+  "author_bindings": {
+    "check.py": "34935d2f44e14eaaaecf992fc5b94e2cfdcee2df8133390d555037cd91bff54e",
+    "manifest.json": "ce41485e485b6dd86c92092923326fdaa47095fa8243eb4d733c4531d5d5b685",
+    "report.md": "3150df1b1f6296c580eebf5c2bc4b7bba9b6ae97436b0ebfbb821f70c41658a6"
+  },
+  "author_payloads": 8,
+  "counts": {
+    "constructed_cores": 91,
+    "length_arithmetic": 199982,
+    "negative_controls": 17,
+    "opposite_orientation_spiders": 80,
+    "recipe_spiders": 4420,
+    "size_arithmetic": 99940
+  },
+  "graph_counts": {
+    "actual_spiders": 4500,
+    "core_checks": 6757,
+    "gadget_checks": 3,
+    "graph_insertions": 986
+  },
+  "status": "PASS"
+}

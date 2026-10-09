@@ -1,0 +1,32 @@
+{
+  "status": "AUTHOR PROOF COMPLETE; separate global audit pending",
+  "claim": "All integer k>=19 prescribed-zero sufficient prefix D7 with limit10/11; exact recipe union restricted to six specified seeds, q11 P2, q9 P2/P4, C6, and D6 prefix",
+  "files": {
+    "inputs.json": {
+      "sha256": "93fefa9ee09ec9542735e369339918c277bf2fcd7ca78662b14a3f74aa6e7ae7",
+      "bytes": 2033
+    },
+    "report.md": {
+      "sha256": "bf7eec616fa42a5465703e4f90d296f02dcb35a0b91c5c6c82bdfcf5208f9249",
+      "bytes": 13082
+    },
+    "verification-normal.json": {
+      "sha256": "6db0bde1239507283c1ac4eeb4b21a6ca0b6331cd5f956daadabb1276853317b",
+      "bytes": 6699
+    },
+    "verification-optimized.json": {
+      "sha256": "6db0bde1239507283c1ac4eeb4b21a6ca0b6331cd5f956daadabb1276853317b",
+      "bytes": 6699
+    },
+    "verify.py": {
+      "sha256": "8d3e1321bdbbf1477d86b8fa0ad4816555dd9897735fbefec82024347b2c38d2",
+      "bytes": 8444
+    }
+  },
+  "normal_optimized_equal": true,
+  "historical_inputs": "inputs.json",
+  "counts": {
+    "actual_spiders": 14520,
+    "core_checks": 5847
+  }
+}

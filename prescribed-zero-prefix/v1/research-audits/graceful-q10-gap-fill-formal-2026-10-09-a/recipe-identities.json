@@ -1,0 +1,86 @@
+[
+  {
+    "p": 62,
+    "seed": 16,
+    "q9": 4,
+    "q10": 1,
+    "q11": 0,
+    "depths": [
+      108,
+      109
+    ],
+    "canonical_row_sha256": "f21d77ccdb8cbf5064a28928dd5259ff21ff8abc21f0193c5b097f88e4f2a7fa"
+  },
+  {
+    "p": 64,
+    "seed": 16,
+    "q9": 3,
+    "q10": 1,
+    "q11": 1,
+    "depths": [
+      112,
+      113
+    ],
+    "canonical_row_sha256": "663db28c99f95edbd0ad33271faf9cc89cb7c5a802f956876442a01af7b713f4"
+  },
+  {
+    "p": 66,
+    "seed": 16,
+    "q9": 2,
+    "q10": 1,
+    "q11": 2,
+    "depths": [
+      116,
+      117
+    ],
+    "canonical_row_sha256": "5d2bfd360750f6b629ed23fa58ad899b079c5cb024caa766bb86ecec925d4604"
+  },
+  {
+    "p": 68,
+    "seed": 16,
+    "q9": 1,
+    "q10": 1,
+    "q11": 3,
+    "depths": [
+      120,
+      121
+    ],
+    "canonical_row_sha256": "1680755f522fec85d169b781387d1c20595ee79196d21c21ffde09afc574929f"
+  },
+  {
+    "p": 70,
+    "seed": 16,
+    "q9": 0,
+    "q10": 1,
+    "q11": 4,
+    "depths": [
+      124,
+      125
+    ],
+    "canonical_row_sha256": "cd97c70397c5f5bd695ac2c52e091cfc8e98286ae6b527023eda62261ab6ae9e"
+  },
+  {
+    "p": 71,
+    "seed": 17,
+    "q9": 0,
+    "q10": 1,
+    "q11": 4,
+    "depths": [
+      124,
+      125
+    ],
+    "canonical_row_sha256": "18f905ff4e1077d5c2d17c00ebdc532c2afc42843d1a64ab2f145bf98e0689df"
+  },
+  {
+    "p": 71,
+    "seed": 16,
+    "q9": 0,
+    "q10": 0,
+    "q11": 5,
+    "depths": [
+      126,
+      127
+    ],
+    "canonical_row_sha256": "13bcfc70aef0bc2952c18a230de52adcfc9500f1e66ebd926247e473a9633ebf"
+  }
+]

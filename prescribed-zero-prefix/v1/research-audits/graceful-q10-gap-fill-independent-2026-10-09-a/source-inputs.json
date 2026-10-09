@@ -1,0 +1,111 @@
+{
+  "files": {
+    "AGENTS.md": {
+      "bytes": 1073,
+      "sha256": "501c49f76e9bb03d06027d89361469a2fb069d911398995655d5ee9cdfa54885"
+    },
+    "EDITORIAL_POLICY.md": {
+      "bytes": 11098,
+      "sha256": "7159843953686d349f3d63daf3125f997c5723e8bda863df50ecf87c8dd0ac27"
+    },
+    "research-audits/graceful-beyond-five-sixths-block-principle-2026-10-09-a/data.json": {
+      "bytes": 3963,
+      "sha256": "3eec37728f84b9462617615163880a0ba8a04e451cf9edf4831ec55000a75685"
+    },
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/gadget30.json": {
+      "bytes": 356,
+      "sha256": "cbe6a157d5bd9514f15df9fba590cff1e1bcda9887394c94f49cec6dd2fb4027"
+    },
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/manifest.json": {
+      "bytes": 1988,
+      "sha256": "d0aa0abaef3534845b4ac97dc1d5b039c177df574c795802a28416dd01f0b3ad"
+    },
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/old-data.json": {
+      "bytes": 4892,
+      "sha256": "fb5389508dcd92372ba546be1dceb1f7d59c31391363a1a8984e9a7e05f846bf"
+    },
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/report.md": {
+      "bytes": 8550,
+      "sha256": "650d283ca90509c6c1f145c38335ac64ce0b6414b330e260c14de801ef6bfe40"
+    },
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/seeds.json": {
+      "bytes": 21461,
+      "sha256": "8ae0c7df38ef482cb9f41e3cd4b26a64f03f7643d3e352207a1d3358f403cb31"
+    },
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/small-seeds.json": {
+      "bytes": 8401,
+      "sha256": "8038056f90c2d02226ff6cf962030a879734f4553990623a0043a04c541495dd"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/check.py": {
+      "bytes": 10771,
+      "sha256": "34935d2f44e14eaaaecf992fc5b94e2cfdcee2df8133390d555037cd91bff54e"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/context.json": {
+      "bytes": 90,
+      "sha256": "1d405b33c57dac78104f47951d04c9322b6bc7ac6b8f8f73dbe01c5f59aadc88"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/inputs.json": {
+      "bytes": 1236,
+      "sha256": "4f3919bacef8832bfd8f21633e7b6c31d450b22373f68338f4fc78ede435b18a"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/manifest.json": {
+      "bytes": 1052,
+      "sha256": "ce41485e485b6dd86c92092923326fdaa47095fa8243eb4d733c4531d5d5b685"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/recipes.json": {
+      "bytes": 936,
+      "sha256": "c75580b48588b48cbf41d9631b0f3a0028c2c0d7cbeb4729fb79022b3f8dddf7"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/report.md": {
+      "bytes": 12123,
+      "sha256": "3150df1b1f6296c580eebf5c2bc4b7bba9b6ae97436b0ebfbb821f70c41658a6"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/seeds.json": {
+      "bytes": 811,
+      "sha256": "ae988ac1c5df4d2b284fdaf3ba6beb3d6083cca2efa494c9b7097799d57aceba"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/verification-normal.json": {
+      "bytes": 2118,
+      "sha256": "4ad9b776c0160c56ae06d0286ca28ffeb9906ee27c7b81fa58195593277022f5"
+    },
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/verification-optimized.json": {
+      "bytes": 2118,
+      "sha256": "4ad9b776c0160c56ae06d0286ca28ffeb9906ee27c7b81fa58195593277022f5"
+    },
+    "research-audits/graceful-q10-q11-positive-independent-2026-10-09-a/manifest.json": {
+      "bytes": 1261,
+      "sha256": "720ef06b23bf2a7a5cc39dd02d260f519ac0939ad58e69be73f747ebe1ef4afd"
+    },
+    "research-audits/graceful-q10-q11-positive-independent-2026-10-09-a/report.md": {
+      "bytes": 8894,
+      "sha256": "f90b3ef57a1f9d9f762f99a2db7b68eef8d88c1862e35809794122e54be33a44"
+    },
+    "research-audits/graceful-reverse-complement-independent-2026-10-09-a/audit.py": {
+      "bytes": 10119,
+      "sha256": "0268facd54ffcc51f67ba572383001ca10a8da871b0b03e81c6e843a57bdcbc2"
+    },
+    "research-audits/graceful-ten-elevenths-global-2026-10-09-a/manifest.json": {
+      "bytes": 1126,
+      "sha256": "419634baa520139e83395fb2014478710317d8bf72f83c4c7c54e31083be739d"
+    },
+    "research-audits/graceful-ten-elevenths-global-2026-10-09-a/report.md": {
+      "bytes": 13082,
+      "sha256": "bf7eec616fa42a5465703e4f90d296f02dcb35a0b91c5c6c82bdfcf5208f9249"
+    },
+    "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/manifest.json": {
+      "bytes": 1462,
+      "sha256": "4fd38e5e2b60ed6873105ffa751b5922a87a6a12f137956abf19e289f343c24a"
+    },
+    "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/report.md": {
+      "bytes": 15637,
+      "sha256": "60a958449111a6f875be84a05d419c94c474db0cb770b3c07af799f57633c1cf"
+    }
+  },
+  "verified_manifest_payloads": {
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/manifest.json": 15,
+    "research-audits/graceful-q10-gap-fill-beyond-d7-2026-10-09-a/manifest.json": 8,
+    "research-audits/graceful-q10-q11-positive-independent-2026-10-09-a/manifest.json": 8,
+    "research-audits/graceful-ten-elevenths-global-2026-10-09-a/manifest.json": 5,
+    "research-audits/graceful-ten-elevenths-independent-2026-10-09-a/manifest.json": 11
+  }
+}

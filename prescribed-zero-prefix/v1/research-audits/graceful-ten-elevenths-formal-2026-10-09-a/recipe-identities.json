@@ -1,0 +1,355 @@
+[
+  {
+    "group": "bases",
+    "p": 61,
+    "recipes": [
+      [
+        0,
+        5,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "194de4e6551ae06c5411aa32036751fb66cb79edcdf60e5379231489120c5e6b"
+  },
+  {
+    "group": "bases",
+    "p": 62,
+    "recipes": [
+      [
+        0,
+        5,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "85fa1d2ec636d1a2b1c68e6e3d6305a1b845b34323c97c1c6814a8f41ea5dc79"
+  },
+  {
+    "group": "bases",
+    "p": 63,
+    "recipes": [
+      [
+        0,
+        5,
+        2,
+        0
+      ],
+      [
+        1,
+        4,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "61495b26bf9be39e41734935ae1d2089e505396242675952a3fe02ef99aeb7c1"
+  },
+  {
+    "group": "bases",
+    "p": 64,
+    "recipes": [
+      [
+        0,
+        5,
+        3,
+        0
+      ],
+      [
+        1,
+        4,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "8f95a23faa2b74dd17b7918bd84112c0537c86d410c652e825d4b81771e192dc"
+  },
+  {
+    "group": "bases",
+    "p": 65,
+    "recipes": [
+      [
+        1,
+        4,
+        2,
+        0
+      ],
+      [
+        2,
+        3,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "ddde19ab10ad520b0c37fe204b4046b88fec06782c5b47a617a15de654766aaf"
+  },
+  {
+    "group": "bases",
+    "p": 66,
+    "recipes": [
+      [
+        0,
+        5,
+        5,
+        0
+      ],
+      [
+        1,
+        4,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "d463751b2d47729b0777be16a5d51b3836beeb161084745ae753fb2c4c67dfb6"
+  },
+  {
+    "group": "bridges",
+    "p": 67,
+    "recipes": [
+      [
+        1,
+        4,
+        4,
+        0
+      ],
+      [
+        2,
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "9e992fd34fc1c23c4abeaca0e406c04698bf6746f772ffc32051abd46277d969"
+  },
+  {
+    "group": "bridges",
+    "p": 68,
+    "recipes": [
+      [
+        1,
+        4,
+        5,
+        0
+      ],
+      [
+        2,
+        3,
+        3,
+        0
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "b01dd1a14f74fef85c369c342ad38cf44bfbedea8c5817e440b9a7b42e13712b"
+  },
+  {
+    "group": "bridges",
+    "p": 69,
+    "recipes": [
+      [
+        2,
+        3,
+        4,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        0
+      ],
+      [
+        4,
+        1,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "61ca5db882279cbf3bd0e529898a77a4a671e7546948f9e0fe25c17bfac3f729"
+  },
+  {
+    "group": "bridges",
+    "p": 70,
+    "recipes": [
+      [
+        2,
+        3,
+        5,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "ea94e54d453c87d53f6921ea63f3560b172001afc99eba8d611ddae867309ef5"
+  },
+  {
+    "group": "bridges",
+    "p": 71,
+    "recipes": [
+      [
+        0,
+        6,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "c382fa83ba4272c99535eb600e8b1cab36557d252b347d76a00d903137a1058e"
+  },
+  {
+    "group": "bridges",
+    "p": 72,
+    "recipes": [
+      [
+        0,
+        6,
+        2,
+        0
+      ],
+      [
+        1,
+        5,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "ab40beefcf21fb1c64a365d99ae5282eb39ce917aaecbd7a44b54db66c63cce5"
+  },
+  {
+    "group": "bridges",
+    "p": 73,
+    "recipes": [
+      [
+        0,
+        6,
+        3,
+        0
+      ],
+      [
+        1,
+        5,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "bd88a7a9c10523bc09dfe493048447c1d9d64f2d60852843efef42698755927a"
+  },
+  {
+    "group": "bridges",
+    "p": 74,
+    "recipes": [
+      [
+        0,
+        6,
+        4,
+        0
+      ],
+      [
+        1,
+        5,
+        2,
+        0
+      ],
+      [
+        2,
+        4,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "4c8a5098f046bbaf6c1c2c3abdd874ec1e2cb23912f8f7f530a8d893761a3c4f"
+  },
+  {
+    "group": "bridges",
+    "p": 75,
+    "recipes": [
+      [
+        0,
+        6,
+        5,
+        0
+      ],
+      [
+        1,
+        5,
+        3,
+        0
+      ],
+      [
+        2,
+        4,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "f9fa525ff90c2d6a0ef2e4a5f19090b22e99f108b1f1d8d838b00b5e018ed79e"
+  },
+  {
+    "group": "bridges",
+    "p": 76,
+    "recipes": [
+      [
+        1,
+        5,
+        4,
+        0
+      ],
+      [
+        2,
+        4,
+        2,
+        0
+      ],
+      [
+        3,
+        3,
+        0,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "f4779224d59629763f5bd9d8d4172a41dd0ba16d62ba5675d5899eed2cd91d93"
+  },
+  {
+    "group": "bridges",
+    "p": 77,
+    "recipes": [
+      [
+        1,
+        5,
+        5,
+        0
+      ],
+      [
+        2,
+        4,
+        3,
+        0
+      ],
+      [
+        3,
+        3,
+        1,
+        0
+      ]
+    ],
+    "canonical_row_sha256": "205835917bbe0d690f8aca31ab88b8d73e608a7aeb3ded869ac6e72a2590abb7"
+  }
+]

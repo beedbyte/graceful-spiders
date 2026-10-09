@@ -1,0 +1,60 @@
+{
+  "status": {
+    "q10": "POSITIVE",
+    "q11": "POSITIVE"
+  },
+  "scope": "Private P2 exact compatible insertion contract; no all-k prefix conclusion",
+  "files": {
+    "check-normal.json": {
+      "sha256": "121065cd398dfe919ead7c5e06e06265c35e780eae71f7bd86e79aa1467ddeb4",
+      "bytes": 521
+    },
+    "check-optimized.json": {
+      "sha256": "121065cd398dfe919ead7c5e06e06265c35e780eae71f7bd86e79aa1467ddeb4",
+      "bytes": 521
+    },
+    "check.py": {
+      "sha256": "94e0cf4572fb46fe5069d4f80171cba0fd234b8376fe24de9e1f679a7d896f6f",
+      "bytes": 2651
+    },
+    "report.md": {
+      "sha256": "b6afd14b14d05344830fae350a0b170d6e6bfc1b2c341de57141d82d24465666",
+      "bytes": 6496
+    },
+    "results.json": {
+      "sha256": "48d53a24b6bcec3b8d98b3f75caf51a0dbc86d2cae8dfcf43f9898beedf9105f",
+      "bytes": 56335
+    },
+    "search.py": {
+      "sha256": "c91e8b0d2e38f0a28290e515d4176f2c97859f88fd890bb49d5b0aebbac335f5",
+      "bytes": 3503
+    }
+  },
+  "read_only_inputs": {
+    "AGENTS.md": {
+      "sha256": "501c49f76e9bb03d06027d89361469a2fb069d911398995655d5ee9cdfa54885",
+      "bytes": 1073
+    },
+    "EDITORIAL_POLICY.md": {
+      "sha256": "7159843953686d349f3d63daf3125f997c5723e8bda863df50ecf87c8dd0ac27",
+      "bytes": 11098
+    },
+    "research-audits\\graceful-q9-provisional-independent-2026-10-09\\report.md": {
+      "sha256": "f812acc019fa343632916dcc27f15066acfc2b2739cbeada5f308d216e3297d3",
+      "bytes": 5395
+    },
+    "research-audits\\graceful-q9-provisional-independent-2026-10-09\\gadget-search-results.json": {
+      "sha256": "16e2aa882f9111d04c0bb1a71a01a30e7659cb2fedf4e0cf765988e3abc45cb0",
+      "bytes": 7047
+    },
+    "research-audits\\graceful-reflected-short-prefix-2026-10-09-a\\report.md": {
+      "sha256": "ac2b3c93a099875afa08523d468951bd2b4c99f69e2e768e18be01ab3fc01543",
+      "bytes": 7607
+    },
+    "research-audits\\graceful-reflected-short-prefix-2026-10-09-a\\check.py": {
+      "sha256": "a6a072e00a1a106ef0c3e1f5c2665d2002bfb18ba162a2f9acf2e1fc8477b024",
+      "bytes": 3625
+    }
+  },
+  "normal_optimized_equal": true
+}
