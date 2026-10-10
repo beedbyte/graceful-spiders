@@ -1,0 +1,9 @@
+{
+  "frozen_copy_path": "editorial-audit/graceful-k25-release-2026-10-10-a/cms-candidate/copy.en-de-zh.json",
+  "sha256": "dc6a45b3148553b0f7504631d8dc9c0ff5a21d9261a9e91b610e63112450ff97",
+  "translation_status": {
+    "en": "reviewed",
+    "de": "draft",
+    "zh": "draft"
+  }
+}

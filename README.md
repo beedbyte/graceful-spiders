@@ -11,6 +11,10 @@ PDF compilation and rendered layout remain unverified. Internal checks are not
 external peer review, and worldwide priority is unresolved.
 Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-even-arm-spiders/v/1).
 
+## Fixed 25-edge arms
+
+For every `n>=2,m>=0`, the center, every actual vertex on each named 25-edge arm, and every original named center leaf of `S(25^n,1^m)` can individually receive zero in a graceful labeling; the labeling may depend on the chosen vertex. The [fixed-k25 source package](fixed-k25/v1/README.md) has 27 byte-pinned Lean modules, a reproducible build, and [English](fixed-k25/v1/note.en.md), [German](fixed-k25/v1/note.de.md), and [simplified Chinese](fixed-k25/v1/note.zh.md) notes. German and Chinese are draft translations without documented human language review. `n=2,m=0` is `P51`; `n=2,m=1` is `P51` with a central leaf. Both cases have prior coverage, while worldwide priority for the full statement is **unknown**. A separate internal copied-source replay passed and is not external scholarly review. No PDF is supplied.
+
 ## Fixed 23-edge arms
 
 For every `n≥2,m≥0`, each actual named vertex of `S(23^n,1^m)` can separately

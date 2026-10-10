@@ -1,0 +1,28 @@
+{
+  "author_formal_report_sha256": "cdd8ce2cb2a393fc6d4ec4734f6f68ae59cb4c47f1b46e7794080fd768523c01",
+  "author_manifest_sha256": "eb118e3e227187d6822fc04c2c28cb209a14e65185462d7752bb9b799e740524",
+  "author_source_index_sha256": "7c37746e04c285cb8dada2369b77d4e509d7bd0feac253c1adbae882ef2aa61b",
+  "independent_replay_report_sha256": "07bf8eb86738caae8701b34fd1bef5683544a3650c2125f606ca4ae5feb9b5a6",
+  "independent_replay_manifest_sha256": "2182b417abfb4b7cd0bfac972d39261d987a575076e324d853b6fdd29c081423",
+  "independent_replay_index_sha256": "40904995370c942385243db3627646c17101e1aa24267f868ac01650966d786d",
+  "independent_math_qa_report_sha256": "315907b9cb57d5449de00172b2d1d3b4df80aa3013813303a843c405b4563771",
+  "independent_math_qa_manifest_sha256": "f753b998c760cdff0836cdceca8d0b132cafdb8050898ca17bad368eb1f7585c",
+  "independent_replay_results": {
+    "fresh_modules": 27,
+    "theorem_closures": 1649,
+    "private_closures": 103,
+    "named_n2m0_m1_positive_cases": 103,
+    "effective_semantic_negative_controls": 5,
+    "principal_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "limitations": [
+    "internal project check, not external scholarly review",
+    "fixed k=25 only",
+    "worldwide priority UNKNOWN",
+    "no PDF supplied"
+  ]
+}
