@@ -31,6 +31,10 @@ old vertices of `H`, or that every chosen root has a graceful zero labeling.
 German and simplified Chinese package notes are draft translations. The
 mathematical and copied-source checks are internal; exact worldwide priority
 and external scholarly review remain unresolved.
+Read the [English](https://beedbyte.tech/publications/rooted-graceful-95-edge-arms/v/1),
+[German](https://beedbyte.tech/de/publications/rooted-graceful-95-edge-arms/v/1),
+or [simplified Chinese](https://beedbyte.tech/zh/publications/rooted-graceful-95-edge-arms/v/1)
+version of the fixed-K95 article.
 
 ## Even-arm terminal-12 seed windows
 
