@@ -38,6 +38,7 @@ research notes. German and Chinese are draft translations without documented
 human language review. A separate internal copied-source replay passed;
 this is not external scholarly review. Earlier path subfamilies overlap,
 and worldwide priority remains unknown. No PDF is supplied.
+Read the [versioned Beedbyte research note](https://beedbyte.tech/publications/prescribed-zero-window-equal-arm-spiders/v/1).
 
 ## Prescribed-zero prefixes
 
