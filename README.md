@@ -23,6 +23,22 @@ Cattell construction remains unassessed for the simultaneous path anchors used
 here, so worldwide priority is unknown. No PDF is supplied.
 Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-23-edge-arm-spiders/v/1).
 
+## Variable q24 zero-depth interval
+
+For arm lengths `k=23+24t` with integer `t≥0`, all `n≥2,m≥0`, any named
+long arm of `S(k^n,1^m)` and every depth `17+20t≤d≤20+22t`, a graceful
+labeling can put zero at that actual vertex. Different targets may use
+different labelings. At `k=47` this covers depths `37..42`, and at `k=71`
+depths `57..64`; it does not assert all-vertex coverage at those lengths.
+
+The [versioned Lean source package](q24-variable-window/v1/README.md) has
+33 byte-pinned modules, a reproducible isolated build and [English](q24-variable-window/v1/note.en.md),
+[German](q24-variable-window/v1/note.de.md) and [Chinese](q24-variable-window/v1/note.zh.md)
+research notes. German and Chinese are draft translations without documented
+human language review. A separate internal copied-source replay passed;
+this is not external scholarly review. Earlier path subfamilies overlap,
+and worldwide priority remains unknown. No PDF is supplied.
+
 ## Prescribed-zero prefixes
 
 For every integer arm length `k≥19`, all `n≥2,m≥0`, any selected long arm
