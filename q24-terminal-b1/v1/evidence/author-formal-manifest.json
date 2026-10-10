@@ -1,0 +1,23 @@
+{
+  "fresh_object_count": 34,
+  "input_pins": {
+    "research-audits/graceful-q24-flipped-zero-independent-2026-10-10-a/manifest.json": "630514de88c00d69a29ce2fa0e7fcf03d0d1258bec80ba570f5253340ce76c75",
+    "research-audits/graceful-q24-flipped-zero-independent-2026-10-10-a/report.md": "efc0e5ee50b6e214c81396d8523c8fc5fd84e99c9d28e0f488fbc49a6c57ed1e",
+    "research-audits/graceful-q24-variable-window-copied-replay-2026-10-10-a/report.md": "44a2d5b096d473102fbc3ec6936eba48bc8eb19391e68042ab6b8244d46f50a7",
+    "research-audits/graceful-q24-variable-window-formal-2026-10-10-a/SOURCE-SHA256SUMS.txt": "e7108afaea7ef74cb5ab7c596925a3a22bb6b07ceff8e4721220dbc09a0e77f0",
+    "research-audits/graceful-q24-variable-window-formal-2026-10-10-a/report.md": "392eecf6bceae9282121e9ba0753b79d33ee4061c4a1ee75377fd36df4ee4610",
+    "research-audits/graceful-q24-zero-order-transfer-2026-10-10-a/data.json": "8cc56a9ba7a0b9d062ef5d0035e5e6b889671e415ed7c586bfaa90f0427da57d",
+    "research-audits/graceful-q24-zero-order-transfer-2026-10-10-a/manifest.json": "1903408ad6d5a2e23917236912b76d1450e11a9455a322006a53b644b887fa0f",
+    "research-audits/graceful-q24-zero-order-transfer-2026-10-10-a/report.md": "469a6167c41653138a227527d6e56f8c229133df71ce63446fad1d5f153ac729"
+  },
+  "named_cases": 4,
+  "new_axiom_closures": 18,
+  "object_index_sha256": "40759027486d08bb02438c586e461d615ac9a4662a490bef464cfcc380db1486",
+  "payload_index_sha256": "f78914b73d02f69ed184b8f308a78c0f117f8091c9e39fa6ab91ec26d828c8c7",
+  "predecessor_count": 33,
+  "rejected_mutants": 6,
+  "scope": "k=23+24t, t>=1, all n>=2,m>=0, each actual named arm, depths20+22t and21+22t",
+  "source_count": 34,
+  "source_index_sha256": "c55f3f4af89434b2ab9439d5391237834b4f767a81a19daab3b26123a47db66d",
+  "verdict": "AUTHOR_FORMAL_GO_PENDING_INDEPENDENT_REPLAY"
+}

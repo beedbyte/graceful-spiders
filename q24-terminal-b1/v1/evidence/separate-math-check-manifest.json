@@ -1,0 +1,19 @@
+{
+  "status": "GO: mathematical terminal adapter, not a Lean or novelty gate",
+  "scope": "Every t>=1,n>=2,m>=0 and selected named arm of S((23+24t)^n,1^m): separate zero labelings at depths20+22t and21+22t",
+  "frozen_utc": "2026-10-10T06:11:37.857779+00:00",
+  "payloads": {
+    "preauthor-contract.md": "5d63c29de8e963963507aae874736bd87c5394aaf0dda970d4cc83609220b4ce",
+    "preauthor-small-sums.md": "aa6ef7161f8426368785b34685b9bc594bca35e9068b082ce45ff6a914eb02c9",
+    "prepare.py": "b08938ade5061bb1ba74e445d07324ac75f8da3336915853df5657e18349e562",
+    "literal-input.json": "2a02be827aac0169fc2bd5e1f1d680b1a89a34e68884ab7de580332f51a386fa",
+    "input-pins.json": "dddccd371839ec0d5d2df83d96bd6c39ec0fbd18f10c4d433fe171848c8b8215",
+    "check.py": "5315dce94bafed0259a26c1920235f765ea2a00ffd344ee8dea1491de09e4bf7",
+    "normal.json": "252c08e48b94f9127156bd3740b22479a8996c89f8f525328ec8889ba7dae6db",
+    "optimized.json": "252c08e48b94f9127156bd3740b22479a8996c89f8f525328ec8889ba7dae6db",
+    "report.md": "efc0e5ee50b6e214c81396d8523c8fc5fd84e99c9d28e0f488fbc49a6c57ed1e",
+    "verify.py": "a551c316a93ea7469c43085854eeb4df85b49efad6c34d9cac1893abe641f517",
+    "freeze.py": "dc0155a6dc88d84efbf6f6860e9a8fcce30394da4d83d3f1eee078dbf05ae0d3"
+  },
+  "input_pins": 30
+}

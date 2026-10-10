@@ -1,0 +1,9 @@
+{
+  "status": "author mathematical GO; separate QA and Lean pending",
+  "report_sha256": "469a6167c41653138a227527d6e56f8c229133df71ce63446fad1d5f153ac729",
+  "data_sha256": "8cc56a9ba7a0b9d062ef5d0035e5e6b889671e415ed7c586bfaa90f0427da57d",
+  "checksums_sha256": "735e03fc8ecb946305c538e5eb945c92914f56715532a18e0327075084bf9b4f",
+  "input_index_sha256": "8ad5ad67f4dda08050c7c1ea2ab13b95b07ea6f635b18ed69d981be7a9e9e876",
+  "scope": "all t>=1, k23+24t, n>=2,m>=0,selected named arm depths20+22t and21+22t; one terminal odd-B transfer",
+  "worldwide_priority": "UNKNOWN"
+}

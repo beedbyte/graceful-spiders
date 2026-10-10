@@ -1,0 +1,4 @@
+E:\KI-Research\research-audits\graceful-q24-zero-order-independent-replay-2026-10-10-a\controls\WrongB.lean:3:133: error: Tactic `decide` proved that the proposition
+  (edgeSums [25, 15, 0] ++ edgeSums (0 :: Q24Terminal.D ++ [26]) ++ edgeSums (36 :: Q24Terminal.A)).Perm
+    (List.range' 1 50)
+is false

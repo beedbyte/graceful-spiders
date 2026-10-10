@@ -1,0 +1,14 @@
+{
+  "status": "GO",
+  "scope": "independent copied-source replay for frozen q24 terminal B1 package",
+  "author_report_sha256": "5938f32ddc195cf59ef3f98074adf906c3b49d534937203277af2fc37b933bd1",
+  "author_manifest_sha256": "34dc5fecc2b007d14aa870abbbca3964ead91c7b7f9d76c315a2396902dacfe1",
+  "source_index_sha256": "c55f3f4af89434b2ab9439d5391237834b4f767a81a19daab3b26123a47db66d",
+  "sources": 34,
+  "fresh_oleans": 34,
+  "terminal_theorem": "t>=1,n>=2,m>=0, every selected arm, separate depths 20+22t and 21+22t",
+  "new_theorem_closures": 18,
+  "negative_controls": 6,
+  "report_sha256": "3e07a0951ddba08fa0f78c042462279ac68dab30d3c6b8ce649a13b7e70fe64f",
+  "sha256sums_sha256": "e5a5331d18011165617547ba369e5c1ab86be81d204607c0c718d2cdcb1090f8"
+}
