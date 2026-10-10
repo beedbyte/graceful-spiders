@@ -1,0 +1,419 @@
+{
+  "count": 59,
+  "modules": [
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Boundary",
+      "object_sha256": "b3f78d6de393d6ca0171ba8902ed49c83c601599fa825cf2576ee5ac10d1f519",
+      "seconds": 9.266
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Amalgamation",
+      "object_sha256": "80ee2d42dccbe7b117db18f36d88aa9ae1e8b8eb064560270b7a58390e9e8d17",
+      "seconds": 1.594
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Certificates",
+      "object_sha256": "df0f69dbb1391097f56ec1d4a14aeee4449a219a1c8026feb62de9a47fa87935",
+      "seconds": 2.125
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Interfaces",
+      "object_sha256": "988590e415dd4373c543960faa2f49698c4107362469f4afc341bf3489e208f8",
+      "seconds": 1.64
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Recurrence",
+      "object_sha256": "6ceed488146a14abc57b4ed70762a0c27cafb0ff0f8de1cb5e8c08a82e7e9d64",
+      "seconds": 3.578
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Shell",
+      "object_sha256": "4a657f48b088b77de5caad5a24d70bbcf5d0ce12f073c75c6053d86dc34045cd",
+      "seconds": 5.875
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "PathGraph",
+      "object_sha256": "66f9da927de652d9f58fac12f94fef82f1a0670fdc2b194fdefe421856104168",
+      "seconds": 1.532
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Residual",
+      "object_sha256": "daa87eca9cc2d2b2dbc3fd913121940e59b514ece248953dff3656f7b0c46127",
+      "seconds": 4.828
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Graft",
+      "object_sha256": "5ef7b92ea696af4f4acca67fa0464c3bea61136ae4e3ed49c91157b8f7fa18e6",
+      "seconds": 1.579
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Identification",
+      "object_sha256": "527e22d638525505cca1a789c25b96cfa3c3caae477acbebf7c62130af72a6cf",
+      "seconds": 2.39
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "SpiderTheorem",
+      "object_sha256": "3f00d6cddfcd7ac7f5c12ee3acfc15f4a81fb84148e748273021d8f44ae62b34",
+      "seconds": 1.578
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "SecondRecurrence",
+      "object_sha256": "3b8bbe0ff15abb83ba3c70f98fe9a1612058b1644b5725b26dfd9cf3ef9f985c",
+      "seconds": 3.172
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "SecondShell",
+      "object_sha256": "053be21fd93cc28083ba11a32cf706916285b0faa3244c42b580093cddef94e3",
+      "seconds": 1.672
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "SecondSpider",
+      "object_sha256": "382807e419a2418f25a6747477ed76bff6a806a6e3bf8e147e02786cabe73166",
+      "seconds": 1.688
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "ThirdRecurrence",
+      "object_sha256": "256153b80940f23f9f38df0de1bbd0d9f817019587e2825888db1ba9a7d9c995",
+      "seconds": 3.765
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "ThirdShell",
+      "object_sha256": "9b3ef3714659c3097767339fb1b830962253e41efaa5435ddbe73d66d5ad9ac0",
+      "seconds": 2.016
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "ThirdSpider",
+      "object_sha256": "72e731c2b2962e32b0e1f02d344aca6206f900f16ba65a01bc36c94219f5d716",
+      "seconds": 1.64
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "VariableGadget",
+      "object_sha256": "92499fea9a21ab6e3f6530d04052737ee0733cb9293208f5dbc51ff3cce9a892",
+      "seconds": 2.797
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "VariableCore",
+      "object_sha256": "4bc0996a90c0a1a8ca3e89c611188d3fe26e537e77bfe39246fbda440a204942",
+      "seconds": 3.547
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "VariableInterval",
+      "object_sha256": "dbc2729966b0b3ae6300c5b252f5924ff60e8db8d8bef9e10fccc109e2c787fb",
+      "seconds": 2.422
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "VariableIdentification",
+      "object_sha256": "9089532f1adb04f92946e4d7b5650eab9ab7860cb9957d875e99f6189b71f2f2",
+      "seconds": 2.484
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "VariableSpider",
+      "object_sha256": "f0084944d8c5bfafa0c7e7c5acba74d72631900e8be8c2eb876d696135998c78",
+      "seconds": 2.313
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "FiniteAlphaTransfer",
+      "object_sha256": "ee45a362c9dce196f0184e56c1acca90152ec72ef2c8b0af78e882f34829b415",
+      "seconds": 2.031
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K23Packets",
+      "object_sha256": "ed4eb23e88a94f47e7b65c08979ddddbf21e4f83aa8e6eabf7b25b67294a41ee",
+      "seconds": 6.422
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "TaggedDecode",
+      "object_sha256": "26d66b462c4d7e5d5d4b496fac30ff0b4ce8d2e1aaf1c33ef5efac030b695ac1",
+      "seconds": 1.907
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24Arrays",
+      "object_sha256": "5ec8e26bb71c1c42f8baeed7c8b0a0172632dba7b3654c98cc0d316038d19127",
+      "seconds": 1.421
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24Graft",
+      "object_sha256": "09b06088f8bf144723e7d1bf882bb7c47ff0cb86676ad2b2a5dfef132a6e25cb",
+      "seconds": 2.969
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24Positions",
+      "object_sha256": "f9de0db77594bab8b43a8f484488017778828a53adb1d5866db67269eb694655",
+      "seconds": 1.797
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24Family",
+      "object_sha256": "52c2ddceacdcbb3c9c73f8a6082ec5c9afb2b5f970097b939572cee82cf6849d",
+      "seconds": 2.063
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24B4Graft",
+      "object_sha256": "d968718617b0296769fed270e9fe378b4f6c1a4a297338d95842cc4b7111659d",
+      "seconds": 2.406
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24Terminal",
+      "object_sha256": "56b9c8d731d68926ad3d130617cbadb6643ba4268dff1bd189e87e19463ac2f4",
+      "seconds": 3.0
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K71Catalog0",
+      "object_sha256": "3342dca71ddbc608d88708942d5b4fd9049c293ef36a780c4f00aeb30877cae5",
+      "seconds": 22.14
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K71Catalog1",
+      "object_sha256": "fcdd79a96331024284a6361b7ba13eaa398f2ee5b1fc4cc960d0f44cafb66bee",
+      "seconds": 22.032
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K71Catalog2",
+      "object_sha256": "3c27012231b952d8c35653b6b567d4a54c714c445a8285b9ef74a8d5efac43f9",
+      "seconds": 22.672
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K71Catalog3",
+      "object_sha256": "5bd555628c1d2d7b9b54b32ebd2a88acf4cc12041cd2e489d02437045854cd5c",
+      "seconds": 23.453
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K71Catalog4",
+      "object_sha256": "955c71f9f630a46a4ea85c1e13c51b8391a38f6909e45cc94d0c77c48cd57c7d",
+      "seconds": 23.859
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q54Arrays",
+      "object_sha256": "0dfbe9b24042159fc94dc101f960544cd828b35231f601cc14b6e47299fdd999",
+      "seconds": 1.797
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q54Certificates",
+      "object_sha256": "aa6ab70c3de7920c49fc8fc60d80528e5e090542d2d234fcac12ae388be93be0",
+      "seconds": 5.218
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q54Actual",
+      "object_sha256": "4afe0ae9f3f1293414a9f2f0e0277a080f88449fad3979447ef147d5c8d0ad55",
+      "seconds": 1.438
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K71CatalogActual",
+      "object_sha256": "ffcd5ec7e84437ed98a90d41c3a6ae070d0f7ddab6eba7749868386795342699",
+      "seconds": 19.531
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24B4Positions",
+      "object_sha256": "6824d0006db9bcc51aa399e3c06f6710bef518c6445d1a544e81320ee7b960e7",
+      "seconds": 1.891
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24MixFamily",
+      "object_sha256": "3d19672e26166dc25d571029f0f26c6cf7431474f6b4346e2008307330303f19",
+      "seconds": 2.031
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24Seed5Mix",
+      "object_sha256": "63367e5ed8a076c754cdf2865886aeac23a0a514a626676049b241605405e60b",
+      "seconds": 2.281
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K71Boundary",
+      "object_sha256": "701476a3e75acde214f0ddc83dae6df09f3e576c39a7953e1baa8cb41c3f0ca9",
+      "seconds": 1.672
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "d54b44250aca68f69813ec991fe1bf6a43bd15136335f1e804e42d06a3f5f6c9",
+      "module": "K71Tip",
+      "object_sha256": "0cfb4de87a87545b622b5061912bc299226caa7d7652e0a4058c5c3ed985841f",
+      "seconds": 3.937
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "a17cbfc2b298c9f96b2918f4bb2b6658cac6529f4db6780422c7521152ea9450",
+      "module": "K71Full",
+      "object_sha256": "d76ebae320e006d5db50ad4375eaf230ef2952d7db27c94eef327abcf4d34729",
+      "seconds": 1.625
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "RootedGraft",
+      "object_sha256": "981b36b375c2a5522ca707907cd122397ca1a8edd3d51dcb5f625ed61a8d3866",
+      "seconds": 1.516
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "RootedInjective",
+      "object_sha256": "e18951d70ac781a7f0378407b862ce1e1e299c551108ac114d95bccb58cfa7bb",
+      "seconds": 1.672
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "Q24Rooted",
+      "object_sha256": "f6bfcdca5670134fbe88c6a2a796dca3eae354c43fc2d34dd2962ef05dbde52f",
+      "seconds": 1.812
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog0",
+      "object_sha256": "194b1da8dca931279d4fd9234dfb5cca3c01b3962b3ae1cebc41fdc702da96d2",
+      "seconds": 38.969
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog1",
+      "object_sha256": "7b28eb59a9c5cfed30b342312b3c39e6a20a01ef84a6499c6d68c66598d239d2",
+      "seconds": 38.047
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog2",
+      "object_sha256": "2fbe6ad978c62cdd7badf4ab85b542f6e4874730579c8e7ccebc3c13453a1c3d",
+      "seconds": 39.234
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog3",
+      "object_sha256": "5c0f101a720558dc86b95a773fc6047bb3ece64d2508e52e0ee30a2688da1827",
+      "seconds": 40.703
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog4",
+      "object_sha256": "080a56c5a70c17aa8f91af1d3900186df4db5c4c90326226e02834ed2e1a79d2",
+      "seconds": 41.469
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog5",
+      "object_sha256": "29812a3e3c9d291aa523349fa3749888051394399c33446714b72cf86a39d7d7",
+      "seconds": 43.344
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog6",
+      "object_sha256": "a3ef9745c6cb1c337a8b78f3a8b16653f32a877aa414581321e0ef75216fcb1e",
+      "seconds": 39.468
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog7",
+      "object_sha256": "087c5f330d8dec5391eb88c86e2a1652a43e46dd3ddc77bdc831669ef7db6dcc",
+      "seconds": 44.704
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Catalog8",
+      "object_sha256": "ced2f07155ff45c826141f00c60f9e9019e7deefb72091b16399a34b5ab393e5",
+      "seconds": 29.89
+    },
+    {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "module": "K95Rooted",
+      "object_sha256": "665bbf17df9bfc91dc562b9d43effb8df4d2af0a29a3c69658953d151c2dcf5f",
+      "seconds": 221.391
+    }
+  ],
+  "status": "PASS_ALL_FRESH_WARNING_AS_ERROR"
+}

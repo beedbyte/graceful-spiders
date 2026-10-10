@@ -11,6 +11,27 @@ PDF compilation and rendered layout remain unverified. Internal checks are not
 external peer review, and worldwide priority is unresolved.
 Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-even-arm-spiders/v/1).
 
+## Two new arms on a rooted graceful graph
+
+Let `H` be any finite graph with a supplied conventional graceful labeling whose
+chosen root has label zero. Attach two distinct new `K`-edge arms there, retaining
+all of `H`. The [all-even rooted source package](all-even-rooted-prefix/v1/README.md)
+proves that, for every even `K≥20`, each depth `2..D8(K)` on either new arm can
+separately receive zero in a conventional graceful labeling. The bound `D8` is
+given explicitly in the package and grows without bound. Read the
+[English](https://beedbyte.tech/publications/even-arm-rooted-graceful-zero-depths/v/1),
+[German](https://beedbyte.tech/de/publications/even-arm-rooted-graceful-zero-depths/v/1),
+or [simplified Chinese](https://beedbyte.tech/zh/publications/even-arm-rooted-graceful-zero-depths/v/1)
+version of the article.
+
+For the fixed length `K=95`, the [rooted interior source package](k95-rooted-residual/v1/README.md)
+also covers each depth `1..94` on either new arm, with a separate labeling for
+each target. Neither result asserts zero placements at the new tips or arbitrary
+old vertices of `H`, or that every chosen root has a graceful zero labeling.
+German and simplified Chinese package notes are draft translations. The
+mathematical and copied-source checks are internal; exact worldwide priority
+and external scholarly review remain unresolved.
+
 ## Fixed 25-edge arms
 
 For every `n>=2,m>=0`, the center, every actual vertex on each named 25-edge arm, and every original named center leaf of `S(25^n,1^m)` can individually receive zero in a graceful labeling; the labeling may depend on the chosen vertex. The [fixed-k25 source package](fixed-k25/v1/README.md) has 27 byte-pinned Lean modules, a reproducible build, and [English](fixed-k25/v1/note.en.md), [German](fixed-k25/v1/note.de.md), and [simplified Chinese](fixed-k25/v1/note.zh.md) notes. German and Chinese are draft translations without documented human language review. `n=2,m=0` is `P51`; `n=2,m=1` is `P51` with a central leaf. Both cases have prior coverage, while worldwide priority for the full statement is **unknown**. A separate internal copied-source replay passed and is not external scholarly review. No PDF is supplied.

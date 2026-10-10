@@ -1,0 +1,6 @@
+{
+  "artifact": "evidence/copy-bindings.json",
+  "derived_from_frozen_original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/copy-bindings.json",
+  "original_sha256": "a939663e6ad2fecdafce42b737e1d88bca6bc19d4766e8e5d5c86d66df46557d",
+  "redaction": "The local absolute compiler executable path was replaced by a platform/version description. Compiler SHA256 and all source/module bindings are retained. Frozen original evidence remains unchanged in candidate-a and its original replay directory."
+}

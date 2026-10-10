@@ -1,0 +1,15 @@
+{
+  "GracefulBoundary.K95Rooted.catalog_extreme": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "GracefulBoundary.K95Rooted.interior": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "GracefulBoundary.K95Rooted.packet_extreme": [
+    "propext"
+  ]
+}

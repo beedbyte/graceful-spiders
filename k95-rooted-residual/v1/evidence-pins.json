@@ -1,0 +1,83 @@
+{
+  "evidence": [
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-transfer-2026-10-10-a/report.md",
+      "path": "evidence/math-author-report.md",
+      "sha256": "0704b6f204b44f294509c67c9be24c9e96ca5284806604b5049e4fb8b94c6e2d"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-independent-2026-10-10-a/report.md",
+      "path": "evidence/math-separate-internal-report.md",
+      "sha256": "6b9cf00a5d76ad86c2c38860e19a86879deffc2eadc55b46793c92b7ad0e962a"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-formal-2026-10-10-a/report.md",
+      "path": "evidence/formal-author-report.md",
+      "sha256": "e8ec1733d50564cf5599767a59fecc17f332ead05395438c9c71d9ba2d0e05a6"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/report.md",
+      "path": "evidence/copied-source-replay-report.md",
+      "sha256": "ecae56dd1ef3d5b136c6aab5cc720d8b0685a8e0d7ff144d322fb888bd5f82a1"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/axiom-inventory.json",
+      "path": "evidence/axiom-inventory.json",
+      "sha256": "a492db94953ce7f9639b8bf2d335647729c3bf0b275c4ea616012f956fd3340e"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/principal-closures.json",
+      "path": "evidence/principal-closures.json",
+      "sha256": "24f6b8abd3cc058c9153d56c4cfd2d949d2fb119b002930ead0d66011b442bbc"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/module-closure-counts.json",
+      "path": "evidence/module-closure-counts.json",
+      "sha256": "57519cb7529dc9058aa6001c213cf6238ed70dda02218d74834287364f36f379"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/verification.json",
+      "path": "evidence/verification.json",
+      "sha256": "d174f1659095bc4246edfdf3b353d0c0b68c9af289048765c487df45de03329e"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/build-summary.json",
+      "path": "evidence/build-summary.json",
+      "sha256": "831c721973ee78fb94f2fd73e90ebc2f207d7710f9a72aaaff33d41bd428d8eb"
+    },
+    {
+      "derivation": "absolute local compiler path redacted; see evidence/copy-bindings-redaction.json",
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/copy-bindings.json (private original SHA256 a939663e6ad2fecdafce42b737e1d88bca6bc19d4766e8e5d5c86d66df46557d)",
+      "path": "evidence/copy-bindings.json",
+      "sha256": "7e6f3c73bbd2f50a54032e76767fd39b6ced52c86ed114c82b6ca5ff8db9395a"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-copied-replay-2026-10-10-a/COPIED-SOURCE-SHA256SUMS.txt",
+      "path": "evidence/COPIED-SOURCE-SHA256SUMS.txt",
+      "sha256": "092f9d015c3c9a6904510129dd1a0401e268f7b149ec2715fa00a8be088bc3ec"
+    },
+    {
+      "original": "research-audits/graceful-k95-rooted-residual-release-candidate-2026-10-10-b/package/evidence/graft-operation-overlap.md (corrected candidate-b note)",
+      "path": "evidence/graft-operation-overlap.md",
+      "sha256": "cb8645a466977cdb8283c6b5f684559f85f469265b6a4996a99646d5ff317778"
+    },
+    {
+      "original": "private redaction provenance",
+      "path": "evidence/copy-bindings-redaction.json",
+      "sha256": "eed5358307314305ae3c244a4cb41ef568e69339f964559c015888c0e1e4ee76"
+    },
+    {
+      "path": "evidence/source-package-build-verification.json",
+      "original": "candidate-b qa-build/verification.json",
+      "sha256": "070b2f8c38745e84498e6204a91cb9636d3d5ce8793dd902e9e3e347719827e9"
+    }
+  ],
+  "external_peer_review": "NOT_CLAIMED",
+  "formal_author": "GO_SCOPED",
+  "formal_separate_internal_copied_replay": "GO_59_FRESH_PROJECT_MODULES_2239_STANDARD_ONLY_CLOSURES",
+  "mathematical_author": "GO_SCOPED",
+  "mathematical_separate_internal": "GO_SCOPED; not fully blind to author prose; no author checker used",
+  "public_provenance_note": "The private original copy-bindings record is preserved unchanged outside the distributable package; its SHA256 is recorded in evidence/copy-bindings-redaction.json.",
+  "source_package_portable_build": "PASS_59_FRESH_MODULES_2239_MATCHED_CLOSURES_196_TARGETS_4_MUTANTS",
+  "worldwide_priority": "UNKNOWN"
+}

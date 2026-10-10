@@ -1,0 +1,40 @@
+# Two 95-edge arms over a rooted graceful residual
+
+Private mathematical extension, 10 October 2026. **Scoped mathematical GO** for every interior vertex of either new arm under the precise root-zero residual premise below. **HOLD** for the two new tips and arbitrary old residual vertices. This is a conditional graph-family corollary of frozen fixed-k95 alpha paths, not a new proof that every rooted graceful graph can prescribe zero at its root. No publication or priority claim.
+
+## Exact graph and theorem
+
+Let `H` be any finite indexed graph with `Q` edges and a chosen root `r`. Assume a conventional graceful labeling `g:V(H)→{0,…,Q}`: vertex labels are injective, all `Q` edge weights are `1,…,Q` once each, and `g(r)=0`. Identify `r` with the midpoint of a new path of **190 edges**. The resulting actual graph retains all old vertices and edges of `H` and has two named new paths of **95 edges each** from `r`. For either named new path and every physical depth `d∈{1,…,94}`, there exists a target-dependent conventional graceful labeling of this graph assigning zero to that chosen new vertex. Its edge set has `Q+190` members with weights `1,…,Q+190`; labels are injective in `0,…,Q+190`.
+
+This includes non-tree `H` and needs no alpha condition on `H`. For a residual tree with `Q+1` vertices, the injective labeling is automatically onto, so the graft also has the project's stronger full vertex-band graceful property. The theorem is conditional on **the chosen root admitting a zero labeling**. A labeling with `g(r)=Q` can be complemented first. No claim is made for a specified interior root label without a separate root-zero labeling.
+
+## Source contract and universal transfer
+
+The frozen independent fixed-k95 catalog contains 51 distinct path words. For every `d=1,…,94`, its target table selects a 191-entry word `P_d` with labels exactly `0,…,190`, adjacent differences exactly `1,…,190`, midpoint `P_d[95]=94`, and every path edge crossing the cut at `94`. At left index `95−d`, `P_d` has either `0` or `190`. This is an exact path contract for **all** interior depths, not a consequence inferred merely from the full-spider theorem. Reversal moves the selected extreme to right index `95+d` while retaining the same midpoint and complete inventories.
+
+For either orientation, label the path values `0,…,94` unchanged and shift path values `95,…,190` by `Q`. Give an old residual vertex `v` label `94+g(v)`; the root matches the midpoint at `94`. The low path vertices occupy `0,…,93`, the old graph occupies an injective subset of `94,…,94+Q`, and high path vertices occupy `95+Q,…,190+Q`. Hence labels do not collide. Every path edge crosses the cut, so its difference increases by `Q`, yielding `Q+1,…,Q+190`; old edges keep weights `1,…,Q`. If the selected path extreme was `0`, the target is already zero. If it was `190`, its graft label is `190+Q`; complement the **whole graph** by `x↦190+Q−x` to make the target zero. The graph incidence is the path's 190 consecutive edges plus exactly the old edges of `H`, with the physical midpoint identified with `r`.
+
+The vertex set is full-band onto if and only if `g` hits every value in `0,…,Q`. Thus a cyclic graph can satisfy the conventional theorem without satisfying the project's stronger onto definition. This band analysis is part of the claim, not an exception hidden by the word “graceful.”
+
+## Boundaries and attempted weakenings
+
+The same labeling scheme assigns old residual vertices values in `94,…,94+Q`; after whole-graph complement they lie in `96,…,96+Q`. Therefore **this construction never zeros an old residual vertex**, including the root. That is a construction limit, not graph nonexistence. None of the 51 frozen path words has `0` or `190` at either endpoint. Consequently this exact catalog and splice do not supply depth `95` on either new path. The fixed-spider tip proof uses its special residual topology and cannot be imported as an arbitrary-`H` tip theorem without a new argument.
+
+The root label and interval bounds are essential to the stated splice. The alpha-labeled four-vertex path `[0,3,1,2]` with root at its interior label `1` has all edge weights `1,2,3`, yet its root does not match path midpoint `94`; direct gluing corrupts weights. The single edge rooted at label `1` already shows the midpoint mismatch, although complementing that edge *does* normalize its root to zero. Thus these are method-specific controls, not counterexamples to all possible labelings. A three-vertex path with labels `[0,1,3]` has edge differences `1,2` and root zero but its label `3` exceeds `Q=2`: under the proposed shift, residual label `97` collides with a high path label. Mere distinct labels and correct differences, without the graceful range bound, do not suffice. The triangle `[0,1,3]` rooted at `0` is a positive cyclic, non-alpha and non-onto residual; it passes the conventional graft, while strict onto fails.
+
+A separate bounded enumeration of connected simple graphs with at most five vertices and at most five edges found 377 graceful graph instances and no vertex in those instances lacking **some** root-zero graceful labeling. This is not an arbitrary-root theorem. No counterexample to the stated conditional result is possible within its verified splice contract; none was found in the representative graph checks.
+
+## Independent diagnostics and exact limits
+
+`check.py` imports no author checker. It verifies the pinned catalog hash, hashes and complete alpha inventories of all 51 literal words, all 94 target-depth entries, and the absence of endpoint extremes in this catalog. It then constructs 940 actual named graft graphs: 94 depths × two sides × five residuals (singleton, edge, triangle, four-vertex path, three-edge star), checking 180,480 edge weights, target zero, graph incidence, label injection, and onto status. Seven controls cover a missing high-side shift, missing complement, out-of-range residual label, interior nonzero alpha root, false triangle onto, old-vertex zero in this scheme, and missing endpoint certificate. Normal Python execution passed. The finite tests diagnose literal and indexing errors; the all-`H` theorem is the interval and edge partition proof above.
+
+The root-zero arbitrary-`H` splice is already kernel-proved generically in the pinned `RootedInjective.lean`. The additive q24 rooted module proves a radius-parametric `rooted_extreme` for any `GenericPathCertificate`, but its own author packet still awaits separate copied-source replay. This report **does not** claim a new integrated k95 arbitrary-`H` Lean theorem. A falsifiable next formal lemma is: from the frozen fixed-k95 Lean `FiniteAlpha.Certificate 46` catalog, derive for every `1≤d≤94` a `GenericPathCertificate 46` and a `0`/`190` extreme at index `95−d`, then invoke the generic root-zero graft theorem and reversal to obtain both named sides for all `H,Q,g,r` satisfying the exact conventional premise. No tip or old-vertex clause belongs in that lemma.
+
+## Immutable evidence pins
+
+- Independent fixed-k95 complete coverage report SHA-256 `2951a634ac3c94e1fe21e48e0591dcc5bfd921fc1028f5911c0d7970e39ec287`; exact `catalog.json` SHA-256 `0b78d0a122ca8d3bfa57f1cee010b065524cf4b4baa11f7b6df921daefad33d4`; catalog manifest SHA-256 `a1a0700b9f7d62e5b17ab138be5c1c370b9b00c55bf3f2310681eb4a612bc32a`.
+- Fixed-k95 full copied-source Lean replay report SHA-256 `9893d5686938f92df8638a2d36c9d00a53ecd1197714c50d14212b59ffc2fdfd`, status evidence for the full actual spider theorem, not an input to this arbitrary-`H` proof.
+- Generic conventional graft source `RootedInjective.lean` SHA-256 `688e8761808978138bf749497295928d13a3e7903bdd21f95ab2c78f22d5f186`.
+- Additive q24 rooted Lean author report SHA-256 `7fe5063608bdb1ebf32ce5574ea52e7d956cf6ddccc55e073ce92490b648e5b0`, used only as a generic-interface comparison; separate replay status remains explicit.
+
+Existing source bytes were not changed. The additive `manifest.json` binds this report, independent checker, and results. Worldwide priority and possible stronger graph-family variants remain **UNKNOWN**.

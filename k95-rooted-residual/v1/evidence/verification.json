@@ -1,0 +1,46 @@
+{
+  "axiom_closures": 2239,
+  "build_modules": 59,
+  "concrete_targets": 196,
+  "mutants": [
+    {
+      "exit_code": 1,
+      "log_sha256": "be3efa30ba6219c297e21d7f4fd4256a81fe52d59bb64f3352a9286ac4831e91",
+      "name": "WrongRoot",
+      "seconds": 1.469
+    },
+    {
+      "exit_code": 1,
+      "log_sha256": "e03026e466100bc7ddb95a07fa96f7cd35f39ad92517b8e1d4c6c8ca6158562d",
+      "name": "Tip95",
+      "seconds": 1.531
+    },
+    {
+      "exit_code": 1,
+      "log_sha256": "aed8a76f52b0aa81f437ab4bb6b36238ae6e4e91a97baa0c7a07ef46da765f1c",
+      "name": "OldResidualVertex",
+      "seconds": 1.5
+    },
+    {
+      "exit_code": 1,
+      "log_sha256": "db3e952ea225798f58e91c4c92cb64118b05ce7cc9f375036a0ceb648dc8d82c",
+      "name": "FalseOnto",
+      "seconds": 1.515
+    }
+  ],
+  "positive": {
+    "exit_code": 0,
+    "log_sha256": "41d5e456dd9e750713135875112d690f1a3beb57dcde0b8b493dd12420e51332",
+    "name": "AuditPositive",
+    "seconds": 3.547
+  },
+  "standard_axioms_only": true,
+  "status": "PASS_FULL_FRESH_COPIED_SOURCE_REPLAY",
+  "unbounded_triangle_depth_statement": true,
+  "whole_closure": {
+    "exit_code": 0,
+    "log_sha256": "b3183504348ccc8028eff4c9c26efbce152198a793e90902882da07e7e5566a9",
+    "name": "WholeClosure",
+    "seconds": 55.907
+  }
+}
