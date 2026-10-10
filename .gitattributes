@@ -16,3 +16,5 @@ fixed-k95/v1/** -text whitespace=cr-at-eol
 fixed-k95/v1/source/** -text whitespace=-blank-at-eof,cr-at-eol
 q48-two-flip/v1/** -text whitespace=cr-at-eol
 q48-two-flip/v1/source/** -text whitespace=-blank-at-eof,cr-at-eol
+q24-rooted-residual/v1/** -text whitespace=cr-at-eol
+q24-rooted-residual/v1/source/** -text whitespace=-blank-at-eof,cr-at-eol

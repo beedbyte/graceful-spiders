@@ -1,0 +1,87 @@
+{
+  "bounded_edges": 102692,
+  "bounded_grafts": 1040,
+  "bounded_residual_instances": 260,
+  "input_pins": {
+    "research-audits/graceful-k71-rooted-residual-formal-2026-10-10-a/source/RootedInjective.lean": "688e8761808978138bf749497295928d13a3e7903bdd21f95ab2c78f22d5f186",
+    "research-audits/graceful-k71-rooted-residual-transfer-2026-10-10-a/ERRATUM.md": "5301e6c10372c574b0326cf11979688c57e747d98cd1337e12fc93e6b3673338",
+    "research-audits/graceful-k71-rooted-residual-transfer-2026-10-10-a/report.md": "244d88c994f6978bd49bd56a53264658788068586f487c15fa03ad928de499dc",
+    "research-audits/graceful-q24-flipped-zero-independent-2026-10-10-a/report.md": "efc0e5ee50b6e214c81396d8523c8fc5fd84e99c9d28e0f488fbc49a6c57ed1e",
+    "research-audits/graceful-q24-rooted-residual-generalization-2026-10-10-a/manifest.json": "4d7973a66ecb5b9c5b50f4e483ee76afa279fe3d1370ca966adc8055c96704f0",
+    "research-audits/graceful-q24-rooted-residual-generalization-2026-10-10-a/report.md": "f0fd75067fa68c66c39a6d445e520776fdf0807abca0189e5f1ae6f491454166",
+    "research-audits/graceful-q24-variable-window-2026-10-10-a/data.json": "15e14358c1eef1c88fa168016128f0000b97b804c36b16c9374565f1ba2b642d",
+    "research-audits/graceful-q24-zero-order-formal-2026-10-10-a/source/Q24Terminal.lean": "088fd226e1c2adb57556ebd1fc047ba8494546511cb8096d4d089f679aefcc91",
+    "research-audits/graceful-q24-zero-order-transfer-2026-10-10-a/data.json": "8cc56a9ba7a0b9d062ef5d0035e5e6b889671e415ed7c586bfaa90f0427da57d",
+    "research-audits/graceful-q24-zero-order-transfer-2026-10-10-a/report.md": "469a6167c41653138a227527d6e56f8c229133df71ce63446fad1d5f153ac729"
+  },
+  "mutants_rejected": [
+    "omit high-side Q shift",
+    "omit whole complement for maximum",
+    "complement only new arms",
+    "wrong named target arm",
+    "wrong physical depth",
+    "omit one residual edge",
+    "false full vertex band for triangle",
+    "arbitrary fixed nonzero root",
+    "match nonzero root by translating residual",
+    "alpha residual interior specified root",
+    "graceful midpoint source without alpha",
+    "drop residual vertex injectivity",
+    "t0 falsely admitted"
+  ],
+  "named_edges": 40340,
+  "named_grafts": 120,
+  "named_residuals": [
+    "singleton",
+    "one_edge",
+    "star3",
+    "P4_branch_at_inner_zero",
+    "triangle_nononto",
+    "triangle_plus_isolated_onto"
+  ],
+  "nononto_cases": 20,
+  "onto_cases": 100,
+  "path_words": {
+    "1": {
+      "K": 47,
+      "canonical_sha256": "440bb7886dd8991862ed4e715eb4e68ea504d2c9762885d6ac66c6c3bf4110a8",
+      "high_zero_depth": 43,
+      "low_zero_depth": 42
+    },
+    "17": {
+      "K": 431,
+      "canonical_sha256": "f41914259b9b32cb228b1aab675afcfcb1b1d9a4697b3f120cb8fdf6c1f5416a",
+      "high_zero_depth": 395,
+      "low_zero_depth": 394
+    },
+    "2": {
+      "K": 71,
+      "canonical_sha256": "868e9d4b6936869a6ca9b2dda7651f83f81568063bc68096b023e0e4f67308be",
+      "high_zero_depth": 65,
+      "low_zero_depth": 64
+    },
+    "3": {
+      "K": 95,
+      "canonical_sha256": "57ac97dfe700219ad817569083b3a1c83bac25faade3576d392663a11116c150",
+      "high_zero_depth": 87,
+      "low_zero_depth": 86
+    },
+    "7": {
+      "K": 191,
+      "canonical_sha256": "5476ba192cc700ac52fa78d86ccfd03457e599df5a261ffecdca8bffdd0b8eb1",
+      "high_zero_depth": 175,
+      "low_zero_depth": 174
+    }
+  },
+  "python_executable": "C:\\Program Files\\Python312\\python.exe",
+  "python_sha256": "cfd05f0ad320310c4891a5fd297ec96e25f4a23fe64f3fb06df67004198c4ab5",
+  "root_maximum_normalized_cases": 4,
+  "source_parameters": [
+    1,
+    2,
+    3,
+    7,
+    17
+  ],
+  "status": "MATHEMATICAL_GO_SCOPED_ROOT_ZERO_CONVENTIONAL_GRAFT"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "query": {
+    "file": "Query.lean",
+    "source_sha256": "06a42fcf0418465239389e2217b6e0851340a292ef9b318f1de3d3b7612696bb",
+    "exit_code": 0,
+    "log_sha256": "9572fafdf87df13ff7986dbdb33b225d9df0f8e2b6b86313075ad7bb4acf361c"
+  },
+  "mutants": [
+    {
+      "file": "mutants/WrongRoot.lean",
+      "source_sha256": "cbe54ba8a66f6a0d77217805d2b9d3f52552b591a144cff6499bc42113f891a0",
+      "exit_code": 1,
+      "log_sha256": "9ee163595177bb115579fa2f255f6b891acbbeff79039eb61ccd94445e9f933e"
+    },
+    {
+      "file": "mutants/FalseOnto.lean",
+      "source_sha256": "4370be642b871635bcda70e148f9df803bc103b11088bcbf8c7f1c8f57c67d93",
+      "exit_code": 1,
+      "log_sha256": "7c9e0e0387a729198c97afbbd507648c53eeef60c5ef35935cdd6cc935dfc2aa"
+    },
+    {
+      "file": "mutants/WrongDepth.lean",
+      "source_sha256": "fcab946482ba958edb125ad13384c8582dd107b0978505f57c8f01c41eb4a226",
+      "exit_code": 1,
+      "log_sha256": "cadf1400f69c6812a9b931309c5dac4b87fd5feaafc56b5aa4fe5c92e559c8ae"
+    }
+  ]
+}

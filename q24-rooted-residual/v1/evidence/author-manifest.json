@@ -1,0 +1,53 @@
+{
+  "status": "AUTHOR_FORMAL_GO_REPLAY_PENDING",
+  "principal": "GracefulBoundary.Q24Rooted.terminal_four",
+  "source_count": 1,
+  "closure_count": 7,
+  "mutant_count": 3,
+  "files": [
+    {
+      "path": "report.md",
+      "sha256": "7fe5063608bdb1ebf32ce5574ea52e7d956cf6ddccc55e073ce92490b648e5b0"
+    },
+    {
+      "path": "Q24Rooted.lean",
+      "sha256": "3920203716673dac6a87393e48043a78a94fc8e9fa1389eb66e3e4dee4f76024"
+    },
+    {
+      "path": "checks.py",
+      "sha256": "d0d1c214b06296bb17b5085cb4aa43c6024524bb218030ac9a08346e7f94ee33"
+    },
+    {
+      "path": "results.json",
+      "sha256": "f535d21a9b93ac5d15c252f8d509cc4f20e0d0f67b5f16bc144f273851b707c8"
+    },
+    {
+      "path": "SOURCE-SHA256SUMS.txt",
+      "sha256": "329f68dd57f383cf1bc420bfc7048cea06d9d70774ff9b55c3194e7152e086f6"
+    },
+    {
+      "path": "checks/Closures.lean",
+      "sha256": "88fcbaa04fd5b75aa74aec64cdd6a675dc46967d7beb8438ef3faa3eb5c9c206"
+    },
+    {
+      "path": "checks/TriangleCase.lean",
+      "sha256": "2480cf468feca4f1bcf65895bfa2ab4823a266fc953b98d6fa6ce9cc76767594"
+    },
+    {
+      "path": "mutants/WrongRoot.lean",
+      "sha256": "5b5fb9f3a6dad34d29fb551b787027c768b6b75cbc5e3a4d8e8600d051d72b94"
+    },
+    {
+      "path": "mutants/FalseOnto.lean",
+      "sha256": "4eeaa4da33edbc05b2aa81b667f7c2a0ab7fc9809a9caa12634ff855afa3f308"
+    },
+    {
+      "path": "mutants/WrongDepth.lean",
+      "sha256": "aa1f8c11f6042e6bc85785e168b99cd386e4804227760ff8caf0aaa7375da383"
+    },
+    {
+      "path": "objects-fresh/Q24Rooted.olean",
+      "sha256": "641ae2040d5d1d5b581747541461b5228b14564d9aef214082fc117dec886d12"
+    }
+  ]
+}
