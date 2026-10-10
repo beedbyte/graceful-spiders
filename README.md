@@ -19,6 +19,7 @@ Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-ro
 ## Fixed 47-edge arms
 
 For every `n≥2,m≥0`, each actual named vertex of `S(47^n,1^m)` can separately receive zero in a graceful labeling; the labeling may depend on the selected vertex. The [fixed-k47 source package](fixed-k47/v1/README.md) contains 42 byte-pinned Lean modules, a reproducible build, and [English](fixed-k47/v1/note.en.md), [German](fixed-k47/v1/note.de.md), and [simplified Chinese](fixed-k47/v1/note.zh.md) notes. German and Chinese are draft translations without documented human language review. The separate copied-source replay passed 42 fresh modules, theorem-closure and axiom checks, 191 named `n=2,m=0/1` instances, and six semantic negative controls; these are internal checks, not external scholarly review. The path cases `n=2,m=0/1` have prior coverage. Worldwide priority is **unknown**. This is fixed `k=47`, not an all-odd theorem. No PDF is supplied.
+Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-47-edge-arm-spiders/v/1).
 
 ## Fixed 23-edge arms
 
