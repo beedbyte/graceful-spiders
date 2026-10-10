@@ -1,0 +1,33 @@
+{
+  "theorem": "GracefulBoundary.K71Full.all_vertices",
+  "unique_zero_theorem": "GracefulBoundary.K71Full.all_vertices_unique_zero",
+  "scope": "For every n >= 2 and m >= 0, each actual named vertex of S(71^n,1^m) separately has a graceful labeling with value zero; the labeling may depend on the selected vertex. Fixed k=71 only.",
+  "author_formal_report_sha256": "8754ba4f5e52caaa506a3771721fc8b69fcde90af76022cecc4f2013d832916c",
+  "author_formal_manifest_sha256": "4ab21793c17099ff49089705425e7bf127a373a2e8565fb3ff3eb485afd35b1e",
+  "author_source_index_sha256": "6bbf12e6b08470f42ccefd943ab936f20736975826f59bb5358a5f54dfa18b66",
+  "math_qa_report_sha256": "a25ae5d5e8e8ee879a1b6e752a0233b342144af215348f8673a018d9c2087e56",
+  "primary_scope_report_sha256": "65869b7c073956512ce05b122da7ab09923d5ab28551abf0ea8748cc5c8d00e0",
+  "independent_copied_source_replay": {
+    "status": "GO",
+    "report_sha256": "0dee5742778ce657e5972f7dc4986dec44870c0c037f48632a80b3befc173058",
+    "manifest_sha256": "80bee6b7f1b366934acfddee87b8a0f0905917039eb21f57ce3079edd89d49e0",
+    "source_index_sha256": "5060b364b9154e361f1d82ad3069665754f83fc4d7a6d4f8dc5ada06d285b176",
+    "full_index_sha256": "593709b955be43e4253de5ed8de84fcbaff317b6e59b1336e009ef9a0612c073",
+    "modules": 45,
+    "theorem_closures": 2048,
+    "named_cases": 503,
+    "effective_mutants_rejected": 12,
+    "axiom_closure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "fresh_copy_warning_as_error": true,
+    "author_olean_imports": false,
+    "external_review": false,
+    "peer_review": false
+  },
+  "priority_status": "UNKNOWN",
+  "external_review": false,
+  "peer_review": false
+}
