@@ -9,6 +9,7 @@ contains the English manuscript source, three article presentations and the
 186-module Lean source build. The German and Chinese texts are draft translations;
 PDF compilation and rendered layout remain unverified. Internal checks are not
 external peer review, and worldwide priority is unresolved.
+Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-even-arm-spiders/v/1).
 
 ## Fixed 23-edge arms
 
@@ -20,6 +21,7 @@ compiled all 27 modules and checked the theorem closures; it is not external
 scholarly review. The `n=2,m=0/1` path cases have earlier coverage. The full
 Cattell construction remains unassessed for the simultaneous path anchors used
 here, so worldwide priority is unknown. No PDF is supplied.
+Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-23-edge-arm-spiders/v/1).
 
 ## Prescribed-zero prefixes
 
