@@ -1,0 +1,26 @@
+{
+  "version": "q48-two-flip-v1",
+  "status": "separate internal mathematical and copied-source Lean checks passed",
+  "math": {
+    "report_sha256": "a170e7c540b9ccd4dc01dffc7aca8b3de9c926f59fc4a281eef00f86d9671223",
+    "manifest_sha256": "c9784914b510c009b2fe5d8edcc2750b645859a871c6520778e03af09af1bc99",
+    "checker_sha256": "63674dccfeb51a9796d0672ce6bffd53c0431d3e02682812cb0ef68a5f280646",
+    "normal_sha256": "85d7bd51c7a8f0806440f45110b32429ba94105b0891c2f2669703e333bf0f49",
+    "optimized_sha256": "85d7bd51c7a8f0806440f45110b32429ba94105b0891c2f2669703e333bf0f49",
+    "sources": 100,
+    "named_graphs": 120,
+    "edges": 48656,
+    "effective_mutants": 22
+  },
+  "lean": {
+    "report_sha256": "e2bb6eabeabd5c960a559e66ec0aba1e52e610dfa78bd101a422ae01152f9b58",
+    "manifest_sha256": "bef507db7bbca24768b5b3ee7580dc17a6b0cda286f96262199f5a82fa4ff405",
+    "source_index_sha256": "b0df53a901e4b2897d7a08805d8eb8d2917f391e058309f394216e909a9ac4ce",
+    "fresh_modules": 36,
+    "standard_axiom_closures": 1992,
+    "named_examples": 42,
+    "other_controls": 6,
+    "effective_mutants": 11
+  },
+  "limit": "Historical report digests identify separate internal records; included checks and evidence are reproducible without those records. No external peer review or priority claim."
+}

@@ -1,0 +1,84 @@
+{
+  "named_examples": 42,
+  "other_positive_examples": 6,
+  "results": [
+    {
+      "name": "WholeEnvironment",
+      "exit": 0,
+      "expected": 0,
+      "log_sha256": "0b1bcfa022d59a3f5cf59ab371046f9fa5315e821765ee6d201d7b8d8d64b6ed"
+    },
+    {
+      "name": "Controls",
+      "exit": 0,
+      "expected": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "MutantStationaryNeighbor",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "4fbcdc805df56bf3d076764f397097ae5989f8bef08914eb2a546f36f1ea092e"
+    },
+    {
+      "name": "MutantStationaryRightNeighbor",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "d65935eba20ef319c57245acb7b5daf4eb2962da85d2961241391c98a5989b76"
+    },
+    {
+      "name": "MutantWrongZeroIndex",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "d7ebd1bd1dec9787479819602a6e0ab0296129b2ccb2f7ef8a495d1a1e0b2a80"
+    },
+    {
+      "name": "MutantWrongMidpoint",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "9d9de250d4149cedadebdd4a363a63d6281281000854499a4fbf42e7b806f4b7"
+    },
+    {
+      "name": "MutantWrongLowDepth",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "f981cb296e4450abeefbe233d76e11a0cd7329a327b5a8204a82d21fe73544ff"
+    },
+    {
+      "name": "MutantWrongHighDepth",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "44db7dee041c81e6d49bfb58142f74e264a1c770a8ccdee8ad4bf514ee2f8350"
+    },
+    {
+      "name": "MutantWrongNamedArm",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "9fe954dfed9659749ced32084e55c9a6ac233ebb9399fdd94e619c7f5d3acafd"
+    },
+    {
+      "name": "MutantMissingLeafWeight",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "38af89bb081edf5658e0685c0109f7603c6aba2313de271bcb5b8e18155508a6"
+    },
+    {
+      "name": "MutantPhantomMZeroLeaf",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "45fe81f81df52e2fb3a81b3ee3504eb323be7a5c0b38fd2c645f60f984668046"
+    },
+    {
+      "name": "MutantWrongMacroSums",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "0bd5ae94b55762639518a20b67b186dd8dda3ec6edeefbd65e52d0da6108fcc4"
+    },
+    {
+      "name": "MutantLowerBound",
+      "exit": 1,
+      "expected": 1,
+      "log_sha256": "8d9e815ea926937c610e7fa2f3f32a99465e551c919859863873da298ffc9ca8"
+    }
+  ]
+}
