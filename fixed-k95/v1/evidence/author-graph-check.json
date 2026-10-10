@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "literal_words": 51,
+  "depths": 94,
+  "actual_named_graphs": 1148,
+  "edges": 382670,
+  "mutants": [
+    "midpoint",
+    "swapped extrema",
+    "depth offset",
+    "omitted original leaf",
+    "phantom m0 leaf",
+    "named arm",
+    "omitted complement",
+    "false tip94",
+    "leaf complement omitted"
+  ],
+  "scope": "finite checks; Lean supplies all n>=2,m>=0 and every actual vertex"
+}

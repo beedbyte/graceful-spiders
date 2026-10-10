@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "bytes": 17206,
+      "path": "audit.py",
+      "sha256": "1d7b0f65e311eef1fa3960805a9484a67ff34f8811e2e0b4aa5846e6dc7cbc2e"
+    },
+    {
+      "bytes": 190347,
+      "path": "catalog.json",
+      "sha256": "0b78d0a122ca8d3bfa57f1cee010b065524cf4b4baa11f7b6df921daefad33d4"
+    },
+    {
+      "bytes": 6884,
+      "path": "dependencies.json",
+      "sha256": "b4001e00e5965be0c3cf78730ddc023da5cf5f97a4b18edb7e44b1029d55d9cb"
+    },
+    {
+      "bytes": 2792,
+      "path": "freeze.py",
+      "sha256": "b93976bb591b71e104847626fa099b273ea953a5b7fd631253099511d9503192"
+    },
+    {
+      "bytes": 5254,
+      "path": "input-pins.json",
+      "sha256": "506bc3ad91835d1218a507b58af343d70a0199573071fba9b7ddf7f099214677"
+    },
+    {
+      "bytes": 7534,
+      "path": "ledger.json",
+      "sha256": "39a23e35ce721dad489ca31ca251f16425fbe922563734d3a189ff8f508bf61f"
+    },
+    {
+      "bytes": 7533,
+      "path": "normal.json",
+      "sha256": "af451bf7be9f2b4558d92386cc58374499db040d8cfd675c38176d712eb59982"
+    },
+    {
+      "bytes": 7533,
+      "path": "optimized.json",
+      "sha256": "af451bf7be9f2b4558d92386cc58374499db040d8cfd675c38176d712eb59982"
+    },
+    {
+      "bytes": 11737,
+      "path": "report.md",
+      "sha256": "2951a634ac3c94e1fe21e48e0591dcc5bfd921fc1028f5911c0d7970e39ec287"
+    },
+    {
+      "bytes": 236,
+      "path": "SOURCE-SHA256SUMS.txt",
+      "sha256": "b0e891fb6c3f1583a778d90a25e29bf5ff40eb787f0f434f8531e1abee844fae"
+    },
+    {
+      "bytes": 656,
+      "path": "status-binding.json",
+      "sha256": "e7821e358c158bff14f0a84ae389d6f2cc8e52c73b92b7c05e67ca386e90d3b9"
+    },
+    {
+      "bytes": 2211,
+      "path": "verify_final.py",
+      "sha256": "36e9591c59bee94bd47db4b1345370e0d44710fd39ea18b27badfd1604daac46"
+    }
+  ],
+  "status": "MATHEMATICAL GO; independent formal replay and priority separate"
+}

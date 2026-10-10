@@ -1,0 +1,17 @@
+{
+  "status": "GO",
+  "scope": "independent copied-source fixed-k95 Lean replay",
+  "author_report_sha256": "bd565d980e75e9c7670e2cc96f5ac6ec4bc8f00fe6a41cd5292fd6fc1850d53d",
+  "author_manifest_sha256": "3264bf57460ea55a94c0d1f091b6875cfa2cbead3e889e098252ce2f9c3a4b69",
+  "source_index_sha256": "e25a837ba4f27f6c7a1770e0f2ed245077f2eb282d6a8128c6d1b477c2a94d5d",
+  "fresh_modules": 35,
+  "fresh_oleans": 35,
+  "principal_axiom_closures": 2,
+  "support_axiom_closure_queries": 6,
+  "all_vertices_named_examples": 11,
+  "unique_zero_examples": 2,
+  "negative_controls": 8,
+  "independent_math_report_sha256": "2951a634ac3c94e1fe21e48e0591dcc5bfd921fc1028f5911c0d7970e39ec287",
+  "report_sha256": "9893d5686938f92df8638a2d36c9d00a53ecd1197714c50d14212b59ffc2fdfd",
+  "sha256sums_sha256": "7c28521fd47c10941913b971c40642c96fc7fda5b32e0f7c213337198370b9fc"
+}

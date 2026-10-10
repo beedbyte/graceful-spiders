@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "fresh_modules": 35,
+  "actual_vertex_examples": 671,
+  "symbolic_examples": 2,
+  "incidence_examples": 3,
+  "mutants": 12,
+  "closures": "ALL_PACKAGE_THEOREMS=1678; STANDARD_ONLY",
+  "checks": [
+    {
+      "name": "WholeEnvironment",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "name": "ActualVertices",
+      "exit": 0,
+      "pass": true
+    },
+    {
+      "name": "MutantNOne",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantPhantomLeaf",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantTipIndex",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantWrongArm",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantWrongTarget",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantMissingLeafCount",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantFalseRoot",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantWrongMidpoint",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantWrongMaximum",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantWrongLowExtreme",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantFalseCertificateDepth",
+      "exit": 1,
+      "pass": true
+    },
+    {
+      "name": "MutantWrongLength",
+      "exit": 1,
+      "pass": true
+    }
+  ]
+}

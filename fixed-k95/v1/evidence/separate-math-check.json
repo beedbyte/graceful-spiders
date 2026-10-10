@@ -1,0 +1,101 @@
+{
+  "CP_literal_positions": [
+    {
+      "depth": 87,
+      "input": "research-audits/graceful-k95-cpsat-private-2026-10-10-a/certificate.json",
+      "maximum_depth": 87,
+      "zero_depth": 86
+    },
+    {
+      "depth": 88,
+      "input": "research-audits/graceful-k95-depth88-cpsat-private-2026-10-10-a/certificate.json",
+      "maximum_depth": 87,
+      "zero_depth": 88
+    },
+    {
+      "depth": 89,
+      "input": "research-audits/graceful-k95-depth89-cpsat-private-2026-10-10-a/certificate.json",
+      "maximum_depth": 89,
+      "zero_depth": 88
+    },
+    {
+      "depth": 90,
+      "input": "research-audits/graceful-k95-depth90-cpsat-private-2026-10-10-a/certificate.json",
+      "maximum_depth": 89,
+      "zero_depth": 90
+    },
+    {
+      "depth": 91,
+      "input": "research-audits/graceful-k95-depth91-cpsat-private-2026-10-10-a/certificate.json",
+      "maximum_depth": 91,
+      "zero_depth": 90
+    },
+    {
+      "depth": 92,
+      "input": "research-audits/graceful-k95-depth92-cpsat-private-2026-10-10-a/certificate.json",
+      "maximum_depth": 91,
+      "zero_depth": 92
+    }
+  ],
+  "catalog_depths": 94,
+  "catalog_sha256": "0b78d0a122ca8d3bfa57f1cee010b065524cf4b4baa11f7b6df921daefad33d4",
+  "dependencies_sha256": "b4001e00e5965be0c3cf78730ddc023da5cf5f97a4b18edb7e44b1029d55d9cb",
+  "distinct_catalog_words": 51,
+  "full_path_checks": 168,
+  "input_pins": {
+    "research-audits/graceful-compatible-seed-prefix-2026-10-09-a/certificates.json": "6995331255161eca2ed3b75ad8bb1bd00479b1a11165b3871355e1f7903e55f1",
+    "research-audits/graceful-d8-half-length-formal-2026-10-10-a/GapDepth.lean": "125af13a73baa7140a2d04952e42c1bb200e130c9ee6b468a6ff6f0209591707",
+    "research-audits/graceful-d8-half-length-formal-2026-10-10-a/Q11Depth.lean": "48b44ad89b65eeea3ae39b41d0ac6f61ad2b0042f1d83bb1351d1512aa0b6e94",
+    "research-audits/graceful-d8-half-length-formal-2026-10-10-a/ReverseDepth.lean": "d9fb976144bd8c8489b73cba31b19dbdcf4ea2b7d41c48265a9006459884717d",
+    "research-audits/graceful-h1-k23-branch-math-qa-2026-10-10-a/report.md": "1218bfb295c0e67a3b4ff0f5071b2c81a07e78d684e972655141990d187566aa",
+    "research-audits/graceful-k23-h1-independent-lean-replay-2026-10-10-a/report.md": "d20a6ae26f2ae5110701311dd9ef7aae5f747c0e0bca8727d8a091a415bab0ab",
+    "research-audits/graceful-k47-depth45-formal-2026-10-10-a/source/FiniteAlphaTransfer.lean": "38f19ba1dca1fd9dcccd09b2675422e6bb5cc983dbf31b2ed407acc397b3ce56",
+    "research-audits/graceful-k95-coverage-union-private-2026-10-10-a/manifest.json": "8766d164d0f66ec3795559f663310d3251a725a86fbc0c69aabdaadd48f4ea74",
+    "research-audits/graceful-k95-coverage-union-private-2026-10-10-a/report.md": "e613621a97f439c00672e69a2cf261885f0b463697bdeeaaa781999749a72d17",
+    "research-audits/graceful-k95-cpsat-private-2026-10-10-a/certificate.json": "72997483b39d59096b4a21449bffb87de3785d034c9a3c67f1c47e186ef68f19",
+    "research-audits/graceful-k95-depth87-independent-2026-10-10-a/report.md": "f8d623b58484086ffbe156aa6142551c300d4529628fe8f2a60df0961b9ba785",
+    "research-audits/graceful-k95-depth88-cpsat-private-2026-10-10-a/certificate.json": "a5155c276b92651b806cd6318f59c4e8cf4993fd4a1ada3e61996c889126b482",
+    "research-audits/graceful-k95-depth88-independent-private-2026-10-10-a/report.md": "ba12bd1a86b5680a89d4a499b8beb73c6ed0d4525453b270705f610b813000ec",
+    "research-audits/graceful-k95-depth89-cpsat-private-2026-10-10-a/certificate.json": "0b02cb25fa84381903848c8d728658656ddeb1ef6ce4e0da6272e6eb507de452",
+    "research-audits/graceful-k95-depth89-independent-2026-10-10-a/report.md": "40cb7cc1dc3843a535b9e22bf2e6fbd42b31b9ef80fc7807ba484b7f3691666a",
+    "research-audits/graceful-k95-depth90-cpsat-private-2026-10-10-a/certificate.json": "be094770bc63fe34051ec46112bceaecf0784b51fc5ee5d7d8be66ab5b391ed8",
+    "research-audits/graceful-k95-depth90-independent-private-2026-10-10-a/report.md": "976a9d0804c0bb2f157f3fbf30334b7d8c2ce06ab07cd5532b6716cf9db89053",
+    "research-audits/graceful-k95-depth91-cpsat-private-2026-10-10-a/certificate.json": "9b5563dda349d900bf7781655c481b8cdd8818f78728eb03cddeb64df375e82b",
+    "research-audits/graceful-k95-depth91-independent-private-2026-10-10-a/report.md": "8893e6e7a90d2a04f4a42bde70df442d51b6d0204bc9a390c1a135a31bf6356e",
+    "research-audits/graceful-k95-depth92-cpsat-private-2026-10-10-a/certificate.json": "790ab53f96b41de8d5fed5b9e5ee8e9108d1964b9bdbc1f6c49d9ce80c06fd75",
+    "research-audits/graceful-k95-depth92-cpsat-private-2026-10-10-a/report.md": "6c8c826ea6be9c886c69092d3a20f08d9180c58e78cd4a317a5d947b35f9baff",
+    "research-audits/graceful-k95-depth92-independent-private-2026-10-10-a/report.md": "08b01ce0ef6ea7bdf4166e0ac10fbea913d169efb684f5f14494112783aaed3d",
+    "research-audits/graceful-k95-first-gap-private-2026-10-10-a/check_witness.py": "825c15349e462a368885bae8f59004b8970c9ff14ebe4f68f6537872240935ef",
+    "research-audits/graceful-k95-first-gap-private-2026-10-10-a/report.md": "300a1541fe71c86d14f3643d002bdb4d4970bbbda40fa3c62ad7abe82f6bfc83",
+    "research-audits/graceful-k95-first-gap-private-2026-10-10-a/witness-normal.json": "1556503949c62d47a379ec59e1427a2fbba87d9b9d91119162cd2f206dc02292",
+    "research-audits/graceful-next-family/proof.md": "be518dc2d8642966c3427479f8d2f4fc431bd37e7fe9c8237fd97dd62c16470b",
+    "research-audits/graceful-q10-gap-fill-lean-replay-2026-10-09-a/audit-report.md": "692f33bc1a14ebc237d246f5fc1bd8bc63e46d97e5e5a042c0469b3475e46dbd",
+    "research-audits/graceful-q24-flipped-zero-independent-2026-10-10-a/report.md": "efc0e5ee50b6e214c81396d8523c8fc5fd84e99c9d28e0f488fbc49a6c57ed1e",
+    "research-audits/graceful-q24-prefix-union-overlap-2026-10-10-a/report.md": "fdb2962807a17d09946a01446fcb0afddb7a180c13fbfd674b18f39748daa575",
+    "research-audits/graceful-q24-prefix-union-overlap-2026-10-10-a/seed23.json": "56679cdf6eb5010a08c7e7820c151388abd7efb2e86ea0f8f9f63fa4e5983c3c",
+    "research-audits/graceful-q24-variable-window-2026-10-10-a/data.json": "15e14358c1eef1c88fa168016128f0000b97b804c36b16c9374565f1ba2b642d",
+    "research-audits/graceful-q24-variable-window-copied-replay-2026-10-10-a/report.md": "44a2d5b096d473102fbc3ec6936eba48bc8eb19391e68042ab6b8244d46f50a7",
+    "research-audits/graceful-q24-variable-window-formal-2026-10-10-a/report.md": "392eecf6bceae9282121e9ba0753b79d33ee4061c4a1ee75377fd36df4ee4610",
+    "research-audits/graceful-q24-zero-order-transfer-2026-10-10-a/data.json": "8cc56a9ba7a0b9d062ef5d0035e5e6b889671e415ed7c586bfaa90f0427da57d",
+    "research-audits/graceful-q24-zero-order-transfer-2026-10-10-a/report.md": "469a6167c41653138a227527d6e56f8c229133df71ce63446fad1d5f153ac729"
+  },
+  "ledger_sha256": "39a23e35ce721dad489ca31ca251f16425fbe922563734d3a189ff8f508bf61f",
+  "mutants": [
+    "omit old p37/q9",
+    "omit H1 branch",
+    "omit d92 certificate",
+    "P20-only mistaken for combined q24 interval",
+    "invent m0 leaf",
+    "omit actual m1 leaf",
+    "wrong selected arm",
+    "wrong physical depth",
+    "complement direct-zero d92",
+    "complement only source arms",
+    "false terminal self-iteration"
+  ],
+  "named_edge_checks": 301160,
+  "named_graph_checks": 1053,
+  "python_executable": "C:\\Program Files\\Python312\\python.exe",
+  "python_sha256": "cfd05f0ad320310c4891a5fd297ec96e25f4a23fe64f3fb06df67004198c4ab5",
+  "status": "PASS_INDEPENDENT_FULL_k95_MATHEMATICAL_COMPOSITION; FORMAL_AND_PRIORITY_PENDING"
+}

@@ -1,0 +1,6 @@
+E:\KI-Research\research-audits\graceful-k95-full-independent-lean-replay-2026-10-10-a\controls\MutantMissingLeafCount.lean:4:2: error: Type mismatch
+  K95Full.all_vertices 2 1 (of_decide_eq_true (id (Eq.refl true))) SpiderVertex.center
+has type
+  ∃ f, Graceful (spiderGraph 2 1 95) (95 * 2 + 1) f ∧ f SpiderVertex.center = 0
+but is expected to have type
+  ∃ f, Graceful (spiderGraph 2 1 95) (95 * 2) f ∧ f SpiderVertex.center = 0

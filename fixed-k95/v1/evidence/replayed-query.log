@@ -1,0 +1,35 @@
+theorem GracefulBoundary.K95Full.all_vertices : ∀ (n m : Nat),
+  2 ≤ n →
+    ∀ (v : GracefulBoundary.SpiderVertex n m 95),
+      ∃ f, GracefulBoundary.Graceful (GracefulBoundary.spiderGraph n m 95) (95 * n + m) f ∧ f v = 0 :=
+fun n m hn v =>
+  GracefulBoundary.SpiderVertex.casesOn (motive := fun t =>
+    v = t → ∃ f, GracefulBoundary.Graceful (GracefulBoundary.spiderGraph n m 95) (95 * n + m) f ∧ f v = 0) v
+    (fun h => Eq.symm h ▸ GracefulBoundary.K95Boundary.center_zero n m)
+    (fun a d h => Eq.symm h ▸ GracefulBoundary.K95Full.arm_depth_zero n m hn a d)
+    (fun a h => Eq.symm h ▸ GracefulBoundary.K95Boundary.leaf_zero n m a) (Eq.refl v)
+theorem GracefulBoundary.K95Full.unique_zero : ∀ (n m : Nat),
+  2 ≤ n →
+    ∀ (v : GracefulBoundary.SpiderVertex n m 95),
+      ∃ f,
+        GracefulBoundary.Graceful (GracefulBoundary.spiderGraph n m 95) (95 * n + m) f ∧
+          ∀ (w : GracefulBoundary.SpiderVertex n m 95), f w = 0 ↔ w = v :=
+fun n m hn v =>
+  Exists.casesOn (GracefulBoundary.K95Full.all_vertices n m hn v) fun f h =>
+    And.casesOn h fun hf hz =>
+      Exists.intro f
+        ⟨hf, fun w =>
+          { mp := fun hw => hf.vertices.injective w v (Eq.trans hw (Eq.symm hz)),
+            mpr := fun hw => Eq.mpr (id (congrFun' (congrArg Eq (congrArg f hw)) 0)) hz }⟩
+GracefulBoundary.K95Full.arm_depth_zero (n m : Nat) (hn : 2 ≤ n) (a : Fin n) (d : Fin 95) :
+  ∃ f,
+    GracefulBoundary.Graceful (GracefulBoundary.spiderGraph n m 95) (95 * n + m) f ∧
+      f (GracefulBoundary.SpiderVertex.arm a d) = 0
+'GracefulBoundary.K95Full.interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GracefulBoundary.K95Full.arm_depth_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GracefulBoundary.K95Full.all_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GracefulBoundary.K95Full.unique_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GracefulBoundary.K95Boundary.center_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GracefulBoundary.K95Boundary.leaf_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GracefulBoundary.K95Tip.tips_prescribed_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GracefulBoundary.FiniteAlpha.prescribed_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

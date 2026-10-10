@@ -1,0 +1,11 @@
+E:\KI-Research\research-audits\graceful-k95-full-independent-lean-replay-2026-10-10-a\controls\MutantCertificateDepth.lean:6:119: error: Tactic `decide` proved that the proposition
+  1 ≤ 3 ∧
+    3 ≤ 2 * 46 + 3 ∧
+      1 ≤ 1 ∧
+        1 ≤ 2 * 46 + 3 ∧
+          (K95Catalog.path0.length = 4 * 46 + 7 ∧
+              K95Catalog.path0.Perm (List.range (4 * 46 + 7)) ∧
+                (edgeDiffs K95Catalog.path0).Perm (List.range' 1 (4 * 46 + 6)) ∧
+                  crosses (2 * 46 + 2) K95Catalog.path0 ∧ K95Catalog.path0[2 * 46 + 3]? = some (2 * 46 + 2)) ∧
+            K95Catalog.path0[2 * 46 + 3 - 3]? = some 0 ∧ K95Catalog.path0[2 * 46 + 3 - 1]? = some (4 * 46 + 6)
+is false

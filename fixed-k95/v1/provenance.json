@@ -1,0 +1,357 @@
+[
+  {
+    "payload": "source/Boundary.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Boundary.lean",
+    "sha256": "4f12c070655d7313b734df25fc05fc6255ae87190ace857f8bbd81d6626cbb81"
+  },
+  {
+    "payload": "source/Amalgamation.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Amalgamation.lean",
+    "sha256": "2fed1c2d0332804a17a2ce68710681850ddd0f7d0a6a2ca8cb8ea27ab5c45cb1"
+  },
+  {
+    "payload": "source/Certificates.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Certificates.lean",
+    "sha256": "128d1abb69fe62902536a5973949fea95a42287d44ef2ad629dd53ced046fe55"
+  },
+  {
+    "payload": "source/Interfaces.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Interfaces.lean",
+    "sha256": "8f768b3d1835119887c7494ae8d590980ca5cd7dad62c7857a4077b94d844a35"
+  },
+  {
+    "payload": "source/Recurrence.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Recurrence.lean",
+    "sha256": "c34f84ec24fb23b74dac62411843d710d56c8b9e1df5ca20a29150d6473e1856"
+  },
+  {
+    "payload": "source/Shell.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Shell.lean",
+    "sha256": "c1d346c6148942a0eae8eb272aee4be47bbaea5145ba35314a607c31cc7bef02"
+  },
+  {
+    "payload": "source/PathGraph.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/PathGraph.lean",
+    "sha256": "d575b79a9a523c6fc01c471510fbd69de692ce7a98d7ef0eec54f976796dd7c5"
+  },
+  {
+    "payload": "source/Residual.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Residual.lean",
+    "sha256": "1759d7a7cc949a36f298a215d82a0e0947b94d125939aceb75270057b52788bf"
+  },
+  {
+    "payload": "source/Graft.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Graft.lean",
+    "sha256": "0c4a1a20950a2af6c182766fc89d1a273b3c8393a4f0314cd12a0f33dc3b0922"
+  },
+  {
+    "payload": "source/Identification.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/Identification.lean",
+    "sha256": "29889f2da7ec03b0ea58664cc0773ba1e124f61216a639370dd3ee6a9eeb4967"
+  },
+  {
+    "payload": "source/SpiderTheorem.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/SpiderTheorem.lean",
+    "sha256": "107285eaea8983657f7c889888e92f6d34defb10507e52aa8abf23896da4bdac"
+  },
+  {
+    "payload": "source/SecondRecurrence.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/SecondRecurrence.lean",
+    "sha256": "a80e35ae8cb194a341eecd681aac8caa2a3de1337dca898f138f6fca72e1a651"
+  },
+  {
+    "payload": "source/SecondShell.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/SecondShell.lean",
+    "sha256": "1877ebf949dea5994d749c3b0ae2f64b107ad5bab3e03ac0f0ea9637a1695530"
+  },
+  {
+    "payload": "source/SecondSpider.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/SecondSpider.lean",
+    "sha256": "d282970e9e17a9369d2eb0df8dbd147135bcfb84f1a543dc718d043af5ddae71"
+  },
+  {
+    "payload": "source/ThirdRecurrence.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/ThirdRecurrence.lean",
+    "sha256": "b0f51ecc60f1ef116aa7f83375a47a803a3ab47906968f18c7bec8615449fcf3"
+  },
+  {
+    "payload": "source/ThirdShell.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/ThirdShell.lean",
+    "sha256": "d0fbb2692307f680897122c86458d49f798604b8a166ef5824bf5a30e242c823"
+  },
+  {
+    "payload": "source/ThirdSpider.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/ThirdSpider.lean",
+    "sha256": "5f85b3c77a29fbb7c7309fcb199ea6ef61d02f5266931ecc61c743608c713dd9"
+  },
+  {
+    "payload": "source/VariableGadget.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/VariableGadget.lean",
+    "sha256": "21a3a1fe461478083dec528b019d1b1284cbbfb63c2b016ce2b259d585c15065"
+  },
+  {
+    "payload": "source/VariableCore.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/VariableCore.lean",
+    "sha256": "7c786a4432b0381e2b1983b4d59b02f01464de2e5c2691f04036ae9e9c856182"
+  },
+  {
+    "payload": "source/VariableInterval.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/VariableInterval.lean",
+    "sha256": "4d4074d1a2ac654a7c6988a24d965c89b9985f7361f909dacd8475664400723e"
+  },
+  {
+    "payload": "source/VariableIdentification.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/VariableIdentification.lean",
+    "sha256": "5e714096c019840863c349a1add85915b84da6aff66a74c1558f0fc7015c2ca2"
+  },
+  {
+    "payload": "source/VariableSpider.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/VariableSpider.lean",
+    "sha256": "17f6a0dc33f6c080a2f6dce2c9718a7b78287ac1a46e04d118a149535a44daeb"
+  },
+  {
+    "payload": "source/FiniteAlphaTransfer.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/FiniteAlphaTransfer.lean",
+    "sha256": "38f19ba1dca1fd9dcccd09b2675422e6bb5cc983dbf31b2ed407acc397b3ce56"
+  },
+  {
+    "payload": "source/K95Boundary.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Boundary.lean",
+    "sha256": "86d8477acdcb96906fc948cd5a9ddc6e3200ec9e97337303624ea435403e8a9f"
+  },
+  {
+    "payload": "source/K95Tip.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Tip.lean",
+    "sha256": "ced625d459b97c9eee5040758cd51a3b6080a04f99102727a8a4be7731e8fe10"
+  },
+  {
+    "payload": "source/K95Catalog0.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog0.lean",
+    "sha256": "5d156f3d3f0a5af7e988048c7f0725c9585bf8b96de86e69798f344e890df709"
+  },
+  {
+    "payload": "source/K95Catalog1.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog1.lean",
+    "sha256": "7d720e546ef7b76ded9d16126864d3390e8f92e0867f43367a2efad32c18a6b5"
+  },
+  {
+    "payload": "source/K95Catalog2.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog2.lean",
+    "sha256": "84004667fcc5ec272013db3061052cea4149e1eb1da3ca899810810d8c527abc"
+  },
+  {
+    "payload": "source/K95Catalog3.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog3.lean",
+    "sha256": "27645fc1827d7d4e23130daab84a06d6eee30ddaebf5b28ce2e0f61a76b9c40d"
+  },
+  {
+    "payload": "source/K95Catalog4.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog4.lean",
+    "sha256": "7e08b3b11e90522619dbc916eab72d67a40ea7c8d5a3c4bfecf66abcb87f5bee"
+  },
+  {
+    "payload": "source/K95Catalog5.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog5.lean",
+    "sha256": "721cebad0c96aab8d72e717f7ce1e307fbd4ab77ed9047eb73b055168eb41ea2"
+  },
+  {
+    "payload": "source/K95Catalog6.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog6.lean",
+    "sha256": "a4e10ac3b3ffcf0c861d141a31c421f59994dfc533087640574c3583b83c7f46"
+  },
+  {
+    "payload": "source/K95Catalog7.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog7.lean",
+    "sha256": "e9ae3b618f49fd036273490e24c8fe11b3411b916133062bd1f9e7e52ff70554"
+  },
+  {
+    "payload": "source/K95Catalog8.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Catalog8.lean",
+    "sha256": "fc345b162c923ed4d9ae934dbbefb54a7b42c2aa1a4f6433854cc4173647e118"
+  },
+  {
+    "payload": "source/K95Full.lean",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/source/K95Full.lean",
+    "sha256": "55dac40e551bddba86516934dd8fd7424155ebbf7b3e91dcaa7a5f717cd04808"
+  },
+  {
+    "payload": "build-order.json",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/module-order.json",
+    "sha256": "939151212b876b084233afc315d4f2cec733eeb7e8c77e34ee052ede157755e1"
+  },
+  {
+    "payload": "data/lean-catalog.json",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/catalog.json",
+    "sha256": "882f8914da746eec0f7b3e9ba7e460fed1022b8f66148db94b27b6e8a1392975"
+  },
+  {
+    "payload": "evidence/math-catalog.json",
+    "origin": "research-audits/graceful-k95-coverage-independent-2026-10-10-a/catalog.json",
+    "sha256": "0b78d0a122ca8d3bfa57f1cee010b065524cf4b4baa11f7b6df921daefad33d4"
+  },
+  {
+    "payload": "evidence/author-source-index.txt",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/SOURCE-SHA256SUMS.txt",
+    "sha256": "e25a837ba4f27f6c7a1770e0f2ed245077f2eb282d6a8128c6d1b477c2a94d5d"
+  },
+  {
+    "payload": "evidence/author-checks-result.json",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/checks-result.json",
+    "sha256": "6bd1ea809270c04d9e4f0b2e2823f720731efab8b182bb4232f1c02bd8e231d1"
+  },
+  {
+    "payload": "evidence/author-graph-check.json",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/graphs-normal.json",
+    "sha256": "5229253a0ef2c220c1b760ef1700284da5ccd0968dd74e1b4de2d93d1c8491c4"
+  },
+  {
+    "payload": "evidence/separate-math-check.json",
+    "origin": "research-audits/graceful-k95-coverage-independent-2026-10-10-a/normal.json",
+    "sha256": "af451bf7be9f2b4558d92386cc58374499db040d8cfd675c38176d712eb59982"
+  },
+  {
+    "payload": "evidence/boundary-origins.json",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/base-origins.json",
+    "sha256": "65e12f8144914bf10419b9bb7809d44397c8bed879762fbc8f7fb59644da7ef6"
+  },
+  {
+    "payload": "evidence/primary-source-log.json",
+    "origin": "research-audits/graceful-k95-full-primary-priority-2026-10-10-a/source-log.json",
+    "sha256": "ed388c5016577e4dec6576d390bbf9ee12042766de554af6d4c56ab4eaff3e4d"
+  },
+  {
+    "payload": "evidence/author-formal.md",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/report.md",
+    "sha256": "bd565d980e75e9c7670e2cc96f5ac6ec4bc8f00fe6a41cd5292fd6fc1850d53d"
+  },
+  {
+    "payload": "evidence/author-formal-manifest.json",
+    "origin": "research-audits/graceful-k95-full-formal-2026-10-10-a/manifest.json",
+    "sha256": "3264bf57460ea55a94c0d1f091b6875cfa2cbead3e889e098252ce2f9c3a4b69"
+  },
+  {
+    "payload": "evidence/separate-math.md",
+    "origin": "research-audits/graceful-k95-coverage-independent-2026-10-10-a/report.md",
+    "sha256": "2951a634ac3c94e1fe21e48e0591dcc5bfd921fc1028f5911c0d7970e39ec287"
+  },
+  {
+    "payload": "evidence/separate-math-manifest.json",
+    "origin": "research-audits/graceful-k95-coverage-independent-2026-10-10-a/manifest.json",
+    "sha256": "a1a0700b9f7d62e5b17ab138be5c1c370b9b00c55bf3f2310681eb4a612bc32a"
+  },
+  {
+    "payload": "evidence/bounded-priority.md",
+    "origin": "research-audits/graceful-k95-full-primary-priority-2026-10-10-a/report.md",
+    "sha256": "765c6bb2cb092275caf9b8eb78d8fc3f78e3634b93a923f2bc2cc5f1db17c6ba"
+  },
+  {
+    "payload": "evidence/bounded-priority-manifest.json",
+    "origin": "research-audits/graceful-k95-full-primary-priority-2026-10-10-a/manifest.json",
+    "sha256": "e366f3ed58297435696bf4341f1ecf6a0493a6e927a05cf35d0c6cb4d81e5667"
+  },
+  {
+    "payload": "evidence/separate-lean-replay.md",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/report.md",
+    "sha256": "9893d5686938f92df8638a2d36c9d00a53ecd1197714c50d14212b59ffc2fdfd"
+  },
+  {
+    "payload": "evidence/separate-lean-replay-manifest.json",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/manifest.json",
+    "sha256": "f79ea36bce0ae7724f78c7a2b8025bb3f5b1d3a67eacc40eaebce3277d76894e"
+  },
+  {
+    "payload": "evidence/separate-lean-replay-index.txt",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/SHA256SUMS.txt",
+    "sha256": "7c28521fd47c10941913b971c40642c96fc7fda5b32e0f7c213337198370b9fc"
+  },
+  {
+    "payload": "checks/K95Query.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/queries/K95Query.lean",
+    "sha256": "c0aab0d1d333844513a9e132861cf137f51f1ca54113f787362038b04ac09db1"
+  },
+  {
+    "payload": "evidence/replayed-query.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/queries/K95Query.log",
+    "sha256": "98cceb13fe3f38f8fc74ee9b35cecc7d6ebbce8c1bf2d9134ccb25e1a9df1df4"
+  },
+  {
+    "payload": "checks/negative/MutantCertificateDepth.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantCertificateDepth.lean",
+    "sha256": "fbc3a3267d0af5de7db0445673d27cb2476906c09fc1ba5172b66eaec9cdd87e"
+  },
+  {
+    "payload": "evidence/negative/MutantCertificateDepth.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantCertificateDepth.log",
+    "sha256": "afbf24cd9db0d74ce40fd40c308431d64205fbcc3b4609f0891a247540ebe34c"
+  },
+  {
+    "payload": "checks/negative/MutantCertificateMaximum.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantCertificateMaximum.lean",
+    "sha256": "c112a8a72a7ccf769ef9dce21f915f015453718e4cac24fec2f00d0c2f23cefa"
+  },
+  {
+    "payload": "evidence/negative/MutantCertificateMaximum.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantCertificateMaximum.log",
+    "sha256": "57e0cd639b3941894c5b9323d7c9572a0be42431a581e51bc33af41fbd7ba9c3"
+  },
+  {
+    "payload": "checks/negative/MutantMidpoint.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantMidpoint.lean",
+    "sha256": "9ad2284df46eb16102f89f72aeb2c66aa8efd40effd39ec7a199d1a59bd9f451"
+  },
+  {
+    "payload": "evidence/negative/MutantMidpoint.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantMidpoint.log",
+    "sha256": "382efe0e72d27119b108eb1c60cbf565603e8e3d08b6ba29913a5f93d1d1cbee"
+  },
+  {
+    "payload": "checks/negative/MutantMissingLeafCount.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantMissingLeafCount.lean",
+    "sha256": "9ac1ae8b7c46d77aa05057b161d36d09fc6e71e928af4005b88365680da09384"
+  },
+  {
+    "payload": "evidence/negative/MutantMissingLeafCount.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantMissingLeafCount.log",
+    "sha256": "3c622fa627e5c8830ae85242d0058715619d413646e6016f08f7f65ee8d47c02"
+  },
+  {
+    "payload": "checks/negative/MutantNOne.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantNOne.lean",
+    "sha256": "ac517481bf3fa12f681b517eefcb56af59d56c3216880c2e7186c9ebafcdce59"
+  },
+  {
+    "payload": "evidence/negative/MutantNOne.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantNOne.log",
+    "sha256": "fe15d3267c47308ff34fd17aeb7f9b85932397dafc627718098651efb29ab4c3"
+  },
+  {
+    "payload": "checks/negative/MutantPhantomLeaf.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantPhantomLeaf.lean",
+    "sha256": "e6bcb854bffd6c068138861a38fd29c5ca42c4ea8101c17e01af24251f0c1210"
+  },
+  {
+    "payload": "evidence/negative/MutantPhantomLeaf.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantPhantomLeaf.log",
+    "sha256": "20a2fc7aba7aadf49c1c3fc63140e69c0c3dc06faa2c82cd40533ebe9b1ce87d"
+  },
+  {
+    "payload": "checks/negative/MutantWrongArm.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantWrongArm.lean",
+    "sha256": "fc68037c8d3077ae59ac1d6e67f040e0485b114773a198ba7cdf9fd53840b531"
+  },
+  {
+    "payload": "evidence/negative/MutantWrongArm.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantWrongArm.log",
+    "sha256": "5ed4a14c75b599b01ca27e8db3ede54d7049a36ad1ca25d60965cb369abadb1f"
+  },
+  {
+    "payload": "checks/negative/MutantWrongLength.lean",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantWrongLength.lean",
+    "sha256": "2e4a14b5207c346375243b7978f549d77fc623c2ef7c5d1360222027044bb74d"
+  },
+  {
+    "payload": "evidence/negative/MutantWrongLength.log",
+    "origin": "research-audits/graceful-k95-full-independent-lean-replay-2026-10-10-a/controls/MutantWrongLength.log",
+    "sha256": "b239fb8555332026281317a231f8a7be6d2085114896c5df31aa1ce2d5e593ca"
+  }
+]

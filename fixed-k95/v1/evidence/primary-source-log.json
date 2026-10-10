@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "method": "Direct public web reading of primary author/publisher texts where accessible; preserved original thesis PDF read locally; no contact or access bypass",
+  "sources": [
+    {"name":"Cattell 2007", "url":"https://www.sciencedirect.com/science/article/pii/S0012365X07001215", "access":"abstract/search excerpt only; direct article/PDF HTTP403", "locator":"publisher abstract; original theorem/proof unread", "scope":"single prescribed path vertex/value and reported alpha characterization; joint midpoint/extreme unknown"},
+    {"name":"Luiz–Campos–Richter 2017", "url":"https://ic.unicamp.br/~reltech/2017/17-12.pdf", "access":"full PDF", "locator":"PDF p.4 Lemmas4–5; PDF p.7 Theorem14", "scope":"all path zeros and one central-leaf path zero-rotatability; Cattell graceful restatement"},
+    {"name":"Bahls–Lake–Wertheim 2010", "url":"https://msp.org/involve/2010/3-3/involve-v3-n3-p01-s.pdf", "access":"full PDF", "locator":"PDF pp.2–3 Theorem1 and proof", "scope":"ordinary graceful spiders with leg lengths r/r+1"},
+    {"name":"Panpa–Poomsa-ard 2016", "url":"https://onlinelibrary.wiley.com/doi/10.1155/2016/5327026", "access":"full HTML", "locator":"abstract; §3 Lemma5", "scope":"ordinary graceful with at most four nonunit legs; conditional hub-zero leaf extension"},
+    {"name":"Panpa–Imnang–Wasuanankul 2025", "url":"https://onlinelibrary.wiley.com/doi/full/10.1155/jama/5826777", "access":"full HTML", "locator":"Theorems2.4–2.5,3.2–3.4", "scope":"hub/leaf/ordinary small-leg-count cases and old amalgamation"},
+    {"name":"Rofa 2023", "url":"https://arxiv.org/pdf/2312.16235v1", "access":"full PDF", "locator":"PDF p.12 Corollaries2–3", "scope":"symmetric-tree boundary levels; full symmetric spiders only length<=3"},
+    {"name":"Patterson 2017 thesis", "url":"https://cardinalscholar.bsu.edu/server/api/core/bitstreams/b44ff232-a480-4d64-aa44-8dff4535e28c/content", "access":"live URL HTTP403; preserved original research-audits/source-papers/patterson-2017-thesis.pdf read locally, SHA256 b8cc18647021b76666186bb5b93eb92d145c882865aa2d06aff8d5d097a0c9ec", "locator":"PDF p.28 Conjecture5.4.4 and Theorem5.4.5", "scope":"full spider 0-rotatability proposed as conjecture"},
+    {"name":"Adamaszek 2006", "url":"https://arxiv.org/pdf/math/0608513", "access":"full PDF", "locator":"PDF pp.1,4–5 Theorem1, Lemma1", "scope":"counting graceful permutations and endpoint-conditioned concatenation"},
+    {"name":"Hicks–Ollis–Schmitt 2018", "url":"https://community.middlebury.edu/~jschmitt/papers/HicksOllisSchmitt2018.pdf", "access":"full PDF", "locator":"PDF pp.14–15 Lemma4.5 and proof", "scope":"first-difference graceful permutations and balanced concatenation"},
+    {"name":"Ollis 2020", "url":"https://ajc.maths.uq.edu.au/pdf/78/ajc_v78_p035.pdf", "access":"full PDF", "locator":"PDF pp.19–20 Lemma5.5/Theorem5.6", "scope":"bipartite endpoint and insertion operations"},
+    {"name":"Shan–Zhong 2026 v2", "url":"https://arxiv.org/html/2605.14295v2", "access":"full HTML", "locator":"Lemma1–2; Theorems2–5", "scope":"old amalgamation and ordinary spider results under growth/profile restrictions"},
+    {"name":"Dumitru–Nacu 2026 v2", "url":"https://arxiv.org/pdf/2607.12597", "access":"full PDF", "locator":"PDF pp.8–9 Theorem3.3/Corollary3.6", "scope":"self-matched packing and sufficiently-many-leaf hub-one gracefulness"},
+    {"name":"Niu 2026 v2", "url":"https://arxiv.org/abs/2605.02303", "access":"withdrawn abstract/version notice", "locator":"arXiv v2 comments", "scope":"length3 ordinary result withdrawn on novelty grounds"}
+  ],
+  "access_gap": "Cattell original full theorem and pi-representation proof not available in this audit; original Poljak–Sura and Stanton–Zarnke sources also not directly read",
+  "verdict": "WORLD_PRIORITY_UNKNOWN"
+}

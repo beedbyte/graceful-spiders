@@ -1,0 +1,120 @@
+{
+  "Boundary": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Boundary.lean",
+    "sha256": "4f12c070655d7313b734df25fc05fc6255ae87190ace857f8bbd81d6626cbb81"
+  },
+  "Amalgamation": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Amalgamation.lean",
+    "sha256": "2fed1c2d0332804a17a2ce68710681850ddd0f7d0a6a2ca8cb8ea27ab5c45cb1"
+  },
+  "Certificates": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Certificates.lean",
+    "sha256": "128d1abb69fe62902536a5973949fea95a42287d44ef2ad629dd53ced046fe55"
+  },
+  "Interfaces": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Interfaces.lean",
+    "sha256": "8f768b3d1835119887c7494ae8d590980ca5cd7dad62c7857a4077b94d844a35"
+  },
+  "Recurrence": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Recurrence.lean",
+    "sha256": "c34f84ec24fb23b74dac62411843d710d56c8b9e1df5ca20a29150d6473e1856"
+  },
+  "Shell": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Shell.lean",
+    "sha256": "c1d346c6148942a0eae8eb272aee4be47bbaea5145ba35314a607c31cc7bef02"
+  },
+  "PathGraph": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\PathGraph.lean",
+    "sha256": "d575b79a9a523c6fc01c471510fbd69de692ce7a98d7ef0eec54f976796dd7c5"
+  },
+  "Residual": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Residual.lean",
+    "sha256": "1759d7a7cc949a36f298a215d82a0e0947b94d125939aceb75270057b52788bf"
+  },
+  "Graft": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Graft.lean",
+    "sha256": "0c4a1a20950a2af6c182766fc89d1a273b3c8393a4f0314cd12a0f33dc3b0922"
+  },
+  "Identification": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\Identification.lean",
+    "sha256": "29889f2da7ec03b0ea58664cc0773ba1e124f61216a639370dd3ee6a9eeb4967"
+  },
+  "SpiderTheorem": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\SpiderTheorem.lean",
+    "sha256": "107285eaea8983657f7c889888e92f6d34defb10507e52aa8abf23896da4bdac"
+  },
+  "SecondRecurrence": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\SecondRecurrence.lean",
+    "sha256": "a80e35ae8cb194a341eecd681aac8caa2a3de1337dca898f138f6fca72e1a651"
+  },
+  "SecondShell": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\SecondShell.lean",
+    "sha256": "1877ebf949dea5994d749c3b0ae2f64b107ad5bab3e03ac0f0ea9637a1695530"
+  },
+  "SecondSpider": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\SecondSpider.lean",
+    "sha256": "d282970e9e17a9369d2eb0df8dbd147135bcfb84f1a543dc718d043af5ddae71"
+  },
+  "ThirdRecurrence": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\ThirdRecurrence.lean",
+    "sha256": "b0f51ecc60f1ef116aa7f83375a47a803a3ab47906968f18c7bec8615449fcf3"
+  },
+  "ThirdShell": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\ThirdShell.lean",
+    "sha256": "d0fbb2692307f680897122c86458d49f798604b8a166ef5824bf5a30e242c823"
+  },
+  "ThirdSpider": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\ThirdSpider.lean",
+    "sha256": "5f85b3c77a29fbb7c7309fcb199ea6ef61d02f5266931ecc61c743608c713dd9"
+  },
+  "VariableGadget": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\VariableGadget.lean",
+    "sha256": "21a3a1fe461478083dec528b019d1b1284cbbfb63c2b016ce2b259d585c15065"
+  },
+  "VariableCore": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\VariableCore.lean",
+    "sha256": "7c786a4432b0381e2b1983b4d59b02f01464de2e5c2691f04036ae9e9c856182"
+  },
+  "VariableInterval": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\VariableInterval.lean",
+    "sha256": "4d4074d1a2ac654a7c6988a24d965c89b9985f7361f909dacd8475664400723e"
+  },
+  "VariableIdentification": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\VariableIdentification.lean",
+    "sha256": "5e714096c019840863c349a1add85915b84da6aff66a74c1558f0fc7015c2ca2"
+  },
+  "VariableSpider": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\VariableSpider.lean",
+    "sha256": "17f6a0dc33f6c080a2f6dce2c9718a7b78287ac1a46e04d118a149535a44daeb"
+  },
+  "FiniteAlphaTransfer": {
+    "path": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\FiniteAlphaTransfer.lean",
+    "sha256": "38f19ba1dca1fd9dcccd09b2675422e6bb5cc983dbf31b2ed407acc397b3ce56"
+  },
+  "K95Boundary": {
+    "adapted_from": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\K71Boundary.lean",
+    "sha256": "e6d74c1139594225b682c4036d94690f6ba0c67b55baffb9834d0c847882661d",
+    "changes": {
+      "71": "95",
+      "70": "94",
+      "69": "93",
+      "35": "47",
+      "36": "48",
+      "37": "49",
+      "34": "46"
+    }
+  },
+  "K95Tip": {
+    "adapted_from": "E:\\KI-Research\\research-audits\\graceful-k71-full-formal-2026-10-10-a\\source\\K71Tip.lean",
+    "sha256": "220f1718f0efe35a9632c067ab86818bd8722aade0458671df1e7b6d0a9c80cf",
+    "changes": {
+      "71": "95",
+      "70": "94",
+      "69": "93",
+      "35": "47",
+      "36": "48",
+      "37": "49",
+      "34": "46"
+    }
+  }
+}
