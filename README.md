@@ -69,7 +69,7 @@ and worldwide priority remains unknown. No PDF is supplied.
 The additional terminal depth has its own [source package](q24-terminal-b1/v1/README.md)
 with 34 byte-pinned Lean modules and separate internal mathematical and
 copied-source checks.
-Read the [versioned Beedbyte research note](https://beedbyte.tech/publications/prescribed-zero-window-equal-arm-spiders/v/2).
+Read the [versioned Beedbyte research note](https://beedbyte.tech/publications/prescribed-zero-window-equal-arm-spiders/v/3).
 
 ## q48 terminal zero positions
 
@@ -82,7 +82,11 @@ The construction is terminal; it does not establish full zero-rotatability
 throughout this progression. The package credits earlier path constructions;
 worldwide priority remains unknown. The mathematical and copied-source Lean
 checks are internal, and the language notes are drafts without recorded human
-language review.
+language review. For `t≥5`, the D8/q24 prefix (including B1) reaches `21+22t`;
+adding this q48 depth extends the contiguous covered prefix to `1≤d≤22+22t`.
+Read the v3 Beedbyte article in [English](https://beedbyte.tech/publications/prescribed-zero-window-equal-arm-spiders/v/3),
+[German](https://beedbyte.tech/de/publications/prescribed-zero-window-equal-arm-spiders/v/3),
+or [simplified Chinese](https://beedbyte.tech/zh/publications/prescribed-zero-window-equal-arm-spiders/v/3).
 
 ## Two arms attached to a rooted graceful graph
 
