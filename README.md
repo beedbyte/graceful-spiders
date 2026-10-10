@@ -1,5 +1,17 @@
 # Beedbyte graceful spiders
 
+## All even arm lengths
+
+For every even `k≥2`, all `n≥2,m≥0`, and each actual named vertex of
+`S(k^n,1^m)`, a graceful labeling can put zero at that vertex. Different
+requests may use different labelings. The [versioned result package](all-even-ge2/v1/README.md)
+contains the English manuscript source, three article presentations and the
+186-module Lean source build. The German and Chinese texts are draft translations;
+PDF compilation and rendered layout remain unverified. Internal checks are not
+external peer review, and worldwide priority is unresolved.
+
+## Prescribed-zero prefixes
+
 For every integer arm length `k≥19`, all `n≥2,m≥0`, any selected long arm
 of `S(k^n,1^m)` and each depth `2≤d≤D8(k)`, a graceful labeling can put zero
 at the requested vertex. Different requests may use different labelings.

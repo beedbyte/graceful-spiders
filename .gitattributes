@@ -1,1 +1,3 @@
 growing-depth/v1/** -text whitespace=cr-at-eol
+all-even-ge2/v1/** -text whitespace=cr-at-eol
+all-even-ge2/v1/lean/source/** whitespace=-blank-at-eof,cr-at-eol
