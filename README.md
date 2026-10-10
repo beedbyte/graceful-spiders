@@ -26,6 +26,18 @@ Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-ro
 For every `n>=2,m>=0`, each actual named vertex of `S(71^n,1^m)` can separately receive zero in a graceful labeling; the labeling may depend on the selected vertex. The [fixed-k71 source package](fixed-k71/v1/README.md) contains 45 byte-pinned Lean modules, a reproducible build, and [English](fixed-k71/v1/note.en.md), [German](fixed-k71/v1/note.de.md), and [simplified Chinese](fixed-k71/v1/note.zh.md) notes. German and Chinese are draft translations without documented human language review. The copied-source replay passed all 45 modules, 2,048 theorem closures, 503 named-target instances, and 12 semantic negative controls; this is internal checking, not external scholarly review. The path cases `n=2,m=0/1` have prior coverage. Worldwide priority is **unknown**. This is fixed `k=71`, not an all-odd theorem. No PDF is supplied.
 Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-71-edge-arm-spiders/v/1).
 
+## Fixed 95-edge arms
+
+For every `n≥2,m≥0`, each actual vertex of `S(95^n,1^m)` can receive zero
+in its own graceful labeling. The [fixed-k95 source package](fixed-k95/v1/README.md)
+contains 35 byte-pinned Lean modules, a reproducible build, a complete depth
+catalogue, and English, German and simplified Chinese notes. The German and
+Chinese notes are draft translations without documented human language review.
+Separate internal mathematical checks and a copied-source Lean replay passed;
+these are not external review. Earlier path subfamilies overlap, and worldwide
+priority remains unknown. The theorem concerns this fixed arm length.
+Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-95-edge-arm-spiders/v/1).
+
 ## Fixed 23-edge arms
 
 For every `n≥2,m≥0`, each actual named vertex of `S(23^n,1^m)` can separately
