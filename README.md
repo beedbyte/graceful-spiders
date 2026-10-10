@@ -71,6 +71,40 @@ with 34 byte-pinned Lean modules and separate internal mathematical and
 copied-source checks.
 Read the [versioned Beedbyte research note](https://beedbyte.tech/publications/prescribed-zero-window-equal-arm-spiders/v/2).
 
+## q48 terminal zero positions
+
+For `k=23+24t` with integer `t≥2`, all `n≥2,m≥0` and any named long arm
+of `S(k^n,1^m)`, the [q48 source package](q48-two-flip/v1/README.md)
+provides separate graceful labelings with zero at depths `21+22t` and
+`22+22t`. It contains 36 byte-pinned Lean modules, a reproducible build,
+mathematical checks and English, German and simplified Chinese notes.
+The construction is terminal; it does not establish full zero-rotatability
+throughout this progression. The package credits earlier path constructions;
+worldwide priority remains unknown. The mathematical and copied-source Lean
+checks are internal, and the language notes are drafts without recorded human
+language review.
+
+## Two arms attached to a rooted graceful graph
+
+For each integer `t≥1`, set `K=23+24t`, `d₀=20+22t` and `d₁=21+22t`.
+Start with any finite conventionally graceful graph `H` whose selected root
+has label zero, then attach two named `K`-edge arms there while retaining all
+of `H`. Each arm separately admits zero at either specified depth, using
+four separate labeling witnesses. Vertex labels of `H` need only be injective
+into `0,…,Q`, where `Q` is its edge count; no tree, connectivity, alpha-labeling
+or vertex-onto assumption is required. Old vertices of `H`, new tips and other
+depths are outside this statement.
+
+The [q24 rooted-residual source package](q24-rooted-residual/v1/README.md)
+contains 60 byte-pinned Lean modules, a reproducible build and three reader
+notes. It credits the established alpha/graceful amalgamation and high-side
+shift described by Barrientos (2022). Worldwide priority remains unknown;
+the mathematical and Lean checks are internal, not external peer review.
+German and Chinese remain translation drafts awaiting language review.
+Read the versioned Beedbyte article in [English](https://beedbyte.tech/publications/prescribed-zero-positions-rooted-graceful-graft/v/1),
+[German](https://beedbyte.tech/de/publications/prescribed-zero-positions-rooted-graceful-graft/v/1),
+or [simplified Chinese](https://beedbyte.tech/zh/publications/prescribed-zero-positions-rooted-graceful-graft/v/1).
+
 ## Prescribed-zero prefixes
 
 For every integer arm length `k≥19`, all `n≥2,m≥0`, any selected long arm
