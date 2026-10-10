@@ -1,0 +1,31 @@
+{
+  "positive": [
+    "Support",
+    "Positive",
+    "WholeClosure"
+  ],
+  "mutants": [
+    "Tip119",
+    "Center0",
+    "WrongArm",
+    "WrongOffset",
+    "NoRootZero",
+    "ZeroIteration",
+    "OutsideFamily",
+    "AllInteriorForR2",
+    "Seed34OldMidpoint",
+    "Seed12OldState",
+    "WrongExtreme",
+    "WrongMidpoint",
+    "WrongClosedLength",
+    "FalseOnto",
+    "OmittedComplement",
+    "SameLabelBoth"
+  ],
+  "mutant_expected_result": "semantic rejection after successful imports",
+  "source_report_claims": {
+    "named_instances": 1072,
+    "project_axiom_closures": 2809,
+    "project_theorem_modules": 66
+  }
+}

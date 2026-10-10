@@ -36,6 +36,23 @@ Read the [English](https://beedbyte.tech/publications/rooted-graceful-95-edge-ar
 or [simplified Chinese](https://beedbyte.tech/zh/publications/rooted-graceful-95-edge-arms/v/1)
 version of the fixed-K95 article.
 
+## 119-edge arms on a rooted graceful graph
+
+Let `H` be any finite graph with a supplied conventional graceful labeling whose
+chosen root has label zero. After attaching two named 119-edge arms there, every
+depth `1..118` on either new arm can separately receive zero in a graceful
+labeling of the entire graph. The [versioned source package](k119-rooted-interior/v1/README.md)
+contains the 68-module Lean proof, exact construction data, and English, German
+and simplified Chinese explanations. The German and Chinese texts are draft
+translations. It also records, for every integer `r≥1`, a construction for
+eight near-tip depths when the new arm length is `30·4^r−1`.
+
+The statement assumes the supplied root-zero labeling and does not cover the
+new tips, old vertices of `H`, simultaneous zeros, or every odd arm length.
+The generic graft and some positional subcases are known earlier results;
+worldwide priority for the full stated scope is unresolved. Separate Lean and
+mathematical checks are internal project checks, not external peer review.
+
 ## Even-arm terminal-12 seed windows
 
 For any even terminal-12 seed satisfying the finite inventory and local-tag

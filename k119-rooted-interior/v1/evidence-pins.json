@@ -1,0 +1,50 @@
+{
+  "author_formal_report": {
+    "path": "research-audits/graceful-terminal-normalized-seeds1234-formal-2026-10-10-a/report.md",
+    "sha256": "43ad356b23386b9a4ebc2b8b6956e1991a441b5ea82937f0220c204f44d6bc2e"
+  },
+  "author_source_index": {
+    "path": "research-audits/graceful-terminal-normalized-seeds1234-formal-2026-10-10-a/SOURCE-SHA256SUMS.txt",
+    "sha256": "7379efe4ce3e4fe191e463814c697f60b1047860f5b27b3bff7b2b3e2da95529"
+  },
+  "independent_copied_source_replay": {
+    "path": "research-audits/graceful-terminal-seeds1234-independent-2026-10-10-a/report.md",
+    "sha256": "e548558d093f1fb6057eb0bf4f6b3f3bb334b8002e1b6ab9522e87d528a11460"
+  },
+  "fixed_k119_seed_literal_math_qa": {
+    "path": "research-audits/graceful-k119-terminal-k29-seeds-independent-2026-10-10-a/report.md",
+    "sha256": "74ae0eee7c29d1c0042ba237ab2bdd86307788f9f7e7452d74310696356a1784"
+  },
+  "prior_terminal_seed56_formal": {
+    "path": "research-audits/graceful-terminal-normalized-seed56-formal-2026-10-10-a/report.md",
+    "sha256": "7880991872e7168be32c6e855d2c99c9d913051047fe523a0870637a35265219"
+  },
+  "append_primary_scope": {
+    "path": "research-audits/graceful-h1-append-primary-scope-2026-10-10-a/report.md",
+    "sha256": "c69f93cf3f1fd96648cf8877f741b8202f034371303ae0ef60e33ddd4186bd59"
+  },
+  "seed34_original_result": {
+    "path": "research-audits/graceful-k119-depth115-terminal-seed-2026-10-10-a/result.json",
+    "sha256": "af466f84614f492debfd28a396af2cddcaf2a2547d6efaa4605dbd341e544cf6"
+  },
+  "seed34_correction_addendum": {
+    "path": "research-audits/graceful-k119-depth115-terminal-seed-2026-10-10-a/correction-addendum.md",
+    "sha256": "d502660b55dedd36f71425b65b072f62804bdfa63f860eaf3d174ac57006b0f2"
+  },
+  "seed12_original_result": {
+    "path": "research-audits/graceful-k119-depth117-terminal-seed-2026-10-10-a/result.json",
+    "sha256": "0d8b0c0164b98fcd3e28ee7d95016cd43aa4d7355c9ad94ff0fe317ab4bf9e93"
+  },
+  "seed12_correction_addendum": {
+    "path": "research-audits/graceful-k119-depth117-terminal-seed-2026-10-10-a/correction-addendum.md",
+    "sha256": "ba39f587ca51a0fbec4622757d808a53027f4a17fb8fbaef857c435a1849b5b3"
+  },
+  "lean_toolchain": {
+    "version": "Lean 4.34.0",
+    "executable_sha256": "a8040e2cab341c12116ab591fed9f761816f5f6b08554f6cc1680e86dfbba0a2"
+  },
+  "independent_priority_audit": {
+    "path": "research-audits/graceful-k119-independent-priority-2026-10-10-a/report.txt",
+    "sha256": "1fe3a7597c8d8ce92fc529eeda782ec17fe80fcfa7fa118042241167f11be36a"
+  }
+}

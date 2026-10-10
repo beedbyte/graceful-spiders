@@ -1,0 +1,6 @@
+{
+  "lean_version": "Lean 4.34.0",
+  "lean_executable_sha256": "a8040e2cab341c12116ab591fed9f761816f5f6b08554f6cc1680e86dfbba0a2",
+  "warning_as_error": true,
+  "network_required": false
+}

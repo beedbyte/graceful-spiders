@@ -1,0 +1,54 @@
+Independent mathematical priority audit: fixed K119 rooted interior
+10 October 2026. Private additive internal project check. No public write.
+
+Decision
+Exact full-theorem historical subsumption remains UNRESOLVED; worldwide priority UNKNOWN. HOLD on a novelty or non-subsumption claim. The generic graft is old. This audit additionally gives an explicit old-results deduction of arbitrary-H depths 1 and 2, on either named new arm. The bare-path and one-central-leaf special cases are also old. No inspected complete primary theorem or completed old-results composition in this pass proves all depths 1..118 for arbitrary supplied root-zero H. This is an access/derivation boundary, not evidence that the full statement is new.
+
+Exact statement tested
+Let H be a finite graph with Q edges and supplied conventional graceful g:V(H)->{0,...,Q}, injective, with all edge differences1..Q and g(o)=0. Identify o with path index 119 of P239 (indices 0..238). Retain all of H and both named 119-edge arms. For each d in1..118 and each named arm, ask for a separate conventional graceful labeling of the entire graph giving that target zero. H need not be a tree, connected, alpha labeled or onto labeled. No simultaneous zeros, zero at the identified root, zero at old H vertices, either tip, or arbitrary odd-length theorem is asserted here. This is the requested prospective full mathematical contract; the inspected older Lean package itself covers only 1..110, so this literature audit does not upgrade formal coverage or certify newer candidate seeds.
+
+Primary contracts inspected
+1. Cattell2007, Graceful labellings of paths, Discrete Mathematics307(24),3161-3176, DOI10.1016/j.disc.2007.03.046:
+https://www.sciencedirect.com/science/article/pii/S0012365X07001215
+Publisher-indexed original abstract describes individual vertex/value gracefulness and characterizes when alpha labeling is possible using pi-representations. Fresh landing/DOI/PDF/pdfft access failed in the web tool; original full proof remains uninspected. Original theorem/page locators beyond the article range cannot be honestly supplied. Later original Shan-Zhong research identifies Cattell Theorem 3/Corollary 1 for its Lemma 2(a-c). The alpha/pi construction remains the decisive unresolved potential source of simultaneous anchors; it cannot be classified as merely ordinary gracefulness.
+
+2. Rosa1977, Labeling snakes:
+https://combinatorialpress.com/ars/vol3/
+Publisher archive lists Ars Combinatoria3,67-73; later references also give67-74. Original theorem number/proof not obtained. Precisely restated in Luiz-Campos-Richter2017, Lemma 4, printed p3 (PDF page4), and Panpa2025 Theorem 2.1: an alpha path labeling can place zero at a prescribed vertex, apart from P5's center. This directly settles H=singleton, but says nothing about a second prescribed midpoint value in the same labeling. The source-access limit is not a non-subsumption argument.
+
+3. Luiz-Campos-Richter2017, Some families of 0-rotatable graceful caterpillars, IC17-12:
+https://ic.unicamp.br/~reltech/2017/17-12.pdf
+Fresh original PDF text inspected; original local PDF/text also pinned. Lemmas 4-5, printed p3/PDF 4, respectively restate Rosa's alpha zero freedom and Cattell's qualified ordinary vertex/value freedom. At n239, i118 differs from(n-1)/2=119, so Lemma 5 permits midpoint 118 as an ordinary graceful prescription. It is still one position. Theorem 14, printed pp6-7/PDF 7-8, proves every caterpillar formed by adding one central leaf to a path zero-rotatable: this directly subsumes the full requested target set for H=K2 rooted at an endpoint. Corollary 10's perfect-matching caterpillars and Theorem 16's end-star family impose graph conditions absent from arbitrary H.
+
+4. Panpa-Imnang-Wasuanankul2025, Graceful Labeling of Spider Graphs With at Most Five Legs:
+https://onlinelibrary.wiley.com/doi/full/10.1155/jama/5826777
+Fresh publisher full HTML inspected. Section 2 Theorems 2.1-2.3 give one-position path zero/endpoint-label results. Theorem 2.5 gives alpha G joined at a boundary/zero vertex to arbitrary graceful H at zero, and credits Huang-Kotzig-Rosa. Its explicit shifts directly subsume the root-zero graft operation. Section 3 Theorem 3.1 and Lemma 3.5 require an alpha host and attach a path at an endpoint; Theorems 3.2-3.4 concern center-zero three-leg, leaf-zero four-leg, and ordinary five-leg spider results. These printed contracts do not directly instantiate every interior target over arbitrary possibly cyclic H. The construction can still have further consequences not classified here.
+
+5. Shan-Zhong2026v2, Graceful Labeling of Two Families of Spiders:
+https://arxiv.org/html/2605.14295v2
+https://arxiv.org/pdf/2605.14295v2
+Fresh original full HTML plus pinned original PDF/text inspected. Lemma 1, PDF p2, restates the old alpha/graceful amalgamation. Theorem 2, pp3-5, attaches an n-vertex path by an edge at an endpoint when f(u)+floor(n/2)+1<=n and n is not1mod4; old vertices shift by floor(n/2). Lemma 2, p4, separates ordinary zero, alpha zero, and alpha endpoint prescriptions. Theorems 3-5 are ordinary/center-zero spider results with leg restrictions. Theorem 2 supplies the concrete partial derivation below. Its introductory broad arbitrary-position/label alpha sentence must not be used as a simultaneous-position theorem; taken literally it even fails at P3 center label 1, whose two edge differences would both be1. The explicit endpoint construction suffices here.
+
+Own old-results deduction for d1 and d2, arbitrary H
+Use Theorem 2 twice with n = 119. The first application at o is allowed because0+59+1<=119 and119 is3mod4. It appends the first119-edge arm and changes o's label to 59. The second application at the same physical vertex is allowed because59+59+1=119. It appends the second119-edge arm, shifts every old label by 59, and puts the root at118. Choose the second alpha P119 endpoint label 118 as in the theorem's proof. Its maximum label 118 must be adjacent to zero: the required edge difference118 can occur only on that pair, and the maximum vertex is the attaching endpoint. Thus the new arm's first vertex has final labelQ+238, while its second vertex has label 0. Complementing all labels gives zero at depth1. The direct labeling gives zero at depth2. Exchange which named arm is added last to handle either arm. Each target uses its own labeling.
+
+Here is an explicit version that avoids any inaccessible Cattell construction. Let W have119 entries:
+W[2j]=118-j for0<=j<=59; W[2j+1]=j for0<=j<=58.
+Its labels are0..118, differences118..1, alpha cut 58, initial pair118,0, and terminal59. For the first attachment use reversed W, whose attaching endpoint59 meets the required label. Put H labels at59+g, first-arm low labels unchanged, first-arm high labels increased by Q+1. Then shift this entire graph by 59. For the second attachment use W; keep its low labels 0..58, increase high labels by Q+120. Root labels agree with the actual graph throughout; new labels are disjoint from old labels. First-path plus its joining-edge weights wereQ+1..Q+119; second-path plus its joining-edge weights areQ+120..Q+238; H weights remain1..Q. The final label intervals are within 0..Q+238 and the unique zero/global maximum are the indicated depth2/depth1 targets. These calculations use inclusion for nononto H labels, not surjectivity, so disconnected/cyclic H is allowed.
+
+check_old_depth12.py independently checks that literal construction for a singleton, one edge, nononto triangle, and cyclic disconnected K4 plus isolate, with both arm orders and both target labelings:16 controls pass. The universal conclusion follows from the algebra, not finite extrapolation. This directly establishes an older construction for a nontrivial part of the exact arbitrary-H statement, beyond the path/central-leaf subcases.
+
+Precise remaining two-anchor gap
+For the project's alpha-graft route, it would suffice for each d to derive one alpha labeling w of P239 with cut 118, w[119]=118, and w[119-d] in{0,238}; reversal supplies the opposite named arm. Odd physical indices form the119-vertex low class, so even d requires target0 and odd d requires target238. This is a joint witness requirement, not the conjunction of two separate existential statements. After the old graft, use:
+ path low labels w<=118 unchanged;
+ path high labels w>=119 increased by Q;
+ H labels increased by118.
+Only the midpoint is shared. H supplies weights 1..Q; the path suppliesQ+1..Q+238. A path-zero remains zero; a path maximum becomesQ+238 and complement makes it zero. Thus any old construction of all 118 such words immediately yields the full arbitrary-H theorem by already published operations.
+
+The inspected path one-position results do not specify the other anchor. Alpha inversion of a central-zero witness sends the center to its boundary label, but then the resulting zero occurs at the previous boundary-label vertex; its required physical target index remains unknown. Cattell's endpoint alpha freedom likewise does not prescribe the location of zero once the endpoint value is fixed. The two-attachment derivation above fixes the second arm's extreme pair at depths 1/2 and does not move it to every other target. An older direct graph construction could settle the same conclusion without using this sufficient interface; failure to instantiate this interface cannot prove non-subsumption.
+
+What remains unresolved
+A lawful original Cattell2007 proof must be inspected for a constructive joint-position consequence at P239, including exact midpoint/cut and all target extremes. Rosa's original positional construction and the original HKR1982 proof also remain access gaps, despite clear later primary restatements. If no such words follow, alternative old compositions/direct graph arguments still require analysis. No exhaustive literature or derivable-consequence classification has been completed. Consequently there is no proof here either that all 1..118 follow from old results or that they do not. Worldwide priority remains UNKNOWN; a solver seed, a method difference, absence from an abstract, or failed PDF access cannot change that conclusion.
+
+Evidence scope and freeze
+The prior full-interior primary audit and older rooted comparison were read for context; fresh source checks and the d1/d2 deduction are the independent additions here. Existing source bytes and research packages were preserved. input-pins.json identifies local original PDF/text and exact project reports used; source-access.json records fresh web access/locators without pretending URL notes are remote-byte hashes. hashes.json freezes this report, arithmetic checker, controls and records. This audit does not certify the prospective full candidate mathematics, alter translations/status, or approve a public release.

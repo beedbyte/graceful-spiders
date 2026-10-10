@@ -25,3 +25,5 @@ k95-rooted-residual/v1/** -text whitespace=cr-at-eol
 k95-rooted-residual/v1/source/** -text whitespace=-blank-at-eof,cr-at-eol
 even-q24-terminal-seed/v1/** -text whitespace=cr-at-eol
 even-q24-terminal-seed/v1/source/** -text whitespace=-blank-at-eof,cr-at-eol
+k119-rooted-interior/v1/** -text whitespace=cr-at-eol
+k119-rooted-interior/v1/source/** -text whitespace=-blank-at-eof,cr-at-eol
