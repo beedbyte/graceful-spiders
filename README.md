@@ -53,6 +53,11 @@ The generic graft and some positional subcases are known earlier results;
 worldwide priority for the full stated scope is unresolved. Separate Lean and
 mathematical checks are internal project checks, not external peer review.
 
+Read the [English](https://beedbyte.tech/publications/rooted-graceful-119-edge-arms/v/1),
+[German](https://beedbyte.tech/de/publications/rooted-graceful-119-edge-arms/v/1),
+or [simplified Chinese](https://beedbyte.tech/zh/publications/rooted-graceful-119-edge-arms/v/1)
+version of the fixed-K119 article.
+
 ## Even-arm terminal-12 seed windows
 
 For any even terminal-12 seed satisfying the finite inventory and local-tag
