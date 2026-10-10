@@ -32,6 +32,20 @@ German and simplified Chinese package notes are draft translations. The
 mathematical and copied-source checks are internal; exact worldwide priority
 and external scholarly review remain unresolved.
 
+## Even-arm terminal-12 seed windows
+
+For any even terminal-12 seed satisfying the finite inventory and local-tag
+conditions in the [versioned source package](even-q24-terminal-seed/v1/README.md),
+two new arms of length `K=K0+24t` attached to a supplied graceful root-zero
+graph have a separately zero-labelable vertex at every depth in
+`[K0-z0-1+20t, K0-z0+22t]` on either named arm. The package includes literal
+`K0=28` and `K0=30` cases and the precise `K0=30` overlap with the all-even
+rooted prefix from `t=4`. This is conditional on a qualifying seed; it does
+not assert such seeds for every even length, simultaneous zeros, old-graph
+vertices, or tips. English is the source; German and simplified Chinese are
+draft translations. The Lean and separate copied-source checks are internal,
+and exact worldwide priority remains unknown.
+
 ## Fixed 25-edge arms
 
 For every `n>=2,m>=0`, the center, every actual vertex on each named 25-edge arm, and every original named center leaf of `S(25^n,1^m)` can individually receive zero in a graceful labeling; the labeling may depend on the chosen vertex. The [fixed-k25 source package](fixed-k25/v1/README.md) has 27 byte-pinned Lean modules, a reproducible build, and [English](fixed-k25/v1/note.en.md), [German](fixed-k25/v1/note.de.md), and [simplified Chinese](fixed-k25/v1/note.zh.md) notes. German and Chinese are draft translations without documented human language review. `n=2,m=0` is `P51`; `n=2,m=1` is `P51` with a central leaf. Both cases have prior coverage, while worldwide priority for the full statement is **unknown**. A separate internal copied-source replay passed and is not external scholarly review. No PDF is supplied.
