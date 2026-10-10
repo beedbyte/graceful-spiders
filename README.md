@@ -10,6 +10,17 @@ contains the English manuscript source, three article presentations and the
 PDF compilation and rendered layout remain unverified. Internal checks are not
 external peer review, and worldwide priority is unresolved.
 
+## Fixed 23-edge arms
+
+For every `n≥2,m≥0`, each actual named vertex of `S(23^n,1^m)` can separately
+receive zero in a graceful labeling. The [fixed-k23 source package](fixed-k23/v1/README.md)
+contains 27 byte-pinned Lean modules, an English research note and German and
+simplified Chinese draft translations. A separate internal copied-source replay
+compiled all 27 modules and checked the theorem closures; it is not external
+scholarly review. The `n=2,m=0/1` path cases have earlier coverage. The full
+Cattell construction remains unassessed for the simultaneous path anchors used
+here, so worldwide priority is unknown. No PDF is supplied.
+
 ## Prescribed-zero prefixes
 
 For every integer arm length `k≥19`, all `n≥2,m≥0`, any selected long arm
