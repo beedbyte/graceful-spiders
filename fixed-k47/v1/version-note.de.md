@@ -1,0 +1,1 @@
+Beweist, dass jeder tatsächlich vorhandene Knoten von S(47^n,1^m) für alle n ≥ 2 und m ≥ 0 einzeln in einer graziösen Beschriftung den Wert 0 erhalten kann, und ergänzt das reproduzierbare Lean-Quellpaket aus 42 Modulen.

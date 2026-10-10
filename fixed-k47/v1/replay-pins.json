@@ -1,0 +1,23 @@
+{
+  "theorem": "GracefulBoundary.K47Full.all_vertices",
+  "unique_zero_theorem": "GracefulBoundary.K47Full.all_vertices_unique_zero",
+  "scope": "For every n >= 2 and m >= 0, each actual named vertex of S(47^n,1^m) separately admits a graceful labeling with value zero; the labeling may depend on the selected vertex. Fixed k=47 only.",
+  "author_formal_report_sha256": "307c01ce4ec332f14d8df7cb83e044909f19d5d41c7d46994bdf2d4ff93ad0fb",
+  "author_formal_manifest_sha256": "196f64e839c0b55f413b3ddff17fc904ba8112a9cb167f565f18d9bc59fd9229",
+  "author_source_index_sha256": "02c7f7773011674374b005d5ff65359124484a1ce3ca165c291b10cc8caf7e11",
+  "independent_copied_source_report_sha256": "1b23169d1826803a4e3e38a2a4897ba62d48f82715757d7890e095362ff2f4de",
+  "independent_copied_source_manifest_sha256": "acf5de324a35a89c9c8a9870239699dda7f9c3df21786386ab26528687cbea8b",
+  "independent_copied_source_index_sha256": "d04e66868525844c721cba614c22199c75faadccc53f22af7daee3c7f2f136e6",
+  "independent_replay": {
+    "fresh_modules_warning_as_error": "42/42 pass",
+    "theorem_closures": 2201,
+    "private_theorem_closures": 111,
+    "named_n2_m0_m1_instances": 191,
+    "effective_semantic_negative_controls": 6,
+    "principal_axioms": ["propext", "Classical.choice", "Quot.sound"],
+    "status": "internal project check; not external review or peer review"
+  },
+  "priority_status": "UNKNOWN",
+  "external_review": false,
+  "peer_review": false
+}

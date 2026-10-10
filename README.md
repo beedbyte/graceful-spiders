@@ -16,6 +16,10 @@ Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-ro
 For every `n>=2,m>=0`, the center, every actual vertex on each named 25-edge arm, and every original named center leaf of `S(25^n,1^m)` can individually receive zero in a graceful labeling; the labeling may depend on the chosen vertex. The [fixed-k25 source package](fixed-k25/v1/README.md) has 27 byte-pinned Lean modules, a reproducible build, and [English](fixed-k25/v1/note.en.md), [German](fixed-k25/v1/note.de.md), and [simplified Chinese](fixed-k25/v1/note.zh.md) notes. German and Chinese are draft translations without documented human language review. `n=2,m=0` is `P51`; `n=2,m=1` is `P51` with a central leaf. Both cases have prior coverage, while worldwide priority for the full statement is **unknown**. A separate internal copied-source replay passed and is not external scholarly review. No PDF is supplied.
 Read the [versioned Beedbyte article](https://beedbyte.tech/publications/zero-rotatability-25-edge-arm-spiders/v/1).
 
+## Fixed 47-edge arms
+
+For every `n≥2,m≥0`, each actual named vertex of `S(47^n,1^m)` can separately receive zero in a graceful labeling; the labeling may depend on the selected vertex. The [fixed-k47 source package](fixed-k47/v1/README.md) contains 42 byte-pinned Lean modules, a reproducible build, and [English](fixed-k47/v1/note.en.md), [German](fixed-k47/v1/note.de.md), and [simplified Chinese](fixed-k47/v1/note.zh.md) notes. German and Chinese are draft translations without documented human language review. The separate copied-source replay passed 42 fresh modules, theorem-closure and axiom checks, 191 named `n=2,m=0/1` instances, and six semantic negative controls; these are internal checks, not external scholarly review. The path cases `n=2,m=0/1` have prior coverage. Worldwide priority is **unknown**. This is fixed `k=47`, not an all-odd theorem. No PDF is supplied.
+
 ## Fixed 23-edge arms
 
 For every `n≥2,m≥0`, each actual named vertex of `S(23^n,1^m)` can separately
